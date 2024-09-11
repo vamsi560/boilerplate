@@ -26,11 +26,3 @@ jobs:
         run: |
           git config --global user.email "vamsi.sapireddy@outlook.com"
           git config --global user.name "vamsi560"
-
-      - name: Commit Validation Results
-        run: |
-          git add validation_results.txt
-          git commit -m "Add validation results"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
