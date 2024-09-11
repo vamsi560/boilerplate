@@ -1,24 +1,22 @@
 #!/bin/bash
 
-# Create or clear the validation results file
-> validation_results.txt
+# Directory to validate
+TF_DIR="./"
 
-# Find all .tf files
-for file in $(find . -name "*.tf"); do
-    echo "Validating $file" >> validation_results.txt
-    
-    # Run Terraform validate command
-    output=$(terraform validate $file 2>&1)
-    
-    if [[ $? -ne 0 ]]; then
-        # Add validation errors as comments at the top of the file
-        echo -e "# Validation suggestion:\n# $output\n$(cat $file)" > $file
-        
-        # Append the results to the validation results file
-        echo "$file:" >> validation_results.txt
-        echo "$output" >> validation_results.txt
-        echo "" >> validation_results.txt
-    else
-        echo "$file is valid." >> validation_results.txt
-    fi
+# Create or clear the validation results file
+RESULTS_FILE="validation_results.txt"
+> $RESULTS_FILE
+
+# Find all .tf files and validate them
+find $TF_DIR -name "*.tf" | while read tf_file; do
+  echo "Validating $tf_file..."
+  terraform validate -no-color $tf_file >> $RESULTS_FILE 2>&1
 done
+
+# Check if validation failed
+if grep -q "Error:" $RESULTS_FILE; then
+  echo "Validation failed. See $RESULTS_FILE for details."
+  exit 1
+else
+  echo "Validation succeeded."
+fi
