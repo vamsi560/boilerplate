@@ -2,5 +2,3 @@ Processing file: output.tf
 Processing file: main.tf
 Corrections for output.tf:
 Line 1: Output should have a description.
-Corrections for main.tf:
-Line 1: Variable should have a description.
