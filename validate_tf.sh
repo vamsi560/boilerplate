@@ -14,28 +14,22 @@ validate_tf_files() {
 
         # Read file line by line
         while IFS= read -r line; do
-            # Get line number
-            line_num=$(grep -n -F "$line" "$tf_file" | cut -d: -f1)
-
             # Check for missing variable descriptions
             if [[ $line =~ ^\s*variable\s+"[^"]+"\s*{ ]]; then
                 if ! grep -A 5 -F "$line" "$tf_file" | grep -q "description"; then
-                    echo "Line $line_num: Variable should have a description." >> $RESULTS_FILE
-                    sed -i "${line_num}s/.*/& # Missing description/" "$tf_file"
+                    echo "Variable should have a description in $tf_file" >> $RESULTS_FILE
                 fi
             fi
 
             # Check for hardcoded values
             if [[ $line =~ ["'](.*?)["'] ]] && ! [[ $line =~ \${{ ]]; then
-                echo "Line $line_num: Avoid hardcoding values. Use variables instead." >> $RESULTS_FILE
-                sed -i "${line_num}s/.*/& # Consider using a variable/" "$tf_file"
+                echo "Avoid hardcoding values in $tf_file" >> $RESULTS_FILE
             fi
 
             # Check for missing output descriptions
             if [[ $line =~ ^\s*output\s+"[^"]+"\s*{ ]]; then
                 if ! grep -A 5 -F "$line" "$tf_file" | grep -q "description"; then
-                    echo "Line $line_num: Output should have a description." >> $RESULTS_FILE
-                    sed -i "${line_num}s/.*/& # Missing description/" "$tf_file"
+                    echo "Output should have a description in $tf_file" >> $RESULTS_FILE
                 fi
             fi
         done < "$tf_file"
