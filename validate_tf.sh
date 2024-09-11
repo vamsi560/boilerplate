@@ -1,51 +1,33 @@
 #!/bin/bash
 
-# Directory to validate
+# Directory containing .tf files
 TF_DIR="./"
+
+# Run Python validation script
+python3 validate_tf.py $TF_DIR
+
+# Capture the exit code of the Python script
+if [ $? -ne 0 ]; then
+  echo "Validation failed."
+  exit 1
+fi
 
 # Create or clear the validation results file
 RESULTS_FILE="validation_results.txt"
 > $RESULTS_FILE
 
-# Function to validate .tf files
-validate_tf_files() {
-    for tf_file in $(find $TF_DIR -name "*.tf"); do
-        echo "Validating $tf_file..."
+# Copy validation results to a file
+# This assumes the Python script prints results to stdout
+python3 validate_tf.py $TF_DIR > $RESULTS_FILE
 
-        # Read file line by line
-        while IFS= read -r line; do
-            # Check for missing variable descriptions
-            if [[ $line =~ ^\s*variable\s+"[^"]+"\s*{ ]]; then
-                # Look ahead in the file for description
-                if ! grep -A 5 -F "$line" "$tf_file" | grep -q "description"; then
-                    echo "Variable should have a description in $tf_file" >> $RESULTS_FILE
-                fi
-            fi
+# Print results for review
+echo "Validation results:"
+cat $RESULTS_FILE
 
-            # Check for hardcoded values
-            if [[ $line =~ [\"\'(.*?)\"\' ] && ! [[ $line =~ \${{ ]]; then
-                echo "Avoid hardcoding values in $tf_file" >> $RESULTS_FILE
-            fi
+# Commit and push results if required
+git config --global user.email "vamsi.sapireddy@outlook.com"
+git config --global user.name "vamsi560"
 
-            # Check for missing output descriptions
-            if [[ $line =~ ^\s*output\s+"[^"]+"\s*{ ]]; then
-                # Look ahead in the file for description
-                if ! grep -A 5 -F "$line" "$tf_file" | grep -q "description"; then
-                    echo "Output should have a description in $tf_file" >> $RESULTS_FILE
-                fi
-            fi
-        done < "$tf_file"
-    done
-}
-
-# Run validation
-validate_tf_files
-
-# Check if validation failed
-if [ -s $RESULTS_FILE ]; then
-    echo "Validation failed. See $RESULTS_FILE for details."
-    cat $RESULTS_FILE
-    exit 1
-else
-    echo "Validation succeeded."
-fi
+git add validation_results.txt
+git commit -m "Add validation results"
+git push
