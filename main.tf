@@ -9,7 +9,7 @@ variable "example_variable" {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "hardcoded-bucket-name"  # Hardcoded value
+  bucket = "hardcoded-bucket-name"
   acl    = "private"
 
   tags = {
@@ -21,5 +21,4 @@ resource "aws_s3_bucket" "my_bucket" {
 # Output without a description
 output "bucket_id" {
   value = aws_s3_bucket.my_bucket.id
-  # Missing description
 }
