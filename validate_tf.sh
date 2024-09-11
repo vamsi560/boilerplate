@@ -16,6 +16,7 @@ done
 # Check if validation failed
 if grep -q "Error:" $RESULTS_FILE; then
   echo "Validation failed. See $RESULTS_FILE for details."
+  cat $RESULTS_FILE  # Print results to logs for easier debugging
   exit 1
 else
   echo "Validation succeeded."
