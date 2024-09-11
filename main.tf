@@ -2,6 +2,7 @@ provider "aws" {
   region = "us-west-2"  # Specify your desired region
 }
 
+# Variable without a description
 variable "example_variable" {
   type = string
   # Missing description
@@ -17,6 +18,7 @@ resource "aws_s3_bucket" "my_bucket" {
   }
 }
 
+# Output without a description
 output "bucket_id" {
   value = aws_s3_bucket.my_bucket.id
   # Missing description
