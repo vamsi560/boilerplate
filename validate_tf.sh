@@ -14,6 +14,7 @@ validate_tf_files() {
 
         # Read file line by line
         while IFS= read -r line; do
+            # Get line number
             line_num=$(grep -n -F "$line" "$tf_file" | cut -d: -f1)
 
             # Check for missing variable descriptions
@@ -45,7 +46,7 @@ validate_tf_files() {
 validate_tf_files
 
 # Check if validation failed
-if grep -q "Line" $RESULTS_FILE; then
+if [ -s $RESULTS_FILE ]; then
     echo "Validation failed. See $RESULTS_FILE for details."
     cat $RESULTS_FILE
     exit 1
