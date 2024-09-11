@@ -28,6 +28,7 @@ cat $RESULTS_FILE
 git config --global user.email "vamsi.sapireddy@outlook.com"
 git config --global user.name "vamsi560"
 
+git pull
 git add validation_results.txt
 git commit -m "Add validation results"
 git push
