@@ -2,7 +2,9 @@ Corrections for main.tf:
 Line 1: Avoid hardcoding values. Use variables instead.
 Line 2: Avoid hardcoding values. Use variables instead.
 Line 5: Avoid hardcoding values. Use variables instead.
-Line 6: Avoid hardcoding values. Use variables instead.
-Line 7: Avoid hardcoding values. Use variables instead.
 Line 10: Avoid hardcoding values. Use variables instead.
 Line 11: Avoid hardcoding values. Use variables instead.
+Line 12: Avoid hardcoding values. Use variables instead.
+Line 15: Avoid hardcoding values. Use variables instead.
+Line 16: Avoid hardcoding values. Use variables instead.
+Line 20: Avoid hardcoding values. Use variables instead.
