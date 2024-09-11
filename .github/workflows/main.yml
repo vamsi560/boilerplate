@@ -1,0 +1,29 @@
+name: Terraform Validation
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Install Terraform
+        uses: hashicorp/setup-terraform@v1
+
+      - name: Run Terraform Validation
+        run: |
+          chmod +x scripts/validate_tf.sh
+          ./scripts/validate_tf.sh
+      
+      - name: Send Validation Results
+        run: |
+          echo "Zipping corrected files"
+          zip -r corrected_tf_files.zip ./*.tf
+          
+          echo "Sending email to approver..."
+          echo "Validation results attached." | mail -s "Terraform Validation Results" -A "corrected_tf_files.zip" vamsi.sapireddy@outlook.com
