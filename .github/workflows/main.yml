@@ -17,8 +17,8 @@ jobs:
 
       - name: Run Terraform Validation
         run: |
-          chmod +x scripts/validate_tf.sh
-          ./scripts/validate_tf.sh
+          chmod +x validate_tf.sh
+          ./validate_tf.sh
       
       - name: Send Validation Results
         run: |
@@ -26,4 +26,4 @@ jobs:
           zip -r corrected_tf_files.zip ./*.tf
           
           echo "Sending email to approver..."
-          echo "Validation results attached." | mail -s "Terraform Validation Results" -A "corrected_tf_files.zip" vamsi.sapireddy@outlook.com
+          echo "Validation results attached." | mail -s "Terraform Validation Results" -A "corrected_tf_files.zip" approver@example.com
