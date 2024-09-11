@@ -20,10 +20,10 @@ jobs:
           chmod +x validate_tf.sh
           ./validate_tf.sh
       
-      - name: Send Validation Results
-        run: |
-          echo "Zipping corrected files"
-          zip -r corrected_tf_files.zip ./*.tf
-          
-          echo "Sending email to approver..."
-          echo "Validation results attached." | mail -s "Terraform Validation Results" -A "corrected_tf_files.zip" approver@example.com
+      - name: Commit Validation Results
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: GitHub Actions
+          author_email: actions@github.com
+          message: 'Add validation results'
+          add: 'validation_results.txt'
