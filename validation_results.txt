@@ -5,17 +5,17 @@ Line 2: value = aws_s3_bucket.my_bucket.id
 Line 3: # Missing description
 Line 4: }
 Processing file: main.tf
-Line 1: Configure the AWS Provider
+Line 1: # Configure the AWS Provider
 Line 2: provider "aws" { # Consider using a variable
 Correction added for hardcoded value at line 2
-Line 3: region = "us-west-2" # Consider using a variable
+Line 3: region = "us-east-1"  # Changed region from us-west-2 to us-east-1 # Consider using a variable
 Correction added for hardcoded value at line 3
 Line 4: }
 Line 5: 
 Line 6: # Create a VPC
 Line 7: resource "aws_vpc" "main" { # Consider using a variable
 Correction added for hardcoded value at line 7
-Line 8: cidr_block = "10.0.0.0/16" # Consider using a variable
+Line 8: cidr_block = "10.1.0.0/16"  # Changed CIDR block # Consider using a variable
 Correction added for hardcoded value at line 8
 Line 9: 
 Line 10: tags = {
@@ -28,9 +28,9 @@ Line 15: # Create public and private subnets
 Line 16: resource "aws_subnet" "public" { # Consider using a variable
 Correction added for hardcoded value at line 16
 Line 17: vpc_id            = aws_vpc.main.id
-Line 18: cidr_block        = "10.0.1.0/24" # Consider using a variable
+Line 18: cidr_block        = "10.1.1.0/24"  # Changed CIDR block # Consider using a variable
 Correction added for hardcoded value at line 18
-Line 19: availability_zone = "us-west-2a" # Consider using a variable
+Line 19: availability_zone = "us-east-1a"   # Changed availability zone # Consider using a variable
 Correction added for hardcoded value at line 19
 Line 20: 
 Line 21: tags = {
@@ -42,9 +42,9 @@ Line 25:
 Line 26: resource "aws_subnet" "private" { # Consider using a variable
 Correction added for hardcoded value at line 26
 Line 27: vpc_id            = aws_vpc.main.id
-Line 28: cidr_block        = "10.0.2.0/24" # Consider using a variable
+Line 28: cidr_block        = "10.1.2.0/24"  # Changed CIDR block # Consider using a variable
 Correction added for hardcoded value at line 28
-Line 29: availability_zone = "us-west-2b" # Consider using a variable
+Line 29: availability_zone = "us-east-1b"   # Changed availability zone # Consider using a variable
 Correction added for hardcoded value at line 29
 Line 30: 
 Line 31: tags = {
@@ -166,7 +166,7 @@ Line 124:
 Line 125: # Create an EC2 instance
 Line 126: resource "aws_instance" "example" { # Consider using a variable
 Correction added for hardcoded value at line 126
-Line 127: ami           = "ami-0c55b159cbfafe1f0" # Consider using a variable
+Line 127: ami           = "ami-12345678"  # Changed AMI ID # Consider using a variable
 Correction added for hardcoded value at line 127
 Line 128: instance_type = "t2.micro" # Consider using a variable
 Correction added for hardcoded value at line 128
@@ -185,7 +185,7 @@ Line 139:
 Line 140: # Create an S3 bucket
 Line 141: resource "aws_s3_bucket" "example" { # Consider using a variable
 Correction added for hardcoded value at line 141
-Line 142: bucket = "my-example-bucket" # Consider using a variable
+Line 142: bucket = "my-new-example-bucket"  # Changed bucket name # Consider using a variable
 Correction added for hardcoded value at line 142
 Line 143: acl    = "private" # Consider using a variable
 Correction added for hardcoded value at line 143
@@ -199,9 +199,9 @@ Line 149:
 Line 150: # Create an RDS instance
 Line 151: resource "aws_db_instance" "example" { # Consider using a variable
 Correction added for hardcoded value at line 151
-Line 152: engine         = "mysql" # Consider using a variable
+Line 152: engine         = "postgres"  # Changed database engine # Consider using a variable
 Correction added for hardcoded value at line 152
-Line 153: engine_version = "5.7" # Consider using a variable
+Line 153: engine_version = "13.2"      # Changed engine version # Consider using a variable
 Correction added for hardcoded value at line 153
 Line 154: instance_class = "db.t2.micro" # Consider using a variable
 Correction added for hardcoded value at line 154
@@ -209,7 +209,7 @@ Line 155: name           = "exampledb" # Consider using a variable
 Correction added for hardcoded value at line 155
 Line 156: username       = "admin" # Consider using a variable
 Correction added for hardcoded value at line 156
-Line 157: password       = "password123" # Consider using a variable
+Line 157: password       = "admin123"  # Changed password # Consider using a variable
 Correction added for hardcoded value at line 157
 Line 158: db_subnet_group_name = aws_db_subnet_group.private.name
 Line 159: 
