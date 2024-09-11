@@ -90,8 +90,11 @@ Get-ChildItem -Recurse -Filter "*.tf" | ForEach-Object {
 
 $report = Generate-Report -allViolations $allViolations
 
-# Output report (in a real scenario, you'd save this to a file or send via email)
-Write-Output $report
+# Save report to a file
+$reportPath = "terraform-validation-report.md"
+Set-Content -Path $reportPath -Value $report
+
+Write-Output "Validation report saved to $reportPath"
 
 # Exit with non-zero code if there were any violations
 if ($allViolations.Count -gt 0) {
