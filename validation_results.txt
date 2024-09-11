@@ -1,14 +1,6 @@
 Processing file: output.tf
-Line 1: output "bucket_id" {
-Line 2: value = aws_s3_bucket.my_bucket.id
-Line 3: # Missing description
-Line 4: }
 Processing file: main.tf
-Line 1: variable "my_var" {
-Line 2: type = string  # Missing description
-Line 3: }
-Line 4: 
-Line 5: output "my_output" {
-Line 6: value = var.my_var  # Missing description
-Line 7: }
-No corrections needed.
+Corrections for output.tf:
+Line 1: Output should have a description.
+Corrections for main.tf:
+Line 1: Variable should have a description.
