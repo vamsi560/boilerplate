@@ -21,7 +21,7 @@ def validate_tf_files(directory):
                 
                 # Check for missing variable descriptions
                 if re.match(r'^\s*variable\s+"[^"]+"\s*{', line):
-                    block = lines[i:i+5]
+                    block = lines[i:i+5]  # Look ahead for description
                     if not any("description" in l for l in block):
                         corrections.setdefault(filename, []).append(f"Line {i + 1}: Variable should have a description.")
                         lines[i] = line.rstrip() + ' # Missing description\n'
@@ -30,7 +30,7 @@ def validate_tf_files(directory):
                 
                 # Check for missing output descriptions
                 if re.match(r'^\s*output\s+"[^"]+"\s*{', line):
-                    block = lines[i:i+5]
+                    block = lines[i:i+5]  # Look ahead for description
                     if not any("description" in l for l in block):
                         corrections.setdefault(filename, []).append(f"Line {i + 1}: Output should have a description.")
                         lines[i] = line.rstrip() + ' # Missing description\n'
