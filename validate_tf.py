@@ -28,13 +28,6 @@ def validate_tf_files(directory):
                         # Debug: Print correction
                         print(f"Correction added for variable at line {i + 1}")
                 
-                # Check for hardcoded values
-                if re.search(r'["\'](.*?)["\']', line) and not re.search(r'\${{', line):
-                    corrections.setdefault(filename, []).append(f"Line {i + 1}: Avoid hardcoding values. Use variables instead.")
-                    lines[i] = line.rstrip() + ' # Consider using a variable\n'
-                    # Debug: Print correction
-                    print(f"Correction added for hardcoded value at line {i + 1}")
-                
                 # Check for missing output descriptions
                 if re.match(r'^\s*output\s+"[^"]+"\s*{', line):
                     block = lines[i:i+5]
