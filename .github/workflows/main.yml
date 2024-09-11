@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -18,7 +19,7 @@ jobs:
         run: |
           chmod +x validate_tf.sh
           ./validate_tf.sh
-      
+
       - name: Configure Git
         run: |
           git config --global user.email "vamsi.sapireddy@outlook.com"
