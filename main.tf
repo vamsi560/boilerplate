@@ -1,24 +1,191 @@
+Configure the AWS Provider
 provider "aws" {
-  region = "us-west-2"  # Specify your desired region
+  region = "us-west-2"
 }
 
-# Variable without a description
-variable "example_variable" {
-  type = string
-  # Missing description
-}
-
-resource "aws_s3_bucket" "my_bucket" {
-  bucket = "hardcoded-bucket-name"
-  acl    = "private"
+# Create a VPC
+resource "aws_vpc" "main" {
+  cidr_block = "10.0.0.0/16"
 
   tags = {
-    Name        = "MyBucket"
-    Environment = "Dev"
+    Name = "Main VPC"
   }
 }
 
-# Output without a description
-output "bucket_id" {
-  value = aws_s3_bucket.my_bucket.id
+# Create public and private subnets
+resource "aws_subnet" "public" {
+  vpc_id            = aws_vpc.main.id
+  cidr_block        = "10.0.1.0/24"
+  availability_zone = "us-west-2a"
+
+  tags = {
+    Name = "Public Subnet"
+  }
+}
+
+resource "aws_subnet" "private" {
+  vpc_id            = aws_vpc.main.id
+  cidr_block        = "10.0.2.0/24"
+  availability_zone = "us-west-2b"
+
+  tags = {
+    Name = "Private Subnet"
+  }
+}
+
+# Create an Internet Gateway
+resource "aws_internet_gateway" "gw" {
+  vpc_id = aws_vpc.main.id
+
+  tags = {
+    Name = "Main IGW"
+  }
+}
+
+# Create a NAT Gateway
+resource "aws_nat_gateway" "gw" {
+  allocation_id = aws_eip.nat.id
+  subnet_id     = aws_subnet.public.id
+
+  tags = {
+    Name = "Main NAT Gateway"
+  }
+}
+
+# Create an Elastic IP for the NAT Gateway
+resource "aws_eip" "nat" {
+  vpc   = true
+  count = 1
+}
+
+# Create a Route Table for public subnets
+resource "aws_route_table" "public" {
+  vpc_id = aws_vpc.main.id
+
+  route {
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_internet_gateway.gw.id
+  }
+
+  tags = {
+    Name = "Public Route Table"
+  }
+}
+
+# Create a Route Table for private subnets
+resource "aws_route_table" "private" {
+  vpc_id = aws_vpc.main.id
+
+  route {
+    cidr_block     = "0.0.0.0/0"
+    nat_gateway_id = aws_nat_gateway.gw.id
+  }
+
+  tags = {
+    Name = "Private Route Table"
+  }
+}
+
+# Associate subnets with route tables
+resource "aws_route_table_association" "public" {
+  subnet_id      = aws_subnet.public.id
+  route_table_id = aws_route_table.public.id
+}
+
+resource "aws_route_table_association" "private" {
+  subnet_id      = aws_subnet.private.id
+  route_table_id = aws_route_table.private.id
+}
+
+# Create a Security Group for EC2 instances
+resource "aws_security_group" "allow_ssh" {
+  name        = "Allow SSH"
+  description = "Allow SSH inbound traffic"
+  vpc_id      = aws_vpc.main.id
+
+  ingress {
+    from_port   = 22
+    to_port     = 22
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  egress {
+    from_port       = 0
+    to_port         = 0
+    protocol        = "-1"
+    cidr_blocks     = ["0.0.0.0/0"]
+  }
+
+  tags = {
+    Name = "Allow SSH Security Group"
+  }
+}
+
+# Create an EC2 instance
+resource "aws_instance" "example" {
+  ami           = "ami-0c55b159cbfafe1f0"
+  instance_type = "t2.micro"
+  subnet_id     = aws_subnet.public.id
+
+  vpc_security_group_ids = [
+    aws_security_group.allow_ssh.id
+  ]
+
+  tags = {
+    Name = "Example Instance"
+  }
+}
+
+# Create an S3 bucket
+resource "aws_s3_bucket" "example" {
+  bucket = "my-example-bucket"
+  acl    = "private"
+
+  tags = {
+    Name = "Example S3 Bucket"
+  }
+}
+
+# Create an RDS instance
+resource "aws_db_instance" "example" {
+  engine         = "mysql"
+  engine_version = "5.7"
+  instance_class = "db.t2.micro"
+  name           = "exampledb"
+  username       = "admin"
+  password       = "password123"
+  db_subnet_group_name = aws_db_subnet_group.private.name
+
+  vpc_security_group_ids = [
+    aws_security_group.allow_db.id
+  ]
+
+  tags = {
+    Name = "Example RDS Instance"
+  }
+}
+
+# Create a DB subnet group for the RDS instance
+resource "aws_db_subnet_group" "private" {
+  name       = "Private DB Subnet Group"
+  subnet_ids = [aws_subnet.private.id]
+}
+
+# Create a Security Group for the RDS instance
+resource "aws_security_group" "allow_db" {
+  name        = "Allow DB"
+  description = "Allow DB inbound traffic"
+  vpc_id      = aws_vpc.main.id
+
+  ingress {
+    from_port       = 3306
+    to_port         = 3306
+    protocol        = "tcp"
+    security_groups = [aws_security_group.allow_ssh.id]
+  }
+
+  tags = {
+    Name = "Allow DB Security Group"
+  }
 }
