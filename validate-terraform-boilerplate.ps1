@@ -2,8 +2,15 @@
 
 # Function to read boilerplate rules from a JSON file
 function Get-BoilerplateRules {
-    $rulesJson = Get-Content -Path "boilerplate-rules.json" -Raw
-    return ConvertFrom-Json $rulesJson
+    $rulesPath = "boilerplate-rules.json"
+    Write-Host "Reading rules from $rulesPath"
+    if (Test-Path $rulesPath) {
+        $rulesJson = Get-Content -Path $rulesPath -Raw
+        return ConvertFrom-Json $rulesJson
+    } else {
+        Write-Host "Rules file not found at $rulesPath"
+        return $null
+    }
 }
 
 # Function to check a single file against boilerplate rules
@@ -13,10 +20,11 @@ function Check-TerraformFile {
         $rules
     )
 
+    Write-Host "Checking file: $filePath"
     $content = Get-Content -Path $filePath
     $violations = @()
 
-    foreach ($rule in $rules) {
+    foreach ($rule in $rules.rules) {
         $lineNumber = 1
         foreach ($line in $content) {
             if ($line -notmatch $rule.pattern) {
@@ -30,6 +38,7 @@ function Check-TerraformFile {
         }
     }
 
+    Write-Host "Found $($violations.Count) violations in $filePath"
     return $violations
 }
 
@@ -40,6 +49,7 @@ function Add-CommentsToFile {
         $violations
     )
 
+    Write-Host "Adding comments to $filePath"
     $content = Get-Content -Path $filePath
     $newContent = @()
 
@@ -65,12 +75,16 @@ function Generate-Report {
     $report = "Terraform Boilerplate Validation Report`n"
     $report += "======================================`n`n"
 
-    foreach ($file in $allViolations.Keys) {
-        $report += "File: $file`n"
-        foreach ($violation in $allViolations[$file]) {
-            $report += "  Line $($violation.Line): $($violation.Rule) - $($violation.Message)`n"
+    if ($allViolations.Count -eq 0) {
+        $report += "No violations found. All files comply with the boilerplate rules.`n"
+    } else {
+        foreach ($file in $allViolations.Keys) {
+            $report += "File: $file`n"
+            foreach ($violation in $allViolations[$file]) {
+                $report += "  Line $($violation.Line): $($violation.Rule) - $($violation.Message)`n"
+            }
+            $report += "`n"
         }
-        $report += "`n"
     }
 
     return $report
@@ -78,13 +92,21 @@ function Generate-Report {
 
 # Main execution
 $rules = Get-BoilerplateRules
+if ($null -eq $rules) {
+    Write-Host "No rules found. Exiting."
+    exit 1
+}
+
 $allViolations = @{}
 
-Get-ChildItem -Recurse -Filter "*.tf" | ForEach-Object {
-    $violations = Check-TerraformFile -filePath $_.FullName -rules $rules
+$tfFiles = Get-ChildItem -Recurse -Filter "*.tf"
+Write-Host "Found $($tfFiles.Count) Terraform files"
+
+foreach ($file in $tfFiles) {
+    $violations = Check-TerraformFile -filePath $file.FullName -rules $rules
     if ($violations) {
-        $allViolations[$_.FullName] = $violations
-        Add-CommentsToFile -filePath $_.FullName -violations $violations
+        $allViolations[$file.FullName] = $violations
+        Add-CommentsToFile -filePath $file.FullName -violations $violations
     }
 }
 
@@ -94,9 +116,12 @@ $report = Generate-Report -allViolations $allViolations
 $reportPath = "terraform-validation-report.md"
 Set-Content -Path $reportPath -Value $report
 
-Write-Output "Validation report saved to $reportPath"
+Write-Host "Validation report saved to $reportPath"
+Write-Host "Total violations found: $($allViolations.Values | Measure-Object -Property Count -Sum | Select-Object -ExpandProperty Sum)"
 
 # Exit with non-zero code if there were any violations
 if ($allViolations.Count -gt 0) {
     exit 1
+} else {
+    exit 0
 }
