@@ -16,18 +16,20 @@ validate_tf_files() {
         while IFS= read -r line; do
             # Check for missing variable descriptions
             if [[ $line =~ ^\s*variable\s+"[^"]+"\s*{ ]]; then
+                # Look ahead in the file for description
                 if ! grep -A 5 -F "$line" "$tf_file" | grep -q "description"; then
                     echo "Variable should have a description in $tf_file" >> $RESULTS_FILE
                 fi
             fi
 
             # Check for hardcoded values
-            if [[ $line =~ ["'](.*?)["'] ]] && ! [[ $line =~ \${{ ]]; then
+            if [[ $line =~ [\"\'(.*?)\"\' ] && ! [[ $line =~ \${{ ]]; then
                 echo "Avoid hardcoding values in $tf_file" >> $RESULTS_FILE
             fi
 
             # Check for missing output descriptions
             if [[ $line =~ ^\s*output\s+"[^"]+"\s*{ ]]; then
+                # Look ahead in the file for description
                 if ! grep -A 5 -F "$line" "$tf_file" | grep -q "description"; then
                     echo "Output should have a description in $tf_file" >> $RESULTS_FILE
                 fi
