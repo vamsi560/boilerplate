@@ -1,3 +1,5 @@
+Corrections for output.tf:
+Line 1: Avoid hardcoding values. Use variables instead.
 Corrections for main.tf:
 Line 1: Avoid hardcoding values. Use variables instead.
 Line 2: Avoid hardcoding values. Use variables instead.
