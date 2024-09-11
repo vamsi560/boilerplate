@@ -7,17 +7,48 @@ TF_DIR="./"
 RESULTS_FILE="validation_results.txt"
 > $RESULTS_FILE
 
-# Find all .tf files and validate them
-find $TF_DIR -name "*.tf" | while read tf_file; do
-  echo "Validating $tf_file..."
-  terraform validate -no-color $tf_file >> $RESULTS_FILE 2>&1
-done
+# Function to validate .tf files
+validate_tf_files() {
+    for tf_file in $(find $TF_DIR -name "*.tf"); do
+        echo "Validating $tf_file..."
+
+        # Read file line by line
+        while IFS= read -r line; do
+            line_num=$(grep -n -F "$line" "$tf_file" | cut -d: -f1)
+
+            # Check for missing variable descriptions
+            if [[ $line =~ ^\s*variable\s+"[^"]+"\s*{ ]]; then
+                if ! grep -A 5 -F "$line" "$tf_file" | grep -q "description"; then
+                    echo "Line $line_num: Variable should have a description." >> $RESULTS_FILE
+                    echo "$line # Missing description" >> $tf_file
+                fi
+            fi
+
+            # Check for hardcoded values
+            if [[ $line =~ ["'](.*?)["'] ]] && ! [[ $line =~ \${{ ]]; then
+                echo "Line $line_num: Avoid hardcoding values. Use variables instead." >> $RESULTS_FILE
+                echo "$line # Consider using a variable" >> $tf_file
+            fi
+
+            # Check for missing output descriptions
+            if [[ $line =~ ^\s*output\s+"[^"]+"\s*{ ]]; then
+                if ! grep -A 5 -F "$line" "$tf_file" | grep -q "description"; then
+                    echo "Line $line_num: Output should have a description." >> $RESULTS_FILE
+                    echo "$line # Missing description" >> $tf_file
+                fi
+            fi
+        done < "$tf_file"
+    done
+}
+
+# Run validation
+validate_tf_files
 
 # Check if validation failed
-if grep -q "Error:" $RESULTS_FILE; then
-  echo "Validation failed. See $RESULTS_FILE for details."
-  cat $RESULTS_FILE  # Print results to logs for easier debugging
-  exit 1
+if grep -q "Line" $RESULTS_FILE; then
+    echo "Validation failed. See $RESULTS_FILE for details."
+    cat $RESULTS_FILE
+    exit 1
 else
-  echo "Validation succeeded."
+    echo "Validation succeeded."
 fi
