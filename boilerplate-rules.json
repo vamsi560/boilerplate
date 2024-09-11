@@ -1,0 +1,24 @@
+{
+  "rules": [
+    {
+      "name": "RequireDescription",
+      "pattern": "description\\s*=",
+      "message": "All resources should have a description"
+    },
+    {
+      "name": "RequireTags",
+      "pattern": "tags\\s*=",
+      "message": "All resources should have tags"
+    },
+    {
+      "name": "ProhibitHardcodedValues",
+      "pattern": "^(?!.*=\\s*\"\\$\\{).*=\\s*\"[^\"]+\"",
+      "message": "Avoid hardcoded values, use variables instead"
+    },
+    {
+      "name": "RequireVersionConstraint",
+      "pattern": "version\\s*=",
+      "message": "Specify version constraints for all providers"
+    }
+  ]
+}
