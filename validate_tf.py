@@ -15,30 +15,36 @@ def validate_tf_files(directory):
             # Print debug information
             print(f"Processing file: {filename}")
             
-            for i, line in enumerate(lines):
-                # Debug: Print each line and its index
-                print(f"Line {i + 1}: {line.strip()}")
+            corrected_lines = []
+            i = 0
+            while i < len(lines):
+                line = lines[i]
                 
                 # Check for missing variable descriptions
                 if re.match(r'^\s*variable\s+"[^"]+"\s*{', line):
-                    block = lines[i:i+5]  # Look ahead for description
+                    block = lines[i:i+5]
                     if not any("description" in l for l in block):
                         corrections.setdefault(filename, []).append(f"Line {i + 1}: Variable should have a description.")
-                        lines[i] = line.rstrip() + ' # Missing description\n'
-                        # Debug: Print correction
-                        print(f"Correction added for variable at line {i + 1}")
-                
+                        corrected_lines.append(line.rstrip() + ' # Missing description\n')
+                    else:
+                        corrected_lines.append(line)
+                    i += 5  # Skip ahead after processing a block
                 # Check for missing output descriptions
-                if re.match(r'^\s*output\s+"[^"]+"\s*{', line):
-                    block = lines[i:i+5]  # Look ahead for description
+                elif re.match(r'^\s*output\s+"[^"]+"\s*{', line):
+                    block = lines[i:i+5]
                     if not any("description" in l for l in block):
                         corrections.setdefault(filename, []).append(f"Line {i + 1}: Output should have a description.")
-                        lines[i] = line.rstrip() + ' # Missing description\n'
-                        # Debug: Print correction
-                        print(f"Correction added for output at line {i + 1}")
+                        corrected_lines.append(line.rstrip() + ' # Missing description\n')
+                    else:
+                        corrected_lines.append(line)
+                    i += 5  # Skip ahead after processing a block
+                else:
+                    corrected_lines.append(line)
+                i += 1
             
+            # Write back the corrected lines
             with open(file_path, 'w') as file:
-                file.writelines(lines)
+                file.writelines(corrected_lines)
     
     return corrections
 
