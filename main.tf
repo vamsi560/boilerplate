@@ -1,11 +1,11 @@
-Configure the AWS Provider
+# Configure the AWS Provider
 provider "aws" {
-  region = "us-west-2"
+  region = "us-east-1"  # Changed region from us-west-2 to us-east-1
 }
 
 # Create a VPC
 resource "aws_vpc" "main" {
-  cidr_block = "10.0.0.0/16"
+  cidr_block = "10.1.0.0/16"  # Changed CIDR block
 
   tags = {
     Name = "Main VPC"
@@ -15,8 +15,8 @@ resource "aws_vpc" "main" {
 # Create public and private subnets
 resource "aws_subnet" "public" {
   vpc_id            = aws_vpc.main.id
-  cidr_block        = "10.0.1.0/24"
-  availability_zone = "us-west-2a"
+  cidr_block        = "10.1.1.0/24"  # Changed CIDR block
+  availability_zone = "us-east-1a"   # Changed availability zone
 
   tags = {
     Name = "Public Subnet"
@@ -25,8 +25,8 @@ resource "aws_subnet" "public" {
 
 resource "aws_subnet" "private" {
   vpc_id            = aws_vpc.main.id
-  cidr_block        = "10.0.2.0/24"
-  availability_zone = "us-west-2b"
+  cidr_block        = "10.1.2.0/24"  # Changed CIDR block
+  availability_zone = "us-east-1b"   # Changed availability zone
 
   tags = {
     Name = "Private Subnet"
@@ -124,7 +124,7 @@ resource "aws_security_group" "allow_ssh" {
 
 # Create an EC2 instance
 resource "aws_instance" "example" {
-  ami           = "ami-0c55b159cbfafe1f0"
+  ami           = "ami-12345678"  # Changed AMI ID
   instance_type = "t2.micro"
   subnet_id     = aws_subnet.public.id
 
@@ -139,7 +139,7 @@ resource "aws_instance" "example" {
 
 # Create an S3 bucket
 resource "aws_s3_bucket" "example" {
-  bucket = "my-example-bucket"
+  bucket = "my-new-example-bucket"  # Changed bucket name
   acl    = "private"
 
   tags = {
@@ -149,12 +149,12 @@ resource "aws_s3_bucket" "example" {
 
 # Create an RDS instance
 resource "aws_db_instance" "example" {
-  engine         = "mysql"
-  engine_version = "5.7"
+  engine         = "postgres"  # Changed database engine
+  engine_version = "13.2"      # Changed engine version
   instance_class = "db.t2.micro"
   name           = "exampledb"
   username       = "admin"
-  password       = "password123"
+  password       = "admin123"  # Changed password
   db_subnet_group_name = aws_db_subnet_group.private.name
 
   vpc_security_group_ids = [
