@@ -28,12 +28,17 @@ function Check-TerraformFile {
         $lineNumber = 1
         foreach ($line in $content) {
             if ($line -notmatch $rule.pattern) {
-                $violations += @{
-                    File = $filePath
-                    Line = $lineNumber
-                    Rule = $rule.name
-                    Category = $rule.category
-                    Message = $rule.message
+                # Optionally, skip lines that don't contain the rule patterns of interest
+                if ($rule.pattern -notmatch "^\s*\{\s*\}$") {
+                    $violations += @(
+                        @{
+                            File = $filePath
+                            Line = $lineNumber
+                            Rule = $rule.name
+                            Category = $rule.category
+                            Message = $rule.message
+                        }
+                    )
                 }
             }
             $lineNumber++
