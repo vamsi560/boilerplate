@@ -86,10 +86,19 @@ function Generate-Report {
         $report += "## Summary`n`n"
         $categorizedViolations = $allViolations.Values | ForEach-Object { $_ } | Group-Object -Property Category
 
-        $report += "| Category | Violation Count |`n"
-        $report += "|----------|-----------------|`n"
+        $report += "| Category | Subcategory | Violation Count |`n"
+        $report += "|----------|-------------|-----------------|`n"
         foreach ($category in $categorizedViolations) {
-            $report += "| $($category.Name) | $($category.Count) |`n"
+            $subcategories = $category.Group | Group-Object -Property Rule
+            $firstSubcategory = $true
+            foreach ($subcategory in $subcategories) {
+                if ($firstSubcategory) {
+                    $report += "| $($category.Name) | $($subcategory.Name) | $($subcategory.Count) |`n"
+                    $firstSubcategory = $false
+                } else {
+                    $report += "| | $($subcategory.Name) | $($subcategory.Count) |`n"
+                }
+            }
         }
         $report += "`n"
 
