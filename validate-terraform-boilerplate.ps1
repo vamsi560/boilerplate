@@ -113,6 +113,20 @@ function Generate-Report {
     return $report
 }
 
+# Function to commit the violations report to the repository
+function Commit-ViolationsReport {
+    $reportPath = "terraform-validation-report.md"
+    
+    if (Test-Path $reportPath) {
+        Write-Host "Committing violations report to the repository"
+        git add $reportPath
+        git commit -m "Add Terraform boilerplate validation report"
+        git push
+    } else {
+        Write-Host "Report file not found. No commit made."
+    }
+}
+
 # Main execution
 $rules = Get-BoilerplateRules
 if ($null -eq $rules) {
@@ -141,6 +155,9 @@ Set-Content -Path $reportPath -Value $report
 
 Write-Host "Validation report saved to $reportPath"
 Write-Host "Total violations found: $($allViolations.Values | Measure-Object -Property Count -Sum | Select-Object -ExpandProperty Sum)"
+
+# Commit the violations report
+Commit-ViolationsReport
 
 # Exit with a non-zero status code if violations are found
 if ($allViolations.Count -gt 0) {
