@@ -17,6 +17,10 @@
 
 | File | Line | Message |
 |------|------|---------|
+| output.tf | 1 | AMI ID should be parameterized. |
+| output.tf | 2 | AMI ID should be parameterized. |
+| output.tf | 3 | AMI ID should be parameterized. |
+| output.tf | 4 | AMI ID should be parameterized. |
 | main.tf | 1 | AMI ID should be parameterized. |
 | main.tf | 2 | AMI ID should be parameterized. |
 | main.tf | 3 | AMI ID should be parameterized. |
@@ -44,10 +48,6 @@
 | main.tf | 26 | AMI ID should be parameterized. |
 | main.tf | 27 | AMI ID should be parameterized. |
 | main.tf | 28 | AMI ID should be parameterized. |
-| output.tf | 1 | AMI ID should be parameterized. |
-| output.tf | 2 | AMI ID should be parameterized. |
-| output.tf | 3 | AMI ID should be parameterized. |
-| output.tf | 4 | AMI ID should be parameterized. |
 | boilerplate_rules.tf | 1 | AMI ID should be parameterized. |
 | boilerplate_rules.tf | 2 | AMI ID should be parameterized. |
 | boilerplate_rules.tf | 3 | AMI ID should be parameterized. |
@@ -129,6 +129,10 @@
 
 | File | Line | Message |
 |------|------|---------|
+| output.tf | 1 | Bucket name should be parameterized. |
+| output.tf | 2 | Bucket name should be parameterized. |
+| output.tf | 3 | Bucket name should be parameterized. |
+| output.tf | 4 | Bucket name should be parameterized. |
 | main.tf | 1 | Bucket name should be parameterized. |
 | main.tf | 2 | Bucket name should be parameterized. |
 | main.tf | 3 | Bucket name should be parameterized. |
@@ -156,10 +160,6 @@
 | main.tf | 26 | Bucket name should be parameterized. |
 | main.tf | 27 | Bucket name should be parameterized. |
 | main.tf | 28 | Bucket name should be parameterized. |
-| output.tf | 1 | Bucket name should be parameterized. |
-| output.tf | 2 | Bucket name should be parameterized. |
-| output.tf | 3 | Bucket name should be parameterized. |
-| output.tf | 4 | Bucket name should be parameterized. |
 | boilerplate_rules.tf | 1 | Bucket name should be parameterized. |
 | boilerplate_rules.tf | 2 | Bucket name should be parameterized. |
 | boilerplate_rules.tf | 3 | Bucket name should be parameterized. |
@@ -241,6 +241,10 @@
 
 | File | Line | Message |
 |------|------|---------|
+| output.tf | 1 | Tags should follow naming conventions. |
+| output.tf | 2 | Tags should follow naming conventions. |
+| output.tf | 3 | Tags should follow naming conventions. |
+| output.tf | 4 | Tags should follow naming conventions. |
 | main.tf | 1 | Tags should follow naming conventions. |
 | main.tf | 2 | Tags should follow naming conventions. |
 | main.tf | 3 | Tags should follow naming conventions. |
@@ -269,10 +273,6 @@
 | main.tf | 26 | Tags should follow naming conventions. |
 | main.tf | 27 | Tags should follow naming conventions. |
 | main.tf | 28 | Tags should follow naming conventions. |
-| output.tf | 1 | Tags should follow naming conventions. |
-| output.tf | 2 | Tags should follow naming conventions. |
-| output.tf | 3 | Tags should follow naming conventions. |
-| output.tf | 4 | Tags should follow naming conventions. |
 | boilerplate_rules.tf | 1 | Tags should follow naming conventions. |
 | boilerplate_rules.tf | 2 | Tags should follow naming conventions. |
 | boilerplate_rules.tf | 3 | Tags should follow naming conventions. |
@@ -356,6 +356,10 @@
 
 | File | Line | Message |
 |------|------|---------|
+| output.tf | 1 | Provider block is missing required parameters like region. |
+| output.tf | 2 | Provider block is missing required parameters like region. |
+| output.tf | 3 | Provider block is missing required parameters like region. |
+| output.tf | 4 | Provider block is missing required parameters like region. |
 | main.tf | 1 | Provider block is missing required parameters like region. |
 | main.tf | 2 | Provider block is missing required parameters like region. |
 | main.tf | 3 | Provider block is missing required parameters like region. |
@@ -384,10 +388,6 @@
 | main.tf | 26 | Provider block is missing required parameters like region. |
 | main.tf | 27 | Provider block is missing required parameters like region. |
 | main.tf | 28 | Provider block is missing required parameters like region. |
-| output.tf | 1 | Provider block is missing required parameters like region. |
-| output.tf | 2 | Provider block is missing required parameters like region. |
-| output.tf | 3 | Provider block is missing required parameters like region. |
-| output.tf | 4 | Provider block is missing required parameters like region. |
 | boilerplate_rules.tf | 1 | Provider block is missing required parameters like region. |
 | boilerplate_rules.tf | 2 | Provider block is missing required parameters like region. |
 | boilerplate_rules.tf | 3 | Provider block is missing required parameters like region. |
@@ -469,6 +469,10 @@
 
 | File | Line | Message |
 |------|------|---------|
+| output.tf | 1 | Security group configuration is missing. |
+| output.tf | 2 | Security group configuration is missing. |
+| output.tf | 3 | Security group configuration is missing. |
+| output.tf | 4 | Security group configuration is missing. |
 | main.tf | 1 | Security group configuration is missing. |
 | main.tf | 2 | Security group configuration is missing. |
 | main.tf | 3 | Security group configuration is missing. |
@@ -497,10 +501,6 @@
 | main.tf | 26 | Security group configuration is missing. |
 | main.tf | 27 | Security group configuration is missing. |
 | main.tf | 28 | Security group configuration is missing. |
-| output.tf | 1 | Security group configuration is missing. |
-| output.tf | 2 | Security group configuration is missing. |
-| output.tf | 3 | Security group configuration is missing. |
-| output.tf | 4 | Security group configuration is missing. |
 | boilerplate_rules.tf | 1 | Security group configuration is missing. |
 | boilerplate_rules.tf | 2 | Security group configuration is missing. |
 | boilerplate_rules.tf | 3 | Security group configuration is missing. |
