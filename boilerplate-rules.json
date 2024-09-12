@@ -4,127 +4,148 @@
       "category": "Coding Standards",
       "name": "UseConsistentNaming",
       "pattern": "^[a-z][a-z0-9_]*$",
-      "message": "Use snake_case for resource names"
+      "message": "Use snake_case for resource names",
+      "example": "Correct: 'resource_name'. Incorrect: 'ResourceName' or 'resource-Name'."
     },
     {
       "category": "Coding Standards",
       "name": "IncludeDescription",
       "pattern": "description\\s*=",
-      "message": "Include a description for each resource"
+      "message": "Include a description for each resource",
+      "example": "Correct: 'description = \"This is a description for the resource\"'."
     },
     {
       "category": "Coding Standards",
       "name": "UseDataSources",
       "pattern": "data\\s+\"",
-      "message": "Use data sources where appropriate instead of hardcoding values"
+      "message": "Use data sources where appropriate instead of hardcoding values",
+      "example": "Correct: 'data \"aws_ami\" \"example\" {...}' instead of hardcoded AMI IDs."
     },
     {
       "category": "Modular Design",
       "name": "UseModules",
       "pattern": "module\\s+\"",
-      "message": "Use modules to organize and reuse code"
+      "message": "Use modules to organize and reuse code",
+      "example": "Correct: 'module \"vpc\" { source = \"terraform-aws-modules/vpc/aws\" ... }'."
     },
     {
       "category": "Modular Design",
       "name": "LimitResourceCount",
       "pattern": "count\\s*=\\s*[1-9]\\d*",
-      "message": "Consider using 'for_each' instead of 'count' for better modularity"
+      "message": "Consider using 'for_each' instead of 'count' for better modularity",
+      "example": "Correct: 'for_each = var.resources'."
     },
     {
       "category": "Ensure Security",
       "name": "EnforceEncryption",
       "pattern": "encrypted\\s*=\\s*true",
-      "message": "Ensure resources are encrypted where applicable"
+      "message": "Ensure resources are encrypted where applicable",
+      "example": "Correct: 'encrypted = true' for S3 buckets, RDS instances, etc."
     },
     {
       "category": "Ensure Security",
       "name": "UseSecureProtocols",
       "pattern": "protocol\\s*=\\s*\"https\"",
-      "message": "Use secure protocols (HTTPS) where applicable"
+      "message": "Use secure protocols (HTTPS) where applicable",
+      "example": "Correct: 'protocol = \"https\"' for web resources."
     },
     {
       "category": "Ensure Security",
       "name": "RestrictPublicAccess",
       "pattern": "public_access\\s*=\\s*false",
-      "message": "Restrict public access to resources unless necessary"
+      "message": "Restrict public access to resources unless necessary",
+      "example": "Correct: 'public_access = false' for storage accounts."
     },
     {
       "category": "Improve Governance",
       "name": "RequireTags",
       "pattern": "tags\\s*=",
-      "message": "Include tags for better resource management"
+      "message": "Include tags for better resource management",
+      "example": "Correct: 'tags = { Environment = \"prod\" }'."
     },
     {
       "category": "Improve Governance",
       "name": "UseIAMRoles",
       "pattern": "iam_role",
-      "message": "Use IAM roles for access control instead of access keys"
+      "message": "Use IAM roles for access control instead of access keys",
+      "example": "Correct: 'iam_role = \"role_name\"' instead of storing access keys in code."
     },
     {
       "category": "Improve Governance",
       "name": "EnforceResourceNaming",
       "pattern": "name\\s*=\\s*\"[a-z][a-z0-9-]*\"",
-      "message": "Follow consistent resource naming conventions"
+      "message": "Follow consistent resource naming conventions",
+      "example": "Correct: 'name = \"resource-name\"'. Incorrect: 'name = \"ResourceName\"'."
     },
     {
       "category": "Performance Optimization",
       "name": "AvoidLongRunningProcesses",
       "pattern": "long_running_process\\s*=\\s*true",
-      "message": "Avoid long-running processes; consider using asynchronous operations."
+      "message": "Avoid long-running processes; consider using asynchronous operations",
+      "example": "Avoid: 'long_running_process = true' where async tasks can be used."
     },
     {
       "category": "Performance Optimization",
       "name": "OptimizeDatabaseQueries",
       "pattern": "SELECT\\s+\\*",
-      "message": "Avoid using SELECT *; specify columns to optimize database queries."
+      "message": "Avoid using SELECT *; specify columns to optimize database queries",
+      "example": "Correct: 'SELECT id, name FROM users' instead of 'SELECT * FROM users'."
     },
     {
       "category": "Error Handling",
       "name": "ImplementErrorLogging",
       "pattern": "log_error\\s*\\$",
-      "message": "Ensure error logging is implemented for better debugging."
+      "message": "Ensure error logging is implemented for better debugging",
+      "example": "Correct: 'log_error($error_message)' to capture errors."
     },
     {
       "category": "Error Handling",
       "name": "HandleExceptions",
       "pattern": "try\\s*\\{",
-      "message": "Ensure exceptions are handled properly to prevent application crashes."
+      "message": "Ensure exceptions are handled properly to prevent application crashes",
+      "example": "Correct: 'try { ... } catch { ... }' for handling exceptions."
     },
     {
       "category": "Code Documentation",
       "name": "UseComments",
       "pattern": "//|\\/\\*",
-      "message": "Use comments to explain complex logic and improve code readability."
+      "message": "Use comments to explain complex logic and improve code readability",
+      "example": "Correct: '// This function handles user authentication'."
     },
     {
       "category": "Code Documentation",
       "name": "UpdateDocumentation",
       "pattern": "TODO:\\s*update documentation",
-      "message": "Ensure all TODOs related to documentation are addressed."
+      "message": "Ensure all TODOs related to documentation are addressed",
+      "example": "Correct: 'TODO: update documentation for new API endpoint'."
     },
     {
       "category": "Dependency Management",
       "name": "AvoidHardcodedDependencies",
       "pattern": "dependency\\s*\"",
-      "message": "Avoid hardcoding dependencies; use a dependency management tool."
+      "message": "Avoid hardcoding dependencies; use a dependency management tool",
+      "example": "Correct: Use 'terraform { required_providers { ... } }' instead of hardcoded versions."
     },
     {
       "category": "Dependency Management",
       "name": "UpdateDependencies",
       "pattern": "version\\s*=\"[0-9]+\\.[0-9]+\\.[0-9]+\"",
-      "message": "Ensure dependencies are updated to the latest stable versions."
+      "message": "Ensure dependencies are updated to the latest stable versions",
+      "example": "Correct: 'version = \"1.2.3\"'."
     },
     {
       "category": "User Experience",
       "name": "ValidateUserInput",
       "pattern": "input\\s*\\{",
-      "message": "Ensure user inputs are validated to prevent errors and improve UX."
+      "message": "Ensure user inputs are validated to prevent errors and improve UX",
+      "example": "Correct: Validate 'input { type = \"string\" }' to prevent invalid input types."
     },
     {
       "category": "User Experience",
       "name": "ProvideFeedback",
       "pattern": "alert\\$",
-      "message": "Provide user feedback for actions to enhance user experience."
+      "message": "Provide user feedback for actions to enhance user experience",
+      "example": "Correct: 'alert(\"Form submitted successfully!\")' after successful form submission."
     }
   ]
 }
