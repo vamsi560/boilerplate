@@ -1,34 +1,70 @@
 {
   "rules": [
     {
-      "name": "Missing Required Parameters",
-      "pattern": "provider\\s+\"aws\"\\s*\\{\\s*#.*",
-      "category": "Configuration",
-      "message": "Provider block is missing required parameters like region."
+      "category": "Coding Standards",
+      "name": "UseConsistentNaming",
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "message": "Use snake_case for resource names"
     },
     {
-      "name": "Hardcoded Bucket Name",
-      "pattern": "bucket\\s*=\\s*\"[^\"]+\"",
-      "category": "Best Practices",
-      "message": "Bucket name should be parameterized."
+      "category": "Coding Standards",
+      "name": "IncludeDescription",
+      "pattern": "description\\s*=",
+      "message": "Include a description for each resource"
     },
     {
-      "name": "Hardcoded AMI ID",
-      "pattern": "ami\\s*=\\s*\"ami-[^\"]+\"",
-      "category": "Best Practices",
-      "message": "AMI ID should be parameterized."
+      "category": "Coding Standards",
+      "name": "UseDataSources",
+      "pattern": "data\\s+\"",
+      "message": "Use data sources where appropriate instead of hardcoding values"
     },
     {
-      "name": "Improper Tag Naming",
-      "pattern": "tags\\s*=\\s*\\{\\s*Name\\s*=\\s*\"[^\"]+\"",
-      "category": "Best Practices",
-      "message": "Tags should follow naming conventions."
+      "category": "Modular Design",
+      "name": "UseModules",
+      "pattern": "module\\s+\"",
+      "message": "Use modules to organize and reuse code"
     },
     {
-      "name": "Missing Security Group Configuration",
-      "pattern": "resource\\s+\"aws_instance\"\\s+\"example\"\\s*\\{\\s*[^}]*\\n\\s*# Violations: Missing proper security group configuration",
-      "category": "Configuration",
-      "message": "Security group configuration is missing."
+      "category": "Modular Design",
+      "name": "LimitResourceCount",
+      "pattern": "count\\s*=\\s*[1-9]\\d*",
+      "message": "Consider using 'for_each' instead of 'count' for better modularity"
+    },
+    {
+      "category": "Ensure Security",
+      "name": "EnforceEncryption",
+      "pattern": "encrypted\\s*=\\s*true",
+      "message": "Ensure resources are encrypted where applicable"
+    },
+    {
+      "category": "Ensure Security",
+      "name": "UseSecureProtocols",
+      "pattern": "protocol\\s*=\\s*\"https\"",
+      "message": "Use secure protocols (HTTPS) where applicable"
+    },
+    {
+      "category": "Ensure Security",
+      "name": "RestrictPublicAccess",
+      "pattern": "public_access\\s*=\\s*false",
+      "message": "Restrict public access to resources unless necessary"
+    },
+    {
+      "category": "Improve Governance",
+      "name": "RequireTags",
+      "pattern": "tags\\s*=",
+      "message": "Include tags for better resource management"
+    },
+    {
+      "category": "Improve Governance",
+      "name": "UseIAMRoles",
+      "pattern": "iam_role",
+      "message": "Use IAM roles for access control instead of access keys"
+    },
+    {
+      "category": "Improve Governance",
+      "name": "EnforceResourceNaming",
+      "pattern": "name\\s*=\\s*\"[a-z][a-z0-9-]*\"",
+      "message": "Follow consistent resource naming conventions"
     }
   ]
 }
