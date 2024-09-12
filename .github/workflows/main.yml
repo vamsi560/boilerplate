@@ -11,9 +11,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Set up PowerShell
-      uses: PowerShell/powershell@v1
-
     - name: List Terraform Files
       run: |
         echo "Terraform files in repository:"
