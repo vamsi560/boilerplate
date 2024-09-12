@@ -24,10 +24,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Ensure all TODOs related to documentation are addressed. |
-| output.tf | 2 | Ensure all TODOs related to documentation are addressed. |
-| output.tf | 3 | Ensure all TODOs related to documentation are addressed. |
-| output.tf | 4 | Ensure all TODOs related to documentation are addressed. |
 | main.tf | 1 | Ensure all TODOs related to documentation are addressed. |
 | main.tf | 2 | Ensure all TODOs related to documentation are addressed. |
 | main.tf | 3 | Ensure all TODOs related to documentation are addressed. |
@@ -219,6 +215,10 @@
 | main.tf | 189 | Ensure all TODOs related to documentation are addressed. |
 | main.tf | 190 | Ensure all TODOs related to documentation are addressed. |
 | main.tf | 191 | Ensure all TODOs related to documentation are addressed. |
+| output.tf | 1 | Ensure all TODOs related to documentation are addressed. |
+| output.tf | 2 | Ensure all TODOs related to documentation are addressed. |
+| output.tf | 3 | Ensure all TODOs related to documentation are addressed. |
+| output.tf | 4 | Ensure all TODOs related to documentation are addressed. |
 | boilerplate_rules.tf | 1 | Ensure all TODOs related to documentation are addressed. |
 | boilerplate_rules.tf | 2 | Ensure all TODOs related to documentation are addressed. |
 | boilerplate_rules.tf | 3 | Ensure all TODOs related to documentation are addressed. |
@@ -300,10 +300,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Use comments to explain complex logic and improve code readability. |
-| output.tf | 2 | Use comments to explain complex logic and improve code readability. |
-| output.tf | 3 | Use comments to explain complex logic and improve code readability. |
-| output.tf | 4 | Use comments to explain complex logic and improve code readability. |
 | main.tf | 1 | Use comments to explain complex logic and improve code readability. |
 | main.tf | 2 | Use comments to explain complex logic and improve code readability. |
 | main.tf | 3 | Use comments to explain complex logic and improve code readability. |
@@ -495,6 +491,10 @@
 | main.tf | 189 | Use comments to explain complex logic and improve code readability. |
 | main.tf | 190 | Use comments to explain complex logic and improve code readability. |
 | main.tf | 191 | Use comments to explain complex logic and improve code readability. |
+| output.tf | 1 | Use comments to explain complex logic and improve code readability. |
+| output.tf | 2 | Use comments to explain complex logic and improve code readability. |
+| output.tf | 3 | Use comments to explain complex logic and improve code readability. |
+| output.tf | 4 | Use comments to explain complex logic and improve code readability. |
 | boilerplate_rules.tf | 1 | Use comments to explain complex logic and improve code readability. |
 | boilerplate_rules.tf | 2 | Use comments to explain complex logic and improve code readability. |
 | boilerplate_rules.tf | 3 | Use comments to explain complex logic and improve code readability. |
@@ -578,10 +578,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Include a description for each resource |
-| output.tf | 2 | Include a description for each resource |
-| output.tf | 3 | Include a description for each resource |
-| output.tf | 4 | Include a description for each resource |
 | main.tf | 1 | Include a description for each resource |
 | main.tf | 2 | Include a description for each resource |
 | main.tf | 3 | Include a description for each resource |
@@ -771,6 +767,10 @@
 | main.tf | 189 | Include a description for each resource |
 | main.tf | 190 | Include a description for each resource |
 | main.tf | 191 | Include a description for each resource |
+| output.tf | 1 | Include a description for each resource |
+| output.tf | 2 | Include a description for each resource |
+| output.tf | 3 | Include a description for each resource |
+| output.tf | 4 | Include a description for each resource |
 | boilerplate_rules.tf | 1 | Include a description for each resource |
 | boilerplate_rules.tf | 2 | Include a description for each resource |
 | boilerplate_rules.tf | 3 | Include a description for each resource |
@@ -852,10 +852,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Use snake_case for resource names |
-| output.tf | 2 | Use snake_case for resource names |
-| output.tf | 3 | Use snake_case for resource names |
-| output.tf | 4 | Use snake_case for resource names |
 | main.tf | 1 | Use snake_case for resource names |
 | main.tf | 2 | Use snake_case for resource names |
 | main.tf | 3 | Use snake_case for resource names |
@@ -1047,6 +1043,10 @@
 | main.tf | 189 | Use snake_case for resource names |
 | main.tf | 190 | Use snake_case for resource names |
 | main.tf | 191 | Use snake_case for resource names |
+| output.tf | 1 | Use snake_case for resource names |
+| output.tf | 2 | Use snake_case for resource names |
+| output.tf | 3 | Use snake_case for resource names |
+| output.tf | 4 | Use snake_case for resource names |
 | boilerplate_rules.tf | 1 | Use snake_case for resource names |
 | boilerplate_rules.tf | 2 | Use snake_case for resource names |
 | boilerplate_rules.tf | 3 | Use snake_case for resource names |
@@ -1128,10 +1128,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Use data sources where appropriate instead of hardcoding values |
-| output.tf | 2 | Use data sources where appropriate instead of hardcoding values |
-| output.tf | 3 | Use data sources where appropriate instead of hardcoding values |
-| output.tf | 4 | Use data sources where appropriate instead of hardcoding values |
 | main.tf | 1 | Use data sources where appropriate instead of hardcoding values |
 | main.tf | 2 | Use data sources where appropriate instead of hardcoding values |
 | main.tf | 3 | Use data sources where appropriate instead of hardcoding values |
@@ -1323,6 +1319,10 @@
 | main.tf | 189 | Use data sources where appropriate instead of hardcoding values |
 | main.tf | 190 | Use data sources where appropriate instead of hardcoding values |
 | main.tf | 191 | Use data sources where appropriate instead of hardcoding values |
+| output.tf | 1 | Use data sources where appropriate instead of hardcoding values |
+| output.tf | 2 | Use data sources where appropriate instead of hardcoding values |
+| output.tf | 3 | Use data sources where appropriate instead of hardcoding values |
+| output.tf | 4 | Use data sources where appropriate instead of hardcoding values |
 | boilerplate_rules.tf | 1 | Use data sources where appropriate instead of hardcoding values |
 | boilerplate_rules.tf | 2 | Use data sources where appropriate instead of hardcoding values |
 | boilerplate_rules.tf | 3 | Use data sources where appropriate instead of hardcoding values |
@@ -1406,10 +1406,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Avoid hardcoding dependencies; use a dependency management tool. |
-| output.tf | 2 | Avoid hardcoding dependencies; use a dependency management tool. |
-| output.tf | 3 | Avoid hardcoding dependencies; use a dependency management tool. |
-| output.tf | 4 | Avoid hardcoding dependencies; use a dependency management tool. |
 | main.tf | 1 | Avoid hardcoding dependencies; use a dependency management tool. |
 | main.tf | 2 | Avoid hardcoding dependencies; use a dependency management tool. |
 | main.tf | 3 | Avoid hardcoding dependencies; use a dependency management tool. |
@@ -1601,6 +1597,10 @@
 | main.tf | 189 | Avoid hardcoding dependencies; use a dependency management tool. |
 | main.tf | 190 | Avoid hardcoding dependencies; use a dependency management tool. |
 | main.tf | 191 | Avoid hardcoding dependencies; use a dependency management tool. |
+| output.tf | 1 | Avoid hardcoding dependencies; use a dependency management tool. |
+| output.tf | 2 | Avoid hardcoding dependencies; use a dependency management tool. |
+| output.tf | 3 | Avoid hardcoding dependencies; use a dependency management tool. |
+| output.tf | 4 | Avoid hardcoding dependencies; use a dependency management tool. |
 | boilerplate_rules.tf | 1 | Avoid hardcoding dependencies; use a dependency management tool. |
 | boilerplate_rules.tf | 2 | Avoid hardcoding dependencies; use a dependency management tool. |
 | boilerplate_rules.tf | 3 | Avoid hardcoding dependencies; use a dependency management tool. |
@@ -1682,10 +1682,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Ensure dependencies are updated to the latest stable versions. |
-| output.tf | 2 | Ensure dependencies are updated to the latest stable versions. |
-| output.tf | 3 | Ensure dependencies are updated to the latest stable versions. |
-| output.tf | 4 | Ensure dependencies are updated to the latest stable versions. |
 | main.tf | 1 | Ensure dependencies are updated to the latest stable versions. |
 | main.tf | 2 | Ensure dependencies are updated to the latest stable versions. |
 | main.tf | 3 | Ensure dependencies are updated to the latest stable versions. |
@@ -1877,6 +1873,10 @@
 | main.tf | 189 | Ensure dependencies are updated to the latest stable versions. |
 | main.tf | 190 | Ensure dependencies are updated to the latest stable versions. |
 | main.tf | 191 | Ensure dependencies are updated to the latest stable versions. |
+| output.tf | 1 | Ensure dependencies are updated to the latest stable versions. |
+| output.tf | 2 | Ensure dependencies are updated to the latest stable versions. |
+| output.tf | 3 | Ensure dependencies are updated to the latest stable versions. |
+| output.tf | 4 | Ensure dependencies are updated to the latest stable versions. |
 | boilerplate_rules.tf | 1 | Ensure dependencies are updated to the latest stable versions. |
 | boilerplate_rules.tf | 2 | Ensure dependencies are updated to the latest stable versions. |
 | boilerplate_rules.tf | 3 | Ensure dependencies are updated to the latest stable versions. |
@@ -1960,10 +1960,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Ensure resources are encrypted where applicable |
-| output.tf | 2 | Ensure resources are encrypted where applicable |
-| output.tf | 3 | Ensure resources are encrypted where applicable |
-| output.tf | 4 | Ensure resources are encrypted where applicable |
 | main.tf | 1 | Ensure resources are encrypted where applicable |
 | main.tf | 2 | Ensure resources are encrypted where applicable |
 | main.tf | 3 | Ensure resources are encrypted where applicable |
@@ -2155,6 +2151,10 @@
 | main.tf | 189 | Ensure resources are encrypted where applicable |
 | main.tf | 190 | Ensure resources are encrypted where applicable |
 | main.tf | 191 | Ensure resources are encrypted where applicable |
+| output.tf | 1 | Ensure resources are encrypted where applicable |
+| output.tf | 2 | Ensure resources are encrypted where applicable |
+| output.tf | 3 | Ensure resources are encrypted where applicable |
+| output.tf | 4 | Ensure resources are encrypted where applicable |
 | boilerplate_rules.tf | 1 | Ensure resources are encrypted where applicable |
 | boilerplate_rules.tf | 2 | Ensure resources are encrypted where applicable |
 | boilerplate_rules.tf | 3 | Ensure resources are encrypted where applicable |
@@ -2236,10 +2236,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Restrict public access to resources unless necessary |
-| output.tf | 2 | Restrict public access to resources unless necessary |
-| output.tf | 3 | Restrict public access to resources unless necessary |
-| output.tf | 4 | Restrict public access to resources unless necessary |
 | main.tf | 1 | Restrict public access to resources unless necessary |
 | main.tf | 2 | Restrict public access to resources unless necessary |
 | main.tf | 3 | Restrict public access to resources unless necessary |
@@ -2431,6 +2427,10 @@
 | main.tf | 189 | Restrict public access to resources unless necessary |
 | main.tf | 190 | Restrict public access to resources unless necessary |
 | main.tf | 191 | Restrict public access to resources unless necessary |
+| output.tf | 1 | Restrict public access to resources unless necessary |
+| output.tf | 2 | Restrict public access to resources unless necessary |
+| output.tf | 3 | Restrict public access to resources unless necessary |
+| output.tf | 4 | Restrict public access to resources unless necessary |
 | boilerplate_rules.tf | 1 | Restrict public access to resources unless necessary |
 | boilerplate_rules.tf | 2 | Restrict public access to resources unless necessary |
 | boilerplate_rules.tf | 3 | Restrict public access to resources unless necessary |
@@ -2512,10 +2512,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Use secure protocols (HTTPS) where applicable |
-| output.tf | 2 | Use secure protocols (HTTPS) where applicable |
-| output.tf | 3 | Use secure protocols (HTTPS) where applicable |
-| output.tf | 4 | Use secure protocols (HTTPS) where applicable |
 | main.tf | 1 | Use secure protocols (HTTPS) where applicable |
 | main.tf | 2 | Use secure protocols (HTTPS) where applicable |
 | main.tf | 3 | Use secure protocols (HTTPS) where applicable |
@@ -2707,6 +2703,10 @@
 | main.tf | 189 | Use secure protocols (HTTPS) where applicable |
 | main.tf | 190 | Use secure protocols (HTTPS) where applicable |
 | main.tf | 191 | Use secure protocols (HTTPS) where applicable |
+| output.tf | 1 | Use secure protocols (HTTPS) where applicable |
+| output.tf | 2 | Use secure protocols (HTTPS) where applicable |
+| output.tf | 3 | Use secure protocols (HTTPS) where applicable |
+| output.tf | 4 | Use secure protocols (HTTPS) where applicable |
 | boilerplate_rules.tf | 1 | Use secure protocols (HTTPS) where applicable |
 | boilerplate_rules.tf | 2 | Use secure protocols (HTTPS) where applicable |
 | boilerplate_rules.tf | 3 | Use secure protocols (HTTPS) where applicable |
@@ -2790,10 +2790,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Ensure exceptions are handled properly to prevent application crashes. |
-| output.tf | 2 | Ensure exceptions are handled properly to prevent application crashes. |
-| output.tf | 3 | Ensure exceptions are handled properly to prevent application crashes. |
-| output.tf | 4 | Ensure exceptions are handled properly to prevent application crashes. |
 | main.tf | 1 | Ensure exceptions are handled properly to prevent application crashes. |
 | main.tf | 2 | Ensure exceptions are handled properly to prevent application crashes. |
 | main.tf | 3 | Ensure exceptions are handled properly to prevent application crashes. |
@@ -2985,6 +2981,10 @@
 | main.tf | 189 | Ensure exceptions are handled properly to prevent application crashes. |
 | main.tf | 190 | Ensure exceptions are handled properly to prevent application crashes. |
 | main.tf | 191 | Ensure exceptions are handled properly to prevent application crashes. |
+| output.tf | 1 | Ensure exceptions are handled properly to prevent application crashes. |
+| output.tf | 2 | Ensure exceptions are handled properly to prevent application crashes. |
+| output.tf | 3 | Ensure exceptions are handled properly to prevent application crashes. |
+| output.tf | 4 | Ensure exceptions are handled properly to prevent application crashes. |
 | boilerplate_rules.tf | 1 | Ensure exceptions are handled properly to prevent application crashes. |
 | boilerplate_rules.tf | 2 | Ensure exceptions are handled properly to prevent application crashes. |
 | boilerplate_rules.tf | 3 | Ensure exceptions are handled properly to prevent application crashes. |
@@ -3066,10 +3066,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Ensure error logging is implemented for better debugging. |
-| output.tf | 2 | Ensure error logging is implemented for better debugging. |
-| output.tf | 3 | Ensure error logging is implemented for better debugging. |
-| output.tf | 4 | Ensure error logging is implemented for better debugging. |
 | main.tf | 1 | Ensure error logging is implemented for better debugging. |
 | main.tf | 2 | Ensure error logging is implemented for better debugging. |
 | main.tf | 3 | Ensure error logging is implemented for better debugging. |
@@ -3261,6 +3257,10 @@
 | main.tf | 189 | Ensure error logging is implemented for better debugging. |
 | main.tf | 190 | Ensure error logging is implemented for better debugging. |
 | main.tf | 191 | Ensure error logging is implemented for better debugging. |
+| output.tf | 1 | Ensure error logging is implemented for better debugging. |
+| output.tf | 2 | Ensure error logging is implemented for better debugging. |
+| output.tf | 3 | Ensure error logging is implemented for better debugging. |
+| output.tf | 4 | Ensure error logging is implemented for better debugging. |
 | boilerplate_rules.tf | 1 | Ensure error logging is implemented for better debugging. |
 | boilerplate_rules.tf | 2 | Ensure error logging is implemented for better debugging. |
 | boilerplate_rules.tf | 3 | Ensure error logging is implemented for better debugging. |
@@ -3344,10 +3344,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Follow consistent resource naming conventions |
-| output.tf | 2 | Follow consistent resource naming conventions |
-| output.tf | 3 | Follow consistent resource naming conventions |
-| output.tf | 4 | Follow consistent resource naming conventions |
 | main.tf | 1 | Follow consistent resource naming conventions |
 | main.tf | 2 | Follow consistent resource naming conventions |
 | main.tf | 3 | Follow consistent resource naming conventions |
@@ -3537,6 +3533,10 @@
 | main.tf | 189 | Follow consistent resource naming conventions |
 | main.tf | 190 | Follow consistent resource naming conventions |
 | main.tf | 191 | Follow consistent resource naming conventions |
+| output.tf | 1 | Follow consistent resource naming conventions |
+| output.tf | 2 | Follow consistent resource naming conventions |
+| output.tf | 3 | Follow consistent resource naming conventions |
+| output.tf | 4 | Follow consistent resource naming conventions |
 | boilerplate_rules.tf | 1 | Follow consistent resource naming conventions |
 | boilerplate_rules.tf | 2 | Follow consistent resource naming conventions |
 | boilerplate_rules.tf | 3 | Follow consistent resource naming conventions |
@@ -3607,10 +3607,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Include tags for better resource management |
-| output.tf | 2 | Include tags for better resource management |
-| output.tf | 3 | Include tags for better resource management |
-| output.tf | 4 | Include tags for better resource management |
 | main.tf | 1 | Include tags for better resource management |
 | main.tf | 2 | Include tags for better resource management |
 | main.tf | 3 | Include tags for better resource management |
@@ -3790,6 +3786,10 @@
 | main.tf | 189 | Include tags for better resource management |
 | main.tf | 190 | Include tags for better resource management |
 | main.tf | 191 | Include tags for better resource management |
+| output.tf | 1 | Include tags for better resource management |
+| output.tf | 2 | Include tags for better resource management |
+| output.tf | 3 | Include tags for better resource management |
+| output.tf | 4 | Include tags for better resource management |
 | boilerplate_rules.tf | 1 | Include tags for better resource management |
 | boilerplate_rules.tf | 2 | Include tags for better resource management |
 | boilerplate_rules.tf | 3 | Include tags for better resource management |
@@ -3871,10 +3871,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Use IAM roles for access control instead of access keys |
-| output.tf | 2 | Use IAM roles for access control instead of access keys |
-| output.tf | 3 | Use IAM roles for access control instead of access keys |
-| output.tf | 4 | Use IAM roles for access control instead of access keys |
 | main.tf | 1 | Use IAM roles for access control instead of access keys |
 | main.tf | 2 | Use IAM roles for access control instead of access keys |
 | main.tf | 3 | Use IAM roles for access control instead of access keys |
@@ -4066,6 +4062,10 @@
 | main.tf | 189 | Use IAM roles for access control instead of access keys |
 | main.tf | 190 | Use IAM roles for access control instead of access keys |
 | main.tf | 191 | Use IAM roles for access control instead of access keys |
+| output.tf | 1 | Use IAM roles for access control instead of access keys |
+| output.tf | 2 | Use IAM roles for access control instead of access keys |
+| output.tf | 3 | Use IAM roles for access control instead of access keys |
+| output.tf | 4 | Use IAM roles for access control instead of access keys |
 | boilerplate_rules.tf | 1 | Use IAM roles for access control instead of access keys |
 | boilerplate_rules.tf | 2 | Use IAM roles for access control instead of access keys |
 | boilerplate_rules.tf | 3 | Use IAM roles for access control instead of access keys |
@@ -4148,10 +4148,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Consider using 'for_each' instead of 'count' for better modularity |
-| output.tf | 2 | Consider using 'for_each' instead of 'count' for better modularity |
-| output.tf | 3 | Consider using 'for_each' instead of 'count' for better modularity |
-| output.tf | 4 | Consider using 'for_each' instead of 'count' for better modularity |
 | main.tf | 1 | Consider using 'for_each' instead of 'count' for better modularity |
 | main.tf | 2 | Consider using 'for_each' instead of 'count' for better modularity |
 | main.tf | 3 | Consider using 'for_each' instead of 'count' for better modularity |
@@ -4342,6 +4338,10 @@
 | main.tf | 189 | Consider using 'for_each' instead of 'count' for better modularity |
 | main.tf | 190 | Consider using 'for_each' instead of 'count' for better modularity |
 | main.tf | 191 | Consider using 'for_each' instead of 'count' for better modularity |
+| output.tf | 1 | Consider using 'for_each' instead of 'count' for better modularity |
+| output.tf | 2 | Consider using 'for_each' instead of 'count' for better modularity |
+| output.tf | 3 | Consider using 'for_each' instead of 'count' for better modularity |
+| output.tf | 4 | Consider using 'for_each' instead of 'count' for better modularity |
 | boilerplate_rules.tf | 1 | Consider using 'for_each' instead of 'count' for better modularity |
 | boilerplate_rules.tf | 2 | Consider using 'for_each' instead of 'count' for better modularity |
 | boilerplate_rules.tf | 3 | Consider using 'for_each' instead of 'count' for better modularity |
@@ -4423,10 +4423,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Use modules to organize and reuse code |
-| output.tf | 2 | Use modules to organize and reuse code |
-| output.tf | 3 | Use modules to organize and reuse code |
-| output.tf | 4 | Use modules to organize and reuse code |
 | main.tf | 1 | Use modules to organize and reuse code |
 | main.tf | 2 | Use modules to organize and reuse code |
 | main.tf | 3 | Use modules to organize and reuse code |
@@ -4618,6 +4614,10 @@
 | main.tf | 189 | Use modules to organize and reuse code |
 | main.tf | 190 | Use modules to organize and reuse code |
 | main.tf | 191 | Use modules to organize and reuse code |
+| output.tf | 1 | Use modules to organize and reuse code |
+| output.tf | 2 | Use modules to organize and reuse code |
+| output.tf | 3 | Use modules to organize and reuse code |
+| output.tf | 4 | Use modules to organize and reuse code |
 | boilerplate_rules.tf | 1 | Use modules to organize and reuse code |
 | boilerplate_rules.tf | 2 | Use modules to organize and reuse code |
 | boilerplate_rules.tf | 3 | Use modules to organize and reuse code |
@@ -4701,10 +4701,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Avoid long-running processes; consider using asynchronous operations. |
-| output.tf | 2 | Avoid long-running processes; consider using asynchronous operations. |
-| output.tf | 3 | Avoid long-running processes; consider using asynchronous operations. |
-| output.tf | 4 | Avoid long-running processes; consider using asynchronous operations. |
 | main.tf | 1 | Avoid long-running processes; consider using asynchronous operations. |
 | main.tf | 2 | Avoid long-running processes; consider using asynchronous operations. |
 | main.tf | 3 | Avoid long-running processes; consider using asynchronous operations. |
@@ -4896,6 +4892,10 @@
 | main.tf | 189 | Avoid long-running processes; consider using asynchronous operations. |
 | main.tf | 190 | Avoid long-running processes; consider using asynchronous operations. |
 | main.tf | 191 | Avoid long-running processes; consider using asynchronous operations. |
+| output.tf | 1 | Avoid long-running processes; consider using asynchronous operations. |
+| output.tf | 2 | Avoid long-running processes; consider using asynchronous operations. |
+| output.tf | 3 | Avoid long-running processes; consider using asynchronous operations. |
+| output.tf | 4 | Avoid long-running processes; consider using asynchronous operations. |
 | boilerplate_rules.tf | 1 | Avoid long-running processes; consider using asynchronous operations. |
 | boilerplate_rules.tf | 2 | Avoid long-running processes; consider using asynchronous operations. |
 | boilerplate_rules.tf | 3 | Avoid long-running processes; consider using asynchronous operations. |
@@ -4977,10 +4977,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Avoid using SELECT *; specify columns to optimize database queries. |
-| output.tf | 2 | Avoid using SELECT *; specify columns to optimize database queries. |
-| output.tf | 3 | Avoid using SELECT *; specify columns to optimize database queries. |
-| output.tf | 4 | Avoid using SELECT *; specify columns to optimize database queries. |
 | main.tf | 1 | Avoid using SELECT *; specify columns to optimize database queries. |
 | main.tf | 2 | Avoid using SELECT *; specify columns to optimize database queries. |
 | main.tf | 3 | Avoid using SELECT *; specify columns to optimize database queries. |
@@ -5172,6 +5168,10 @@
 | main.tf | 189 | Avoid using SELECT *; specify columns to optimize database queries. |
 | main.tf | 190 | Avoid using SELECT *; specify columns to optimize database queries. |
 | main.tf | 191 | Avoid using SELECT *; specify columns to optimize database queries. |
+| output.tf | 1 | Avoid using SELECT *; specify columns to optimize database queries. |
+| output.tf | 2 | Avoid using SELECT *; specify columns to optimize database queries. |
+| output.tf | 3 | Avoid using SELECT *; specify columns to optimize database queries. |
+| output.tf | 4 | Avoid using SELECT *; specify columns to optimize database queries. |
 | boilerplate_rules.tf | 1 | Avoid using SELECT *; specify columns to optimize database queries. |
 | boilerplate_rules.tf | 2 | Avoid using SELECT *; specify columns to optimize database queries. |
 | boilerplate_rules.tf | 3 | Avoid using SELECT *; specify columns to optimize database queries. |
@@ -5255,10 +5255,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Provide user feedback for actions to enhance user experience. |
-| output.tf | 2 | Provide user feedback for actions to enhance user experience. |
-| output.tf | 3 | Provide user feedback for actions to enhance user experience. |
-| output.tf | 4 | Provide user feedback for actions to enhance user experience. |
 | main.tf | 1 | Provide user feedback for actions to enhance user experience. |
 | main.tf | 2 | Provide user feedback for actions to enhance user experience. |
 | main.tf | 3 | Provide user feedback for actions to enhance user experience. |
@@ -5450,6 +5446,10 @@
 | main.tf | 189 | Provide user feedback for actions to enhance user experience. |
 | main.tf | 190 | Provide user feedback for actions to enhance user experience. |
 | main.tf | 191 | Provide user feedback for actions to enhance user experience. |
+| output.tf | 1 | Provide user feedback for actions to enhance user experience. |
+| output.tf | 2 | Provide user feedback for actions to enhance user experience. |
+| output.tf | 3 | Provide user feedback for actions to enhance user experience. |
+| output.tf | 4 | Provide user feedback for actions to enhance user experience. |
 | boilerplate_rules.tf | 1 | Provide user feedback for actions to enhance user experience. |
 | boilerplate_rules.tf | 2 | Provide user feedback for actions to enhance user experience. |
 | boilerplate_rules.tf | 3 | Provide user feedback for actions to enhance user experience. |
@@ -5531,10 +5531,6 @@
 
 | File | Line | Message |
 |------|------|---------|
-| output.tf | 1 | Ensure user inputs are validated to prevent errors and improve UX. |
-| output.tf | 2 | Ensure user inputs are validated to prevent errors and improve UX. |
-| output.tf | 3 | Ensure user inputs are validated to prevent errors and improve UX. |
-| output.tf | 4 | Ensure user inputs are validated to prevent errors and improve UX. |
 | main.tf | 1 | Ensure user inputs are validated to prevent errors and improve UX. |
 | main.tf | 2 | Ensure user inputs are validated to prevent errors and improve UX. |
 | main.tf | 3 | Ensure user inputs are validated to prevent errors and improve UX. |
@@ -5726,6 +5722,10 @@
 | main.tf | 189 | Ensure user inputs are validated to prevent errors and improve UX. |
 | main.tf | 190 | Ensure user inputs are validated to prevent errors and improve UX. |
 | main.tf | 191 | Ensure user inputs are validated to prevent errors and improve UX. |
+| output.tf | 1 | Ensure user inputs are validated to prevent errors and improve UX. |
+| output.tf | 2 | Ensure user inputs are validated to prevent errors and improve UX. |
+| output.tf | 3 | Ensure user inputs are validated to prevent errors and improve UX. |
+| output.tf | 4 | Ensure user inputs are validated to prevent errors and improve UX. |
 | boilerplate_rules.tf | 1 | Ensure user inputs are validated to prevent errors and improve UX. |
 | boilerplate_rules.tf | 2 | Ensure user inputs are validated to prevent errors and improve UX. |
 | boilerplate_rules.tf | 3 | Ensure user inputs are validated to prevent errors and improve UX. |
