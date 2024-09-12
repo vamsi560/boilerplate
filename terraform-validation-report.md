@@ -1,18 +1,43 @@
 # Terraform Boilerplate Validation Report
 
-**Total Violations Found: 29**
+**Total Violations Found: 45**
 
 ## Summary
 
 | Category | Subcategory | Violation Count |
 |----------|-------------|-----------------|
+| Accelerate Development and Operations | ImplementVariables | 1 |
+| | UseCountOrForEach | 1 |
+| | UseOutputs | 1 |
 | Coding Standards | IncludeDescription | 2 |
+| Facilitate Compliance | EnforceResourceTags | 12 |
+| | UseCompliantAMIs | 1 |
 | Improve Governance | EnforceResourceNaming | 13 |
 | | RequireTags | 12 |
 | | UseIAMRoles | 1 |
 | Modular Design | LimitResourceCount | 1 |
 
 ## Detailed Findings
+
+### Accelerate Development and Operations
+
+#### ImplementVariables
+
+| File | Line | Message | Example |
+|------|------|---------|---------|
+| boilerplate_rules.tf | 1 | Use variables to make your Terraform configurations more flexible and reusable | Correct: 'variable "environment" { type = string }' |
+
+#### UseCountOrForEach
+
+| File | Line | Message | Example |
+|------|------|---------|---------|
+| main.tf | 58 | Use count or for_each to manage similar resources efficiently | Correct: 'count = length(var.subnet_cidrs)' or 'for_each = toset(var.subnet_cidrs)' |
+
+#### UseOutputs
+
+| File | Line | Message | Example |
+|------|------|---------|---------|
+| output.tf | 1 | Define outputs to expose important information for other parts of your infrastructure | Correct: 'output "vpc_id" { value = aws_vpc.main.id }' |
 
 ### Coding Standards
 
@@ -23,14 +48,37 @@
 | main.tf | 103 | Include a description for each resource | Correct: 'description = "This is a description for the resource"'. |
 | main.tf | 178 | Include a description for each resource | Correct: 'description = "This is a description for the resource"'. |
 
+### Facilitate Compliance
+
+#### EnforceResourceTags
+
+| File | Line | Message | Example |
+|------|------|---------|---------|
+| main.tf | 10 | Ensure all resources have required tags for compliance and resource tracking | Correct: 'tags = { Environment = "prod", Project = "MyProject", Compliance = "PCI" }' |
+| main.tf | 21 | Ensure all resources have required tags for compliance and resource tracking | Correct: 'tags = { Environment = "prod", Project = "MyProject", Compliance = "PCI" }' |
+| main.tf | 31 | Ensure all resources have required tags for compliance and resource tracking | Correct: 'tags = { Environment = "prod", Project = "MyProject", Compliance = "PCI" }' |
+| main.tf | 40 | Ensure all resources have required tags for compliance and resource tracking | Correct: 'tags = { Environment = "prod", Project = "MyProject", Compliance = "PCI" }' |
+| main.tf | 50 | Ensure all resources have required tags for compliance and resource tracking | Correct: 'tags = { Environment = "prod", Project = "MyProject", Compliance = "PCI" }' |
+| main.tf | 70 | Ensure all resources have required tags for compliance and resource tracking | Correct: 'tags = { Environment = "prod", Project = "MyProject", Compliance = "PCI" }' |
+| main.tf | 84 | Ensure all resources have required tags for compliance and resource tracking | Correct: 'tags = { Environment = "prod", Project = "MyProject", Compliance = "PCI" }' |
+| main.tf | 120 | Ensure all resources have required tags for compliance and resource tracking | Correct: 'tags = { Environment = "prod", Project = "MyProject", Compliance = "PCI" }' |
+| main.tf | 135 | Ensure all resources have required tags for compliance and resource tracking | Correct: 'tags = { Environment = "prod", Project = "MyProject", Compliance = "PCI" }' |
+| main.tf | 145 | Ensure all resources have required tags for compliance and resource tracking | Correct: 'tags = { Environment = "prod", Project = "MyProject", Compliance = "PCI" }' |
+| main.tf | 164 | Ensure all resources have required tags for compliance and resource tracking | Correct: 'tags = { Environment = "prod", Project = "MyProject", Compliance = "PCI" }' |
+| main.tf | 188 | Ensure all resources have required tags for compliance and resource tracking | Correct: 'tags = { Environment = "prod", Project = "MyProject", Compliance = "PCI" }' |
+
+#### UseCompliantAMIs
+
+| File | Line | Message | Example |
+|------|------|---------|---------|
+| main.tf | 127 | Use only pre-approved, compliant AMIs for EC2 instances | Correct: 'ami = "ami-12345abcde"' where ami-12345abcde is a pre-approved AMI |
+
 ### Improve Governance
 
 #### EnforceResourceNaming
 
 | File | Line | Message | Example |
 |------|------|---------|---------|
-| main.tf | 155 | Follow consistent resource naming conventions | Correct: 'name = "resource-name"'. Incorrect: 'name = "ResourceName"'. |
-| main.tf | 156 | Follow consistent resource naming conventions | Correct: 'name = "resource-name"'. Incorrect: 'name = "ResourceName"'. |
 | boilerplate_rules.tf | 11 | Follow consistent resource naming conventions | Correct: 'name = "resource-name"'. Incorrect: 'name = "ResourceName"'. |
 | boilerplate_rules.tf | 17 | Follow consistent resource naming conventions | Correct: 'name = "resource-name"'. Incorrect: 'name = "ResourceName"'. |
 | boilerplate_rules.tf | 23 | Follow consistent resource naming conventions | Correct: 'name = "resource-name"'. Incorrect: 'name = "ResourceName"'. |
@@ -42,6 +90,8 @@
 | boilerplate_rules.tf | 59 | Follow consistent resource naming conventions | Correct: 'name = "resource-name"'. Incorrect: 'name = "ResourceName"'. |
 | boilerplate_rules.tf | 65 | Follow consistent resource naming conventions | Correct: 'name = "resource-name"'. Incorrect: 'name = "ResourceName"'. |
 | boilerplate_rules.tf | 71 | Follow consistent resource naming conventions | Correct: 'name = "resource-name"'. Incorrect: 'name = "ResourceName"'. |
+| main.tf | 155 | Follow consistent resource naming conventions | Correct: 'name = "resource-name"'. Incorrect: 'name = "ResourceName"'. |
+| main.tf | 156 | Follow consistent resource naming conventions | Correct: 'name = "resource-name"'. Incorrect: 'name = "ResourceName"'. |
 
 #### RequireTags
 
