@@ -112,6 +112,7 @@ function Generate-Report {
 
     return $report
 }
+
 # Main execution
 $rules = Get-BoilerplateRules
 if ($null -eq $rules) {
@@ -141,5 +142,11 @@ Set-Content -Path $reportPath -Value $report
 Write-Host "Validation report saved to $reportPath"
 Write-Host "Total violations found: $($allViolations.Values | Measure-Object -Property Count -Sum | Select-Object -ExpandProperty Sum)"
 
-# Always exit with 0 to indicate success, regardless of violations found
-exit 0
+# Exit with a non-zero status code if violations are found
+if ($allViolations.Count -gt 0) {
+    Write-Host "Violations found. Failing the pipeline."
+    exit 1
+} else {
+    Write-Host "No violations found. Pipeline can proceed."
+    exit 0
+}
