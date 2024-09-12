@@ -29,8 +29,10 @@ function Check-TerraformFile {
         foreach ($line in $content) {
             if ($line -notmatch $rule.pattern) {
                 $violations += @{
+                    File = $filePath
                     Line = $lineNumber
                     Rule = $rule.name
+                    Category = $rule.category
                     Message = $rule.message
                 }
             }
@@ -110,7 +112,6 @@ function Generate-Report {
 
     return $report
 }
-
 # Main execution
 $rules = Get-BoilerplateRules
 if ($null -eq $rules) {
