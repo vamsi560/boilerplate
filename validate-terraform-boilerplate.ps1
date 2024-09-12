@@ -72,18 +72,39 @@ function Generate-Report {
         $allViolations
     )
 
-    $report = "Terraform Boilerplate Validation Report`n"
-    $report += "======================================`n`n"
+    $report = "# Terraform Boilerplate Validation Report`n`n"
 
     if ($allViolations.Count -eq 0) {
         $report += "No violations found. All files comply with the boilerplate rules.`n"
     } else {
-        foreach ($file in $allViolations.Keys) {
-            $report += "File: $file`n"
-            foreach ($violation in $allViolations[$file]) {
-                $report += "  Line $($violation.Line): $($violation.Rule) - $($violation.Message)`n"
+        $totalViolations = ($allViolations.Values | ForEach-Object { $_ } | Measure-Object).Count
+        $report += "**Total Violations Found: $totalViolations**`n`n"
+
+        $report += "## Summary`n`n"
+        $categorizedViolations = $allViolations.Values | ForEach-Object { $_ } | Group-Object -Property Category
+
+        $report += "| Category | Violation Count |`n"
+        $report += "|----------|-----------------|`n"
+        foreach ($category in $categorizedViolations) {
+            $report += "| $($category.Name) | $($category.Count) |`n"
+        }
+        $report += "`n"
+
+        $report += "## Detailed Findings`n`n"
+        foreach ($category in $categorizedViolations) {
+            $report += "### $($category.Name)`n`n"
+            
+            $ruleViolations = $category.Group | Group-Object -Property Rule
+            foreach ($rule in $ruleViolations) {
+                $report += "#### $($rule.Name)`n`n"
+                $report += "| File | Line | Message |`n"
+                $report += "|------|------|---------|`n"
+                foreach ($violation in $rule.Group) {
+                    $fileName = Split-Path $violation.File -Leaf
+                    $report += "| $fileName | $($violation.Line) | $($violation.Message) |`n"
+                }
+                $report += "`n"
             }
-            $report += "`n"
         }
     }
 
