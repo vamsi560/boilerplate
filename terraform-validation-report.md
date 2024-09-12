@@ -1,2136 +1,2198 @@
-Terraform Boilerplate Validation Report
-======================================
+# Terraform Boilerplate Validation Report
 
-File: /home/runner/work/boilerplate/boilerplate/main.tf
-  Line 1: UseConsistentNaming - Use snake_case for resource names
-  Line 2: UseConsistentNaming - Use snake_case for resource names
-  Line 3: UseConsistentNaming - Use snake_case for resource names
-  Line 4: UseConsistentNaming - Use snake_case for resource names
-  Line 5: UseConsistentNaming - Use snake_case for resource names
-  Line 6: UseConsistentNaming - Use snake_case for resource names
-  Line 7: UseConsistentNaming - Use snake_case for resource names
-  Line 8: UseConsistentNaming - Use snake_case for resource names
-  Line 9: UseConsistentNaming - Use snake_case for resource names
-  Line 10: UseConsistentNaming - Use snake_case for resource names
-  Line 11: UseConsistentNaming - Use snake_case for resource names
-  Line 12: UseConsistentNaming - Use snake_case for resource names
-  Line 13: UseConsistentNaming - Use snake_case for resource names
-  Line 14: UseConsistentNaming - Use snake_case for resource names
-  Line 15: UseConsistentNaming - Use snake_case for resource names
-  Line 16: UseConsistentNaming - Use snake_case for resource names
-  Line 17: UseConsistentNaming - Use snake_case for resource names
-  Line 18: UseConsistentNaming - Use snake_case for resource names
-  Line 19: UseConsistentNaming - Use snake_case for resource names
-  Line 20: UseConsistentNaming - Use snake_case for resource names
-  Line 21: UseConsistentNaming - Use snake_case for resource names
-  Line 22: UseConsistentNaming - Use snake_case for resource names
-  Line 23: UseConsistentNaming - Use snake_case for resource names
-  Line 24: UseConsistentNaming - Use snake_case for resource names
-  Line 25: UseConsistentNaming - Use snake_case for resource names
-  Line 26: UseConsistentNaming - Use snake_case for resource names
-  Line 27: UseConsistentNaming - Use snake_case for resource names
-  Line 28: UseConsistentNaming - Use snake_case for resource names
-  Line 29: UseConsistentNaming - Use snake_case for resource names
-  Line 30: UseConsistentNaming - Use snake_case for resource names
-  Line 31: UseConsistentNaming - Use snake_case for resource names
-  Line 32: UseConsistentNaming - Use snake_case for resource names
-  Line 33: UseConsistentNaming - Use snake_case for resource names
-  Line 34: UseConsistentNaming - Use snake_case for resource names
-  Line 35: UseConsistentNaming - Use snake_case for resource names
-  Line 36: UseConsistentNaming - Use snake_case for resource names
-  Line 37: UseConsistentNaming - Use snake_case for resource names
-  Line 38: UseConsistentNaming - Use snake_case for resource names
-  Line 39: UseConsistentNaming - Use snake_case for resource names
-  Line 40: UseConsistentNaming - Use snake_case for resource names
-  Line 41: UseConsistentNaming - Use snake_case for resource names
-  Line 42: UseConsistentNaming - Use snake_case for resource names
-  Line 43: UseConsistentNaming - Use snake_case for resource names
-  Line 44: UseConsistentNaming - Use snake_case for resource names
-  Line 45: UseConsistentNaming - Use snake_case for resource names
-  Line 46: UseConsistentNaming - Use snake_case for resource names
-  Line 47: UseConsistentNaming - Use snake_case for resource names
-  Line 48: UseConsistentNaming - Use snake_case for resource names
-  Line 49: UseConsistentNaming - Use snake_case for resource names
-  Line 50: UseConsistentNaming - Use snake_case for resource names
-  Line 51: UseConsistentNaming - Use snake_case for resource names
-  Line 52: UseConsistentNaming - Use snake_case for resource names
-  Line 53: UseConsistentNaming - Use snake_case for resource names
-  Line 54: UseConsistentNaming - Use snake_case for resource names
-  Line 55: UseConsistentNaming - Use snake_case for resource names
-  Line 56: UseConsistentNaming - Use snake_case for resource names
-  Line 57: UseConsistentNaming - Use snake_case for resource names
-  Line 58: UseConsistentNaming - Use snake_case for resource names
-  Line 59: UseConsistentNaming - Use snake_case for resource names
-  Line 60: UseConsistentNaming - Use snake_case for resource names
-  Line 61: UseConsistentNaming - Use snake_case for resource names
-  Line 62: UseConsistentNaming - Use snake_case for resource names
-  Line 63: UseConsistentNaming - Use snake_case for resource names
-  Line 64: UseConsistentNaming - Use snake_case for resource names
-  Line 65: UseConsistentNaming - Use snake_case for resource names
-  Line 66: UseConsistentNaming - Use snake_case for resource names
-  Line 67: UseConsistentNaming - Use snake_case for resource names
-  Line 68: UseConsistentNaming - Use snake_case for resource names
-  Line 69: UseConsistentNaming - Use snake_case for resource names
-  Line 70: UseConsistentNaming - Use snake_case for resource names
-  Line 71: UseConsistentNaming - Use snake_case for resource names
-  Line 72: UseConsistentNaming - Use snake_case for resource names
-  Line 73: UseConsistentNaming - Use snake_case for resource names
-  Line 74: UseConsistentNaming - Use snake_case for resource names
-  Line 75: UseConsistentNaming - Use snake_case for resource names
-  Line 76: UseConsistentNaming - Use snake_case for resource names
-  Line 77: UseConsistentNaming - Use snake_case for resource names
-  Line 78: UseConsistentNaming - Use snake_case for resource names
-  Line 79: UseConsistentNaming - Use snake_case for resource names
-  Line 80: UseConsistentNaming - Use snake_case for resource names
-  Line 81: UseConsistentNaming - Use snake_case for resource names
-  Line 82: UseConsistentNaming - Use snake_case for resource names
-  Line 83: UseConsistentNaming - Use snake_case for resource names
-  Line 84: UseConsistentNaming - Use snake_case for resource names
-  Line 85: UseConsistentNaming - Use snake_case for resource names
-  Line 86: UseConsistentNaming - Use snake_case for resource names
-  Line 87: UseConsistentNaming - Use snake_case for resource names
-  Line 88: UseConsistentNaming - Use snake_case for resource names
-  Line 89: UseConsistentNaming - Use snake_case for resource names
-  Line 90: UseConsistentNaming - Use snake_case for resource names
-  Line 91: UseConsistentNaming - Use snake_case for resource names
-  Line 92: UseConsistentNaming - Use snake_case for resource names
-  Line 93: UseConsistentNaming - Use snake_case for resource names
-  Line 94: UseConsistentNaming - Use snake_case for resource names
-  Line 95: UseConsistentNaming - Use snake_case for resource names
-  Line 96: UseConsistentNaming - Use snake_case for resource names
-  Line 97: UseConsistentNaming - Use snake_case for resource names
-  Line 98: UseConsistentNaming - Use snake_case for resource names
-  Line 99: UseConsistentNaming - Use snake_case for resource names
-  Line 100: UseConsistentNaming - Use snake_case for resource names
-  Line 101: UseConsistentNaming - Use snake_case for resource names
-  Line 102: UseConsistentNaming - Use snake_case for resource names
-  Line 103: UseConsistentNaming - Use snake_case for resource names
-  Line 104: UseConsistentNaming - Use snake_case for resource names
-  Line 105: UseConsistentNaming - Use snake_case for resource names
-  Line 106: UseConsistentNaming - Use snake_case for resource names
-  Line 107: UseConsistentNaming - Use snake_case for resource names
-  Line 108: UseConsistentNaming - Use snake_case for resource names
-  Line 109: UseConsistentNaming - Use snake_case for resource names
-  Line 110: UseConsistentNaming - Use snake_case for resource names
-  Line 111: UseConsistentNaming - Use snake_case for resource names
-  Line 112: UseConsistentNaming - Use snake_case for resource names
-  Line 113: UseConsistentNaming - Use snake_case for resource names
-  Line 114: UseConsistentNaming - Use snake_case for resource names
-  Line 115: UseConsistentNaming - Use snake_case for resource names
-  Line 116: UseConsistentNaming - Use snake_case for resource names
-  Line 117: UseConsistentNaming - Use snake_case for resource names
-  Line 118: UseConsistentNaming - Use snake_case for resource names
-  Line 119: UseConsistentNaming - Use snake_case for resource names
-  Line 120: UseConsistentNaming - Use snake_case for resource names
-  Line 121: UseConsistentNaming - Use snake_case for resource names
-  Line 122: UseConsistentNaming - Use snake_case for resource names
-  Line 123: UseConsistentNaming - Use snake_case for resource names
-  Line 124: UseConsistentNaming - Use snake_case for resource names
-  Line 125: UseConsistentNaming - Use snake_case for resource names
-  Line 126: UseConsistentNaming - Use snake_case for resource names
-  Line 127: UseConsistentNaming - Use snake_case for resource names
-  Line 128: UseConsistentNaming - Use snake_case for resource names
-  Line 129: UseConsistentNaming - Use snake_case for resource names
-  Line 130: UseConsistentNaming - Use snake_case for resource names
-  Line 131: UseConsistentNaming - Use snake_case for resource names
-  Line 132: UseConsistentNaming - Use snake_case for resource names
-  Line 133: UseConsistentNaming - Use snake_case for resource names
-  Line 134: UseConsistentNaming - Use snake_case for resource names
-  Line 135: UseConsistentNaming - Use snake_case for resource names
-  Line 136: UseConsistentNaming - Use snake_case for resource names
-  Line 137: UseConsistentNaming - Use snake_case for resource names
-  Line 138: UseConsistentNaming - Use snake_case for resource names
-  Line 139: UseConsistentNaming - Use snake_case for resource names
-  Line 140: UseConsistentNaming - Use snake_case for resource names
-  Line 141: UseConsistentNaming - Use snake_case for resource names
-  Line 142: UseConsistentNaming - Use snake_case for resource names
-  Line 143: UseConsistentNaming - Use snake_case for resource names
-  Line 144: UseConsistentNaming - Use snake_case for resource names
-  Line 145: UseConsistentNaming - Use snake_case for resource names
-  Line 146: UseConsistentNaming - Use snake_case for resource names
-  Line 147: UseConsistentNaming - Use snake_case for resource names
-  Line 148: UseConsistentNaming - Use snake_case for resource names
-  Line 149: UseConsistentNaming - Use snake_case for resource names
-  Line 150: UseConsistentNaming - Use snake_case for resource names
-  Line 151: UseConsistentNaming - Use snake_case for resource names
-  Line 152: UseConsistentNaming - Use snake_case for resource names
-  Line 153: UseConsistentNaming - Use snake_case for resource names
-  Line 154: UseConsistentNaming - Use snake_case for resource names
-  Line 155: UseConsistentNaming - Use snake_case for resource names
-  Line 156: UseConsistentNaming - Use snake_case for resource names
-  Line 157: UseConsistentNaming - Use snake_case for resource names
-  Line 158: UseConsistentNaming - Use snake_case for resource names
-  Line 159: UseConsistentNaming - Use snake_case for resource names
-  Line 160: UseConsistentNaming - Use snake_case for resource names
-  Line 161: UseConsistentNaming - Use snake_case for resource names
-  Line 162: UseConsistentNaming - Use snake_case for resource names
-  Line 163: UseConsistentNaming - Use snake_case for resource names
-  Line 164: UseConsistentNaming - Use snake_case for resource names
-  Line 165: UseConsistentNaming - Use snake_case for resource names
-  Line 166: UseConsistentNaming - Use snake_case for resource names
-  Line 167: UseConsistentNaming - Use snake_case for resource names
-  Line 168: UseConsistentNaming - Use snake_case for resource names
-  Line 169: UseConsistentNaming - Use snake_case for resource names
-  Line 170: UseConsistentNaming - Use snake_case for resource names
-  Line 171: UseConsistentNaming - Use snake_case for resource names
-  Line 172: UseConsistentNaming - Use snake_case for resource names
-  Line 173: UseConsistentNaming - Use snake_case for resource names
-  Line 174: UseConsistentNaming - Use snake_case for resource names
-  Line 175: UseConsistentNaming - Use snake_case for resource names
-  Line 176: UseConsistentNaming - Use snake_case for resource names
-  Line 177: UseConsistentNaming - Use snake_case for resource names
-  Line 178: UseConsistentNaming - Use snake_case for resource names
-  Line 179: UseConsistentNaming - Use snake_case for resource names
-  Line 180: UseConsistentNaming - Use snake_case for resource names
-  Line 181: UseConsistentNaming - Use snake_case for resource names
-  Line 182: UseConsistentNaming - Use snake_case for resource names
-  Line 183: UseConsistentNaming - Use snake_case for resource names
-  Line 184: UseConsistentNaming - Use snake_case for resource names
-  Line 185: UseConsistentNaming - Use snake_case for resource names
-  Line 186: UseConsistentNaming - Use snake_case for resource names
-  Line 187: UseConsistentNaming - Use snake_case for resource names
-  Line 188: UseConsistentNaming - Use snake_case for resource names
-  Line 189: UseConsistentNaming - Use snake_case for resource names
-  Line 190: UseConsistentNaming - Use snake_case for resource names
-  Line 191: UseConsistentNaming - Use snake_case for resource names
-  Line 1: IncludeDescription - Include a description for each resource
-  Line 2: IncludeDescription - Include a description for each resource
-  Line 3: IncludeDescription - Include a description for each resource
-  Line 4: IncludeDescription - Include a description for each resource
-  Line 5: IncludeDescription - Include a description for each resource
-  Line 6: IncludeDescription - Include a description for each resource
-  Line 7: IncludeDescription - Include a description for each resource
-  Line 8: IncludeDescription - Include a description for each resource
-  Line 9: IncludeDescription - Include a description for each resource
-  Line 10: IncludeDescription - Include a description for each resource
-  Line 11: IncludeDescription - Include a description for each resource
-  Line 12: IncludeDescription - Include a description for each resource
-  Line 13: IncludeDescription - Include a description for each resource
-  Line 14: IncludeDescription - Include a description for each resource
-  Line 15: IncludeDescription - Include a description for each resource
-  Line 16: IncludeDescription - Include a description for each resource
-  Line 17: IncludeDescription - Include a description for each resource
-  Line 18: IncludeDescription - Include a description for each resource
-  Line 19: IncludeDescription - Include a description for each resource
-  Line 20: IncludeDescription - Include a description for each resource
-  Line 21: IncludeDescription - Include a description for each resource
-  Line 22: IncludeDescription - Include a description for each resource
-  Line 23: IncludeDescription - Include a description for each resource
-  Line 24: IncludeDescription - Include a description for each resource
-  Line 25: IncludeDescription - Include a description for each resource
-  Line 26: IncludeDescription - Include a description for each resource
-  Line 27: IncludeDescription - Include a description for each resource
-  Line 28: IncludeDescription - Include a description for each resource
-  Line 29: IncludeDescription - Include a description for each resource
-  Line 30: IncludeDescription - Include a description for each resource
-  Line 31: IncludeDescription - Include a description for each resource
-  Line 32: IncludeDescription - Include a description for each resource
-  Line 33: IncludeDescription - Include a description for each resource
-  Line 34: IncludeDescription - Include a description for each resource
-  Line 35: IncludeDescription - Include a description for each resource
-  Line 36: IncludeDescription - Include a description for each resource
-  Line 37: IncludeDescription - Include a description for each resource
-  Line 38: IncludeDescription - Include a description for each resource
-  Line 39: IncludeDescription - Include a description for each resource
-  Line 40: IncludeDescription - Include a description for each resource
-  Line 41: IncludeDescription - Include a description for each resource
-  Line 42: IncludeDescription - Include a description for each resource
-  Line 43: IncludeDescription - Include a description for each resource
-  Line 44: IncludeDescription - Include a description for each resource
-  Line 45: IncludeDescription - Include a description for each resource
-  Line 46: IncludeDescription - Include a description for each resource
-  Line 47: IncludeDescription - Include a description for each resource
-  Line 48: IncludeDescription - Include a description for each resource
-  Line 49: IncludeDescription - Include a description for each resource
-  Line 50: IncludeDescription - Include a description for each resource
-  Line 51: IncludeDescription - Include a description for each resource
-  Line 52: IncludeDescription - Include a description for each resource
-  Line 53: IncludeDescription - Include a description for each resource
-  Line 54: IncludeDescription - Include a description for each resource
-  Line 55: IncludeDescription - Include a description for each resource
-  Line 56: IncludeDescription - Include a description for each resource
-  Line 57: IncludeDescription - Include a description for each resource
-  Line 58: IncludeDescription - Include a description for each resource
-  Line 59: IncludeDescription - Include a description for each resource
-  Line 60: IncludeDescription - Include a description for each resource
-  Line 61: IncludeDescription - Include a description for each resource
-  Line 62: IncludeDescription - Include a description for each resource
-  Line 63: IncludeDescription - Include a description for each resource
-  Line 64: IncludeDescription - Include a description for each resource
-  Line 65: IncludeDescription - Include a description for each resource
-  Line 66: IncludeDescription - Include a description for each resource
-  Line 67: IncludeDescription - Include a description for each resource
-  Line 68: IncludeDescription - Include a description for each resource
-  Line 69: IncludeDescription - Include a description for each resource
-  Line 70: IncludeDescription - Include a description for each resource
-  Line 71: IncludeDescription - Include a description for each resource
-  Line 72: IncludeDescription - Include a description for each resource
-  Line 73: IncludeDescription - Include a description for each resource
-  Line 74: IncludeDescription - Include a description for each resource
-  Line 75: IncludeDescription - Include a description for each resource
-  Line 76: IncludeDescription - Include a description for each resource
-  Line 77: IncludeDescription - Include a description for each resource
-  Line 78: IncludeDescription - Include a description for each resource
-  Line 79: IncludeDescription - Include a description for each resource
-  Line 80: IncludeDescription - Include a description for each resource
-  Line 81: IncludeDescription - Include a description for each resource
-  Line 82: IncludeDescription - Include a description for each resource
-  Line 83: IncludeDescription - Include a description for each resource
-  Line 84: IncludeDescription - Include a description for each resource
-  Line 85: IncludeDescription - Include a description for each resource
-  Line 86: IncludeDescription - Include a description for each resource
-  Line 87: IncludeDescription - Include a description for each resource
-  Line 88: IncludeDescription - Include a description for each resource
-  Line 89: IncludeDescription - Include a description for each resource
-  Line 90: IncludeDescription - Include a description for each resource
-  Line 91: IncludeDescription - Include a description for each resource
-  Line 92: IncludeDescription - Include a description for each resource
-  Line 93: IncludeDescription - Include a description for each resource
-  Line 94: IncludeDescription - Include a description for each resource
-  Line 95: IncludeDescription - Include a description for each resource
-  Line 96: IncludeDescription - Include a description for each resource
-  Line 97: IncludeDescription - Include a description for each resource
-  Line 98: IncludeDescription - Include a description for each resource
-  Line 99: IncludeDescription - Include a description for each resource
-  Line 100: IncludeDescription - Include a description for each resource
-  Line 101: IncludeDescription - Include a description for each resource
-  Line 102: IncludeDescription - Include a description for each resource
-  Line 104: IncludeDescription - Include a description for each resource
-  Line 105: IncludeDescription - Include a description for each resource
-  Line 106: IncludeDescription - Include a description for each resource
-  Line 107: IncludeDescription - Include a description for each resource
-  Line 108: IncludeDescription - Include a description for each resource
-  Line 109: IncludeDescription - Include a description for each resource
-  Line 110: IncludeDescription - Include a description for each resource
-  Line 111: IncludeDescription - Include a description for each resource
-  Line 112: IncludeDescription - Include a description for each resource
-  Line 113: IncludeDescription - Include a description for each resource
-  Line 114: IncludeDescription - Include a description for each resource
-  Line 115: IncludeDescription - Include a description for each resource
-  Line 116: IncludeDescription - Include a description for each resource
-  Line 117: IncludeDescription - Include a description for each resource
-  Line 118: IncludeDescription - Include a description for each resource
-  Line 119: IncludeDescription - Include a description for each resource
-  Line 120: IncludeDescription - Include a description for each resource
-  Line 121: IncludeDescription - Include a description for each resource
-  Line 122: IncludeDescription - Include a description for each resource
-  Line 123: IncludeDescription - Include a description for each resource
-  Line 124: IncludeDescription - Include a description for each resource
-  Line 125: IncludeDescription - Include a description for each resource
-  Line 126: IncludeDescription - Include a description for each resource
-  Line 127: IncludeDescription - Include a description for each resource
-  Line 128: IncludeDescription - Include a description for each resource
-  Line 129: IncludeDescription - Include a description for each resource
-  Line 130: IncludeDescription - Include a description for each resource
-  Line 131: IncludeDescription - Include a description for each resource
-  Line 132: IncludeDescription - Include a description for each resource
-  Line 133: IncludeDescription - Include a description for each resource
-  Line 134: IncludeDescription - Include a description for each resource
-  Line 135: IncludeDescription - Include a description for each resource
-  Line 136: IncludeDescription - Include a description for each resource
-  Line 137: IncludeDescription - Include a description for each resource
-  Line 138: IncludeDescription - Include a description for each resource
-  Line 139: IncludeDescription - Include a description for each resource
-  Line 140: IncludeDescription - Include a description for each resource
-  Line 141: IncludeDescription - Include a description for each resource
-  Line 142: IncludeDescription - Include a description for each resource
-  Line 143: IncludeDescription - Include a description for each resource
-  Line 144: IncludeDescription - Include a description for each resource
-  Line 145: IncludeDescription - Include a description for each resource
-  Line 146: IncludeDescription - Include a description for each resource
-  Line 147: IncludeDescription - Include a description for each resource
-  Line 148: IncludeDescription - Include a description for each resource
-  Line 149: IncludeDescription - Include a description for each resource
-  Line 150: IncludeDescription - Include a description for each resource
-  Line 151: IncludeDescription - Include a description for each resource
-  Line 152: IncludeDescription - Include a description for each resource
-  Line 153: IncludeDescription - Include a description for each resource
-  Line 154: IncludeDescription - Include a description for each resource
-  Line 155: IncludeDescription - Include a description for each resource
-  Line 156: IncludeDescription - Include a description for each resource
-  Line 157: IncludeDescription - Include a description for each resource
-  Line 158: IncludeDescription - Include a description for each resource
-  Line 159: IncludeDescription - Include a description for each resource
-  Line 160: IncludeDescription - Include a description for each resource
-  Line 161: IncludeDescription - Include a description for each resource
-  Line 162: IncludeDescription - Include a description for each resource
-  Line 163: IncludeDescription - Include a description for each resource
-  Line 164: IncludeDescription - Include a description for each resource
-  Line 165: IncludeDescription - Include a description for each resource
-  Line 166: IncludeDescription - Include a description for each resource
-  Line 167: IncludeDescription - Include a description for each resource
-  Line 168: IncludeDescription - Include a description for each resource
-  Line 169: IncludeDescription - Include a description for each resource
-  Line 170: IncludeDescription - Include a description for each resource
-  Line 171: IncludeDescription - Include a description for each resource
-  Line 172: IncludeDescription - Include a description for each resource
-  Line 173: IncludeDescription - Include a description for each resource
-  Line 174: IncludeDescription - Include a description for each resource
-  Line 175: IncludeDescription - Include a description for each resource
-  Line 176: IncludeDescription - Include a description for each resource
-  Line 177: IncludeDescription - Include a description for each resource
-  Line 179: IncludeDescription - Include a description for each resource
-  Line 180: IncludeDescription - Include a description for each resource
-  Line 181: IncludeDescription - Include a description for each resource
-  Line 182: IncludeDescription - Include a description for each resource
-  Line 183: IncludeDescription - Include a description for each resource
-  Line 184: IncludeDescription - Include a description for each resource
-  Line 185: IncludeDescription - Include a description for each resource
-  Line 186: IncludeDescription - Include a description for each resource
-  Line 187: IncludeDescription - Include a description for each resource
-  Line 188: IncludeDescription - Include a description for each resource
-  Line 189: IncludeDescription - Include a description for each resource
-  Line 190: IncludeDescription - Include a description for each resource
-  Line 191: IncludeDescription - Include a description for each resource
-  Line 1: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 2: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 3: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 4: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 5: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 6: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 7: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 8: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 9: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 10: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 11: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 12: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 13: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 14: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 15: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 16: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 17: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 18: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 19: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 20: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 21: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 22: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 23: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 24: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 25: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 26: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 27: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 28: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 29: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 30: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 31: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 32: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 33: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 34: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 35: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 36: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 37: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 38: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 39: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 40: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 41: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 42: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 43: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 44: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 45: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 46: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 47: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 48: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 49: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 50: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 51: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 52: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 53: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 54: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 55: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 56: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 57: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 58: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 59: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 60: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 61: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 62: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 63: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 64: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 65: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 66: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 67: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 68: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 69: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 70: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 71: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 72: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 73: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 74: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 75: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 76: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 77: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 78: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 79: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 80: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 81: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 82: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 83: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 84: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 85: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 86: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 87: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 88: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 89: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 90: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 91: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 92: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 93: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 94: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 95: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 96: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 97: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 98: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 99: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 100: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 101: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 102: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 103: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 104: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 105: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 106: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 107: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 108: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 109: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 110: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 111: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 112: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 113: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 114: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 115: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 116: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 117: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 118: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 119: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 120: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 121: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 122: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 123: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 124: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 125: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 126: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 127: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 128: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 129: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 130: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 131: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 132: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 133: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 134: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 135: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 136: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 137: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 138: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 139: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 140: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 141: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 142: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 143: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 144: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 145: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 146: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 147: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 148: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 149: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 150: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 151: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 152: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 153: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 154: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 155: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 156: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 157: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 158: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 159: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 160: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 161: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 162: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 163: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 164: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 165: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 166: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 167: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 168: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 169: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 170: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 171: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 172: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 173: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 174: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 175: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 176: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 177: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 178: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 179: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 180: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 181: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 182: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 183: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 184: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 185: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 186: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 187: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 188: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 189: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 190: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 191: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 1: UseModules - Use modules to organize and reuse code
-  Line 2: UseModules - Use modules to organize and reuse code
-  Line 3: UseModules - Use modules to organize and reuse code
-  Line 4: UseModules - Use modules to organize and reuse code
-  Line 5: UseModules - Use modules to organize and reuse code
-  Line 6: UseModules - Use modules to organize and reuse code
-  Line 7: UseModules - Use modules to organize and reuse code
-  Line 8: UseModules - Use modules to organize and reuse code
-  Line 9: UseModules - Use modules to organize and reuse code
-  Line 10: UseModules - Use modules to organize and reuse code
-  Line 11: UseModules - Use modules to organize and reuse code
-  Line 12: UseModules - Use modules to organize and reuse code
-  Line 13: UseModules - Use modules to organize and reuse code
-  Line 14: UseModules - Use modules to organize and reuse code
-  Line 15: UseModules - Use modules to organize and reuse code
-  Line 16: UseModules - Use modules to organize and reuse code
-  Line 17: UseModules - Use modules to organize and reuse code
-  Line 18: UseModules - Use modules to organize and reuse code
-  Line 19: UseModules - Use modules to organize and reuse code
-  Line 20: UseModules - Use modules to organize and reuse code
-  Line 21: UseModules - Use modules to organize and reuse code
-  Line 22: UseModules - Use modules to organize and reuse code
-  Line 23: UseModules - Use modules to organize and reuse code
-  Line 24: UseModules - Use modules to organize and reuse code
-  Line 25: UseModules - Use modules to organize and reuse code
-  Line 26: UseModules - Use modules to organize and reuse code
-  Line 27: UseModules - Use modules to organize and reuse code
-  Line 28: UseModules - Use modules to organize and reuse code
-  Line 29: UseModules - Use modules to organize and reuse code
-  Line 30: UseModules - Use modules to organize and reuse code
-  Line 31: UseModules - Use modules to organize and reuse code
-  Line 32: UseModules - Use modules to organize and reuse code
-  Line 33: UseModules - Use modules to organize and reuse code
-  Line 34: UseModules - Use modules to organize and reuse code
-  Line 35: UseModules - Use modules to organize and reuse code
-  Line 36: UseModules - Use modules to organize and reuse code
-  Line 37: UseModules - Use modules to organize and reuse code
-  Line 38: UseModules - Use modules to organize and reuse code
-  Line 39: UseModules - Use modules to organize and reuse code
-  Line 40: UseModules - Use modules to organize and reuse code
-  Line 41: UseModules - Use modules to organize and reuse code
-  Line 42: UseModules - Use modules to organize and reuse code
-  Line 43: UseModules - Use modules to organize and reuse code
-  Line 44: UseModules - Use modules to organize and reuse code
-  Line 45: UseModules - Use modules to organize and reuse code
-  Line 46: UseModules - Use modules to organize and reuse code
-  Line 47: UseModules - Use modules to organize and reuse code
-  Line 48: UseModules - Use modules to organize and reuse code
-  Line 49: UseModules - Use modules to organize and reuse code
-  Line 50: UseModules - Use modules to organize and reuse code
-  Line 51: UseModules - Use modules to organize and reuse code
-  Line 52: UseModules - Use modules to organize and reuse code
-  Line 53: UseModules - Use modules to organize and reuse code
-  Line 54: UseModules - Use modules to organize and reuse code
-  Line 55: UseModules - Use modules to organize and reuse code
-  Line 56: UseModules - Use modules to organize and reuse code
-  Line 57: UseModules - Use modules to organize and reuse code
-  Line 58: UseModules - Use modules to organize and reuse code
-  Line 59: UseModules - Use modules to organize and reuse code
-  Line 60: UseModules - Use modules to organize and reuse code
-  Line 61: UseModules - Use modules to organize and reuse code
-  Line 62: UseModules - Use modules to organize and reuse code
-  Line 63: UseModules - Use modules to organize and reuse code
-  Line 64: UseModules - Use modules to organize and reuse code
-  Line 65: UseModules - Use modules to organize and reuse code
-  Line 66: UseModules - Use modules to organize and reuse code
-  Line 67: UseModules - Use modules to organize and reuse code
-  Line 68: UseModules - Use modules to organize and reuse code
-  Line 69: UseModules - Use modules to organize and reuse code
-  Line 70: UseModules - Use modules to organize and reuse code
-  Line 71: UseModules - Use modules to organize and reuse code
-  Line 72: UseModules - Use modules to organize and reuse code
-  Line 73: UseModules - Use modules to organize and reuse code
-  Line 74: UseModules - Use modules to organize and reuse code
-  Line 75: UseModules - Use modules to organize and reuse code
-  Line 76: UseModules - Use modules to organize and reuse code
-  Line 77: UseModules - Use modules to organize and reuse code
-  Line 78: UseModules - Use modules to organize and reuse code
-  Line 79: UseModules - Use modules to organize and reuse code
-  Line 80: UseModules - Use modules to organize and reuse code
-  Line 81: UseModules - Use modules to organize and reuse code
-  Line 82: UseModules - Use modules to organize and reuse code
-  Line 83: UseModules - Use modules to organize and reuse code
-  Line 84: UseModules - Use modules to organize and reuse code
-  Line 85: UseModules - Use modules to organize and reuse code
-  Line 86: UseModules - Use modules to organize and reuse code
-  Line 87: UseModules - Use modules to organize and reuse code
-  Line 88: UseModules - Use modules to organize and reuse code
-  Line 89: UseModules - Use modules to organize and reuse code
-  Line 90: UseModules - Use modules to organize and reuse code
-  Line 91: UseModules - Use modules to organize and reuse code
-  Line 92: UseModules - Use modules to organize and reuse code
-  Line 93: UseModules - Use modules to organize and reuse code
-  Line 94: UseModules - Use modules to organize and reuse code
-  Line 95: UseModules - Use modules to organize and reuse code
-  Line 96: UseModules - Use modules to organize and reuse code
-  Line 97: UseModules - Use modules to organize and reuse code
-  Line 98: UseModules - Use modules to organize and reuse code
-  Line 99: UseModules - Use modules to organize and reuse code
-  Line 100: UseModules - Use modules to organize and reuse code
-  Line 101: UseModules - Use modules to organize and reuse code
-  Line 102: UseModules - Use modules to organize and reuse code
-  Line 103: UseModules - Use modules to organize and reuse code
-  Line 104: UseModules - Use modules to organize and reuse code
-  Line 105: UseModules - Use modules to organize and reuse code
-  Line 106: UseModules - Use modules to organize and reuse code
-  Line 107: UseModules - Use modules to organize and reuse code
-  Line 108: UseModules - Use modules to organize and reuse code
-  Line 109: UseModules - Use modules to organize and reuse code
-  Line 110: UseModules - Use modules to organize and reuse code
-  Line 111: UseModules - Use modules to organize and reuse code
-  Line 112: UseModules - Use modules to organize and reuse code
-  Line 113: UseModules - Use modules to organize and reuse code
-  Line 114: UseModules - Use modules to organize and reuse code
-  Line 115: UseModules - Use modules to organize and reuse code
-  Line 116: UseModules - Use modules to organize and reuse code
-  Line 117: UseModules - Use modules to organize and reuse code
-  Line 118: UseModules - Use modules to organize and reuse code
-  Line 119: UseModules - Use modules to organize and reuse code
-  Line 120: UseModules - Use modules to organize and reuse code
-  Line 121: UseModules - Use modules to organize and reuse code
-  Line 122: UseModules - Use modules to organize and reuse code
-  Line 123: UseModules - Use modules to organize and reuse code
-  Line 124: UseModules - Use modules to organize and reuse code
-  Line 125: UseModules - Use modules to organize and reuse code
-  Line 126: UseModules - Use modules to organize and reuse code
-  Line 127: UseModules - Use modules to organize and reuse code
-  Line 128: UseModules - Use modules to organize and reuse code
-  Line 129: UseModules - Use modules to organize and reuse code
-  Line 130: UseModules - Use modules to organize and reuse code
-  Line 131: UseModules - Use modules to organize and reuse code
-  Line 132: UseModules - Use modules to organize and reuse code
-  Line 133: UseModules - Use modules to organize and reuse code
-  Line 134: UseModules - Use modules to organize and reuse code
-  Line 135: UseModules - Use modules to organize and reuse code
-  Line 136: UseModules - Use modules to organize and reuse code
-  Line 137: UseModules - Use modules to organize and reuse code
-  Line 138: UseModules - Use modules to organize and reuse code
-  Line 139: UseModules - Use modules to organize and reuse code
-  Line 140: UseModules - Use modules to organize and reuse code
-  Line 141: UseModules - Use modules to organize and reuse code
-  Line 142: UseModules - Use modules to organize and reuse code
-  Line 143: UseModules - Use modules to organize and reuse code
-  Line 144: UseModules - Use modules to organize and reuse code
-  Line 145: UseModules - Use modules to organize and reuse code
-  Line 146: UseModules - Use modules to organize and reuse code
-  Line 147: UseModules - Use modules to organize and reuse code
-  Line 148: UseModules - Use modules to organize and reuse code
-  Line 149: UseModules - Use modules to organize and reuse code
-  Line 150: UseModules - Use modules to organize and reuse code
-  Line 151: UseModules - Use modules to organize and reuse code
-  Line 152: UseModules - Use modules to organize and reuse code
-  Line 153: UseModules - Use modules to organize and reuse code
-  Line 154: UseModules - Use modules to organize and reuse code
-  Line 155: UseModules - Use modules to organize and reuse code
-  Line 156: UseModules - Use modules to organize and reuse code
-  Line 157: UseModules - Use modules to organize and reuse code
-  Line 158: UseModules - Use modules to organize and reuse code
-  Line 159: UseModules - Use modules to organize and reuse code
-  Line 160: UseModules - Use modules to organize and reuse code
-  Line 161: UseModules - Use modules to organize and reuse code
-  Line 162: UseModules - Use modules to organize and reuse code
-  Line 163: UseModules - Use modules to organize and reuse code
-  Line 164: UseModules - Use modules to organize and reuse code
-  Line 165: UseModules - Use modules to organize and reuse code
-  Line 166: UseModules - Use modules to organize and reuse code
-  Line 167: UseModules - Use modules to organize and reuse code
-  Line 168: UseModules - Use modules to organize and reuse code
-  Line 169: UseModules - Use modules to organize and reuse code
-  Line 170: UseModules - Use modules to organize and reuse code
-  Line 171: UseModules - Use modules to organize and reuse code
-  Line 172: UseModules - Use modules to organize and reuse code
-  Line 173: UseModules - Use modules to organize and reuse code
-  Line 174: UseModules - Use modules to organize and reuse code
-  Line 175: UseModules - Use modules to organize and reuse code
-  Line 176: UseModules - Use modules to organize and reuse code
-  Line 177: UseModules - Use modules to organize and reuse code
-  Line 178: UseModules - Use modules to organize and reuse code
-  Line 179: UseModules - Use modules to organize and reuse code
-  Line 180: UseModules - Use modules to organize and reuse code
-  Line 181: UseModules - Use modules to organize and reuse code
-  Line 182: UseModules - Use modules to organize and reuse code
-  Line 183: UseModules - Use modules to organize and reuse code
-  Line 184: UseModules - Use modules to organize and reuse code
-  Line 185: UseModules - Use modules to organize and reuse code
-  Line 186: UseModules - Use modules to organize and reuse code
-  Line 187: UseModules - Use modules to organize and reuse code
-  Line 188: UseModules - Use modules to organize and reuse code
-  Line 189: UseModules - Use modules to organize and reuse code
-  Line 190: UseModules - Use modules to organize and reuse code
-  Line 191: UseModules - Use modules to organize and reuse code
-  Line 1: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 2: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 3: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 4: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 5: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 6: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 7: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 8: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 9: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 10: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 11: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 12: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 13: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 14: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 15: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 16: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 17: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 18: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 19: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 20: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 21: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 22: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 23: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 24: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 25: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 26: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 27: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 28: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 29: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 30: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 31: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 32: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 33: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 34: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 35: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 36: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 37: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 38: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 39: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 40: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 41: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 42: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 43: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 44: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 45: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 46: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 47: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 48: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 49: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 50: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 51: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 52: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 53: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 54: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 55: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 56: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 57: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 59: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 60: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 61: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 62: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 63: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 64: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 65: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 66: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 67: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 68: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 69: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 70: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 71: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 72: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 73: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 74: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 75: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 76: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 77: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 78: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 79: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 80: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 81: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 82: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 83: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 84: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 85: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 86: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 87: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 88: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 89: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 90: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 91: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 92: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 93: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 94: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 95: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 96: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 97: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 98: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 99: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 100: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 101: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 102: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 103: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 104: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 105: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 106: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 107: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 108: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 109: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 110: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 111: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 112: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 113: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 114: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 115: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 116: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 117: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 118: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 119: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 120: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 121: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 122: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 123: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 124: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 125: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 126: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 127: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 128: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 129: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 130: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 131: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 132: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 133: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 134: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 135: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 136: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 137: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 138: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 139: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 140: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 141: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 142: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 143: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 144: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 145: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 146: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 147: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 148: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 149: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 150: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 151: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 152: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 153: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 154: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 155: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 156: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 157: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 158: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 159: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 160: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 161: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 162: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 163: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 164: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 165: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 166: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 167: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 168: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 169: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 170: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 171: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 172: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 173: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 174: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 175: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 176: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 177: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 178: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 179: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 180: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 181: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 182: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 183: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 184: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 185: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 186: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 187: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 188: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 189: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 190: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 191: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 1: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 2: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 3: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 4: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 5: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 6: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 7: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 8: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 9: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 10: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 11: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 12: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 13: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 14: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 15: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 16: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 17: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 18: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 19: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 20: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 21: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 22: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 23: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 24: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 25: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 26: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 27: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 28: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 29: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 30: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 31: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 32: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 33: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 34: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 35: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 36: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 37: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 38: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 39: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 40: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 41: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 42: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 43: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 44: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 45: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 46: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 47: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 48: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 49: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 50: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 51: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 52: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 53: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 54: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 55: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 56: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 57: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 58: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 59: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 60: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 61: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 62: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 63: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 64: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 65: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 66: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 67: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 68: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 69: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 70: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 71: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 72: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 73: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 74: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 75: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 76: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 77: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 78: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 79: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 80: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 81: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 82: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 83: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 84: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 85: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 86: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 87: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 88: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 89: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 90: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 91: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 92: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 93: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 94: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 95: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 96: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 97: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 98: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 99: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 100: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 101: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 102: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 103: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 104: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 105: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 106: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 107: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 108: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 109: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 110: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 111: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 112: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 113: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 114: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 115: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 116: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 117: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 118: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 119: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 120: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 121: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 122: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 123: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 124: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 125: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 126: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 127: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 128: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 129: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 130: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 131: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 132: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 133: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 134: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 135: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 136: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 137: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 138: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 139: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 140: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 141: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 142: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 143: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 144: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 145: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 146: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 147: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 148: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 149: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 150: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 151: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 152: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 153: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 154: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 155: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 156: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 157: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 158: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 159: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 160: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 161: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 162: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 163: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 164: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 165: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 166: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 167: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 168: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 169: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 170: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 171: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 172: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 173: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 174: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 175: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 176: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 177: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 178: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 179: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 180: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 181: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 182: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 183: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 184: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 185: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 186: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 187: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 188: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 189: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 190: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 191: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 1: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 2: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 3: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 4: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 5: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 6: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 7: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 8: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 9: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 10: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 11: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 12: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 13: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 14: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 15: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 16: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 17: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 18: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 19: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 20: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 21: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 22: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 23: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 24: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 25: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 26: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 27: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 28: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 29: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 30: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 31: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 32: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 33: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 34: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 35: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 36: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 37: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 38: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 39: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 40: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 41: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 42: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 43: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 44: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 45: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 46: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 47: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 48: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 49: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 50: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 51: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 52: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 53: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 54: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 55: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 56: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 57: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 58: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 59: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 60: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 61: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 62: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 63: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 64: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 65: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 66: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 67: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 68: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 69: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 70: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 71: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 72: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 73: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 74: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 75: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 76: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 77: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 78: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 79: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 80: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 81: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 82: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 83: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 84: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 85: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 86: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 87: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 88: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 89: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 90: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 91: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 92: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 93: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 94: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 95: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 96: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 97: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 98: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 99: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 100: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 101: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 102: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 103: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 104: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 105: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 106: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 107: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 108: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 109: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 110: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 111: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 112: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 113: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 114: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 115: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 116: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 117: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 118: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 119: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 120: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 121: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 122: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 123: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 124: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 125: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 126: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 127: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 128: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 129: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 130: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 131: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 132: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 133: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 134: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 135: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 136: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 137: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 138: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 139: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 140: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 141: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 142: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 143: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 144: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 145: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 146: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 147: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 148: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 149: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 150: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 151: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 152: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 153: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 154: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 155: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 156: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 157: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 158: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 159: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 160: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 161: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 162: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 163: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 164: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 165: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 166: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 167: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 168: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 169: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 170: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 171: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 172: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 173: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 174: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 175: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 176: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 177: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 178: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 179: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 180: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 181: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 182: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 183: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 184: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 185: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 186: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 187: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 188: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 189: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 190: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 191: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 1: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 2: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 3: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 4: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 5: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 6: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 7: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 8: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 9: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 10: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 11: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 12: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 13: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 14: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 15: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 16: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 17: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 18: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 19: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 20: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 21: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 22: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 23: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 24: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 25: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 26: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 27: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 28: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 29: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 30: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 31: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 32: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 33: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 34: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 35: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 36: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 37: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 38: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 39: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 40: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 41: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 42: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 43: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 44: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 45: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 46: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 47: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 48: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 49: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 50: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 51: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 52: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 53: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 54: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 55: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 56: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 57: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 58: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 59: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 60: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 61: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 62: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 63: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 64: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 65: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 66: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 67: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 68: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 69: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 70: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 71: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 72: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 73: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 74: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 75: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 76: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 77: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 78: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 79: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 80: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 81: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 82: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 83: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 84: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 85: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 86: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 87: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 88: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 89: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 90: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 91: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 92: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 93: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 94: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 95: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 96: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 97: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 98: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 99: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 100: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 101: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 102: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 103: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 104: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 105: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 106: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 107: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 108: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 109: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 110: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 111: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 112: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 113: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 114: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 115: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 116: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 117: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 118: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 119: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 120: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 121: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 122: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 123: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 124: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 125: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 126: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 127: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 128: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 129: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 130: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 131: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 132: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 133: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 134: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 135: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 136: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 137: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 138: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 139: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 140: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 141: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 142: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 143: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 144: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 145: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 146: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 147: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 148: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 149: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 150: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 151: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 152: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 153: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 154: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 155: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 156: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 157: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 158: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 159: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 160: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 161: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 162: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 163: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 164: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 165: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 166: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 167: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 168: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 169: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 170: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 171: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 172: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 173: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 174: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 175: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 176: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 177: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 178: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 179: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 180: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 181: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 182: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 183: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 184: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 185: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 186: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 187: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 188: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 189: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 190: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 191: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 1: RequireTags - Include tags for better resource management
-  Line 2: RequireTags - Include tags for better resource management
-  Line 3: RequireTags - Include tags for better resource management
-  Line 4: RequireTags - Include tags for better resource management
-  Line 5: RequireTags - Include tags for better resource management
-  Line 6: RequireTags - Include tags for better resource management
-  Line 7: RequireTags - Include tags for better resource management
-  Line 8: RequireTags - Include tags for better resource management
-  Line 9: RequireTags - Include tags for better resource management
-  Line 11: RequireTags - Include tags for better resource management
-  Line 12: RequireTags - Include tags for better resource management
-  Line 13: RequireTags - Include tags for better resource management
-  Line 14: RequireTags - Include tags for better resource management
-  Line 15: RequireTags - Include tags for better resource management
-  Line 16: RequireTags - Include tags for better resource management
-  Line 17: RequireTags - Include tags for better resource management
-  Line 18: RequireTags - Include tags for better resource management
-  Line 19: RequireTags - Include tags for better resource management
-  Line 20: RequireTags - Include tags for better resource management
-  Line 22: RequireTags - Include tags for better resource management
-  Line 23: RequireTags - Include tags for better resource management
-  Line 24: RequireTags - Include tags for better resource management
-  Line 25: RequireTags - Include tags for better resource management
-  Line 26: RequireTags - Include tags for better resource management
-  Line 27: RequireTags - Include tags for better resource management
-  Line 28: RequireTags - Include tags for better resource management
-  Line 29: RequireTags - Include tags for better resource management
-  Line 30: RequireTags - Include tags for better resource management
-  Line 32: RequireTags - Include tags for better resource management
-  Line 33: RequireTags - Include tags for better resource management
-  Line 34: RequireTags - Include tags for better resource management
-  Line 35: RequireTags - Include tags for better resource management
-  Line 36: RequireTags - Include tags for better resource management
-  Line 37: RequireTags - Include tags for better resource management
-  Line 38: RequireTags - Include tags for better resource management
-  Line 39: RequireTags - Include tags for better resource management
-  Line 41: RequireTags - Include tags for better resource management
-  Line 42: RequireTags - Include tags for better resource management
-  Line 43: RequireTags - Include tags for better resource management
-  Line 44: RequireTags - Include tags for better resource management
-  Line 45: RequireTags - Include tags for better resource management
-  Line 46: RequireTags - Include tags for better resource management
-  Line 47: RequireTags - Include tags for better resource management
-  Line 48: RequireTags - Include tags for better resource management
-  Line 49: RequireTags - Include tags for better resource management
-  Line 51: RequireTags - Include tags for better resource management
-  Line 52: RequireTags - Include tags for better resource management
-  Line 53: RequireTags - Include tags for better resource management
-  Line 54: RequireTags - Include tags for better resource management
-  Line 55: RequireTags - Include tags for better resource management
-  Line 56: RequireTags - Include tags for better resource management
-  Line 57: RequireTags - Include tags for better resource management
-  Line 58: RequireTags - Include tags for better resource management
-  Line 59: RequireTags - Include tags for better resource management
-  Line 60: RequireTags - Include tags for better resource management
-  Line 61: RequireTags - Include tags for better resource management
-  Line 62: RequireTags - Include tags for better resource management
-  Line 63: RequireTags - Include tags for better resource management
-  Line 64: RequireTags - Include tags for better resource management
-  Line 65: RequireTags - Include tags for better resource management
-  Line 66: RequireTags - Include tags for better resource management
-  Line 67: RequireTags - Include tags for better resource management
-  Line 68: RequireTags - Include tags for better resource management
-  Line 69: RequireTags - Include tags for better resource management
-  Line 71: RequireTags - Include tags for better resource management
-  Line 72: RequireTags - Include tags for better resource management
-  Line 73: RequireTags - Include tags for better resource management
-  Line 74: RequireTags - Include tags for better resource management
-  Line 75: RequireTags - Include tags for better resource management
-  Line 76: RequireTags - Include tags for better resource management
-  Line 77: RequireTags - Include tags for better resource management
-  Line 78: RequireTags - Include tags for better resource management
-  Line 79: RequireTags - Include tags for better resource management
-  Line 80: RequireTags - Include tags for better resource management
-  Line 81: RequireTags - Include tags for better resource management
-  Line 82: RequireTags - Include tags for better resource management
-  Line 83: RequireTags - Include tags for better resource management
-  Line 85: RequireTags - Include tags for better resource management
-  Line 86: RequireTags - Include tags for better resource management
-  Line 87: RequireTags - Include tags for better resource management
-  Line 88: RequireTags - Include tags for better resource management
-  Line 89: RequireTags - Include tags for better resource management
-  Line 90: RequireTags - Include tags for better resource management
-  Line 91: RequireTags - Include tags for better resource management
-  Line 92: RequireTags - Include tags for better resource management
-  Line 93: RequireTags - Include tags for better resource management
-  Line 94: RequireTags - Include tags for better resource management
-  Line 95: RequireTags - Include tags for better resource management
-  Line 96: RequireTags - Include tags for better resource management
-  Line 97: RequireTags - Include tags for better resource management
-  Line 98: RequireTags - Include tags for better resource management
-  Line 99: RequireTags - Include tags for better resource management
-  Line 100: RequireTags - Include tags for better resource management
-  Line 101: RequireTags - Include tags for better resource management
-  Line 102: RequireTags - Include tags for better resource management
-  Line 103: RequireTags - Include tags for better resource management
-  Line 104: RequireTags - Include tags for better resource management
-  Line 105: RequireTags - Include tags for better resource management
-  Line 106: RequireTags - Include tags for better resource management
-  Line 107: RequireTags - Include tags for better resource management
-  Line 108: RequireTags - Include tags for better resource management
-  Line 109: RequireTags - Include tags for better resource management
-  Line 110: RequireTags - Include tags for better resource management
-  Line 111: RequireTags - Include tags for better resource management
-  Line 112: RequireTags - Include tags for better resource management
-  Line 113: RequireTags - Include tags for better resource management
-  Line 114: RequireTags - Include tags for better resource management
-  Line 115: RequireTags - Include tags for better resource management
-  Line 116: RequireTags - Include tags for better resource management
-  Line 117: RequireTags - Include tags for better resource management
-  Line 118: RequireTags - Include tags for better resource management
-  Line 119: RequireTags - Include tags for better resource management
-  Line 121: RequireTags - Include tags for better resource management
-  Line 122: RequireTags - Include tags for better resource management
-  Line 123: RequireTags - Include tags for better resource management
-  Line 124: RequireTags - Include tags for better resource management
-  Line 125: RequireTags - Include tags for better resource management
-  Line 126: RequireTags - Include tags for better resource management
-  Line 127: RequireTags - Include tags for better resource management
-  Line 128: RequireTags - Include tags for better resource management
-  Line 129: RequireTags - Include tags for better resource management
-  Line 130: RequireTags - Include tags for better resource management
-  Line 131: RequireTags - Include tags for better resource management
-  Line 132: RequireTags - Include tags for better resource management
-  Line 133: RequireTags - Include tags for better resource management
-  Line 134: RequireTags - Include tags for better resource management
-  Line 136: RequireTags - Include tags for better resource management
-  Line 137: RequireTags - Include tags for better resource management
-  Line 138: RequireTags - Include tags for better resource management
-  Line 139: RequireTags - Include tags for better resource management
-  Line 140: RequireTags - Include tags for better resource management
-  Line 141: RequireTags - Include tags for better resource management
-  Line 142: RequireTags - Include tags for better resource management
-  Line 143: RequireTags - Include tags for better resource management
-  Line 144: RequireTags - Include tags for better resource management
-  Line 146: RequireTags - Include tags for better resource management
-  Line 147: RequireTags - Include tags for better resource management
-  Line 148: RequireTags - Include tags for better resource management
-  Line 149: RequireTags - Include tags for better resource management
-  Line 150: RequireTags - Include tags for better resource management
-  Line 151: RequireTags - Include tags for better resource management
-  Line 152: RequireTags - Include tags for better resource management
-  Line 153: RequireTags - Include tags for better resource management
-  Line 154: RequireTags - Include tags for better resource management
-  Line 155: RequireTags - Include tags for better resource management
-  Line 156: RequireTags - Include tags for better resource management
-  Line 157: RequireTags - Include tags for better resource management
-  Line 158: RequireTags - Include tags for better resource management
-  Line 159: RequireTags - Include tags for better resource management
-  Line 160: RequireTags - Include tags for better resource management
-  Line 161: RequireTags - Include tags for better resource management
-  Line 162: RequireTags - Include tags for better resource management
-  Line 163: RequireTags - Include tags for better resource management
-  Line 165: RequireTags - Include tags for better resource management
-  Line 166: RequireTags - Include tags for better resource management
-  Line 167: RequireTags - Include tags for better resource management
-  Line 168: RequireTags - Include tags for better resource management
-  Line 169: RequireTags - Include tags for better resource management
-  Line 170: RequireTags - Include tags for better resource management
-  Line 171: RequireTags - Include tags for better resource management
-  Line 172: RequireTags - Include tags for better resource management
-  Line 173: RequireTags - Include tags for better resource management
-  Line 174: RequireTags - Include tags for better resource management
-  Line 175: RequireTags - Include tags for better resource management
-  Line 176: RequireTags - Include tags for better resource management
-  Line 177: RequireTags - Include tags for better resource management
-  Line 178: RequireTags - Include tags for better resource management
-  Line 179: RequireTags - Include tags for better resource management
-  Line 180: RequireTags - Include tags for better resource management
-  Line 181: RequireTags - Include tags for better resource management
-  Line 182: RequireTags - Include tags for better resource management
-  Line 183: RequireTags - Include tags for better resource management
-  Line 184: RequireTags - Include tags for better resource management
-  Line 185: RequireTags - Include tags for better resource management
-  Line 186: RequireTags - Include tags for better resource management
-  Line 187: RequireTags - Include tags for better resource management
-  Line 189: RequireTags - Include tags for better resource management
-  Line 190: RequireTags - Include tags for better resource management
-  Line 191: RequireTags - Include tags for better resource management
-  Line 1: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 2: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 3: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 4: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 5: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 6: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 7: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 8: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 9: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 10: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 11: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 12: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 13: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 14: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 15: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 16: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 17: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 18: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 19: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 20: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 21: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 22: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 23: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 24: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 25: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 26: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 27: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 28: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 29: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 30: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 31: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 32: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 33: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 34: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 35: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 36: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 37: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 38: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 39: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 40: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 41: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 42: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 43: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 44: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 45: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 46: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 47: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 48: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 49: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 50: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 51: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 52: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 53: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 54: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 55: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 56: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 57: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 58: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 59: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 60: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 61: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 62: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 63: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 64: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 65: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 66: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 67: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 68: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 69: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 70: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 71: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 72: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 73: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 74: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 75: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 76: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 77: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 78: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 79: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 80: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 81: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 82: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 83: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 84: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 85: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 86: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 87: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 88: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 89: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 90: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 91: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 92: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 93: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 94: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 95: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 96: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 97: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 98: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 99: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 100: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 101: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 102: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 103: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 104: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 105: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 106: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 107: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 108: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 109: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 110: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 111: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 112: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 113: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 114: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 115: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 116: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 117: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 118: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 119: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 120: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 121: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 122: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 123: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 124: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 125: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 126: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 127: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 128: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 129: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 130: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 131: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 132: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 133: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 134: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 135: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 136: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 137: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 138: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 139: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 140: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 141: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 142: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 143: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 144: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 145: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 146: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 147: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 148: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 149: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 150: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 151: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 152: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 153: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 154: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 155: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 156: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 157: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 158: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 159: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 160: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 161: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 162: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 163: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 164: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 165: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 166: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 167: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 168: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 169: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 170: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 171: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 172: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 173: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 174: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 175: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 176: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 177: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 178: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 179: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 180: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 181: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 182: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 183: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 184: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 185: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 186: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 187: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 188: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 189: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 190: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 191: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 1: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 2: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 3: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 4: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 5: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 6: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 7: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 8: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 9: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 10: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 11: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 12: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 13: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 14: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 15: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 16: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 17: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 18: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 19: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 20: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 21: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 22: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 23: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 24: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 25: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 26: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 27: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 28: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 29: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 30: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 31: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 32: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 33: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 34: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 35: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 36: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 37: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 38: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 39: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 40: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 41: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 42: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 43: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 44: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 45: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 46: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 47: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 48: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 49: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 50: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 51: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 52: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 53: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 54: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 55: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 56: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 57: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 58: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 59: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 60: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 61: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 62: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 63: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 64: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 65: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 66: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 67: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 68: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 69: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 70: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 71: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 72: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 73: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 74: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 75: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 76: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 77: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 78: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 79: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 80: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 81: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 82: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 83: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 84: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 85: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 86: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 87: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 88: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 89: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 90: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 91: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 92: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 93: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 94: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 95: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 96: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 97: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 98: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 99: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 100: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 101: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 102: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 103: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 104: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 105: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 106: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 107: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 108: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 109: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 110: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 111: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 112: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 113: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 114: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 115: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 116: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 117: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 118: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 119: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 120: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 121: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 122: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 123: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 124: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 125: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 126: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 127: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 128: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 129: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 130: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 131: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 132: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 133: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 134: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 135: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 136: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 137: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 138: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 139: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 140: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 141: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 142: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 143: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 144: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 145: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 146: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 147: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 148: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 149: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 150: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 151: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 152: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 153: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 154: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 157: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 158: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 159: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 160: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 161: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 162: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 163: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 164: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 165: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 166: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 167: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 168: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 169: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 170: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 171: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 172: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 173: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 174: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 175: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 176: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 177: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 178: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 179: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 180: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 181: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 182: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 183: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 184: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 185: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 186: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 187: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 188: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 189: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 190: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 191: EnforceResourceNaming - Follow consistent resource naming conventions
+**Total Violations Found: 2128**
 
-File: /home/runner/work/boilerplate/boilerplate/output.tf
-  Line 1: UseConsistentNaming - Use snake_case for resource names
-  Line 2: UseConsistentNaming - Use snake_case for resource names
-  Line 3: UseConsistentNaming - Use snake_case for resource names
-  Line 4: UseConsistentNaming - Use snake_case for resource names
-  Line 1: IncludeDescription - Include a description for each resource
-  Line 2: IncludeDescription - Include a description for each resource
-  Line 3: IncludeDescription - Include a description for each resource
-  Line 4: IncludeDescription - Include a description for each resource
-  Line 1: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 2: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 3: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 4: UseDataSources - Use data sources where appropriate instead of hardcoding values
-  Line 1: UseModules - Use modules to organize and reuse code
-  Line 2: UseModules - Use modules to organize and reuse code
-  Line 3: UseModules - Use modules to organize and reuse code
-  Line 4: UseModules - Use modules to organize and reuse code
-  Line 1: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 2: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 3: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 4: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
-  Line 1: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 2: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 3: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 4: EnforceEncryption - Ensure resources are encrypted where applicable
-  Line 1: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 2: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 3: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 4: UseSecureProtocols - Use secure protocols (HTTPS) where applicable
-  Line 1: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 2: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 3: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 4: RestrictPublicAccess - Restrict public access to resources unless necessary
-  Line 1: RequireTags - Include tags for better resource management
-  Line 2: RequireTags - Include tags for better resource management
-  Line 3: RequireTags - Include tags for better resource management
-  Line 4: RequireTags - Include tags for better resource management
-  Line 1: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 2: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 3: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 4: UseIAMRoles - Use IAM roles for access control instead of access keys
-  Line 1: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 2: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 3: EnforceResourceNaming - Follow consistent resource naming conventions
-  Line 4: EnforceResourceNaming - Follow consistent resource naming conventions
+## Summary
+
+| Category | Violation Count |
+|----------|-----------------|
+|  | 2128 |
+
+## Detailed Findings
+
+### 
+
+#### EnforceEncryption
+
+| File | Line | Message |
+|------|------|---------|
+|  | 1 | Ensure resources are encrypted where applicable |
+|  | 2 | Ensure resources are encrypted where applicable |
+|  | 3 | Ensure resources are encrypted where applicable |
+|  | 4 | Ensure resources are encrypted where applicable |
+|  | 1 | Ensure resources are encrypted where applicable |
+|  | 2 | Ensure resources are encrypted where applicable |
+|  | 3 | Ensure resources are encrypted where applicable |
+|  | 4 | Ensure resources are encrypted where applicable |
+|  | 5 | Ensure resources are encrypted where applicable |
+|  | 6 | Ensure resources are encrypted where applicable |
+|  | 7 | Ensure resources are encrypted where applicable |
+|  | 8 | Ensure resources are encrypted where applicable |
+|  | 9 | Ensure resources are encrypted where applicable |
+|  | 10 | Ensure resources are encrypted where applicable |
+|  | 11 | Ensure resources are encrypted where applicable |
+|  | 12 | Ensure resources are encrypted where applicable |
+|  | 13 | Ensure resources are encrypted where applicable |
+|  | 14 | Ensure resources are encrypted where applicable |
+|  | 15 | Ensure resources are encrypted where applicable |
+|  | 16 | Ensure resources are encrypted where applicable |
+|  | 17 | Ensure resources are encrypted where applicable |
+|  | 18 | Ensure resources are encrypted where applicable |
+|  | 19 | Ensure resources are encrypted where applicable |
+|  | 20 | Ensure resources are encrypted where applicable |
+|  | 21 | Ensure resources are encrypted where applicable |
+|  | 22 | Ensure resources are encrypted where applicable |
+|  | 23 | Ensure resources are encrypted where applicable |
+|  | 24 | Ensure resources are encrypted where applicable |
+|  | 25 | Ensure resources are encrypted where applicable |
+|  | 26 | Ensure resources are encrypted where applicable |
+|  | 27 | Ensure resources are encrypted where applicable |
+|  | 28 | Ensure resources are encrypted where applicable |
+|  | 29 | Ensure resources are encrypted where applicable |
+|  | 30 | Ensure resources are encrypted where applicable |
+|  | 31 | Ensure resources are encrypted where applicable |
+|  | 32 | Ensure resources are encrypted where applicable |
+|  | 33 | Ensure resources are encrypted where applicable |
+|  | 34 | Ensure resources are encrypted where applicable |
+|  | 35 | Ensure resources are encrypted where applicable |
+|  | 36 | Ensure resources are encrypted where applicable |
+|  | 37 | Ensure resources are encrypted where applicable |
+|  | 38 | Ensure resources are encrypted where applicable |
+|  | 39 | Ensure resources are encrypted where applicable |
+|  | 40 | Ensure resources are encrypted where applicable |
+|  | 41 | Ensure resources are encrypted where applicable |
+|  | 42 | Ensure resources are encrypted where applicable |
+|  | 43 | Ensure resources are encrypted where applicable |
+|  | 44 | Ensure resources are encrypted where applicable |
+|  | 45 | Ensure resources are encrypted where applicable |
+|  | 46 | Ensure resources are encrypted where applicable |
+|  | 47 | Ensure resources are encrypted where applicable |
+|  | 48 | Ensure resources are encrypted where applicable |
+|  | 49 | Ensure resources are encrypted where applicable |
+|  | 50 | Ensure resources are encrypted where applicable |
+|  | 51 | Ensure resources are encrypted where applicable |
+|  | 52 | Ensure resources are encrypted where applicable |
+|  | 53 | Ensure resources are encrypted where applicable |
+|  | 54 | Ensure resources are encrypted where applicable |
+|  | 55 | Ensure resources are encrypted where applicable |
+|  | 56 | Ensure resources are encrypted where applicable |
+|  | 57 | Ensure resources are encrypted where applicable |
+|  | 58 | Ensure resources are encrypted where applicable |
+|  | 59 | Ensure resources are encrypted where applicable |
+|  | 60 | Ensure resources are encrypted where applicable |
+|  | 61 | Ensure resources are encrypted where applicable |
+|  | 62 | Ensure resources are encrypted where applicable |
+|  | 63 | Ensure resources are encrypted where applicable |
+|  | 64 | Ensure resources are encrypted where applicable |
+|  | 65 | Ensure resources are encrypted where applicable |
+|  | 66 | Ensure resources are encrypted where applicable |
+|  | 67 | Ensure resources are encrypted where applicable |
+|  | 68 | Ensure resources are encrypted where applicable |
+|  | 69 | Ensure resources are encrypted where applicable |
+|  | 70 | Ensure resources are encrypted where applicable |
+|  | 71 | Ensure resources are encrypted where applicable |
+|  | 72 | Ensure resources are encrypted where applicable |
+|  | 73 | Ensure resources are encrypted where applicable |
+|  | 74 | Ensure resources are encrypted where applicable |
+|  | 75 | Ensure resources are encrypted where applicable |
+|  | 76 | Ensure resources are encrypted where applicable |
+|  | 77 | Ensure resources are encrypted where applicable |
+|  | 78 | Ensure resources are encrypted where applicable |
+|  | 79 | Ensure resources are encrypted where applicable |
+|  | 80 | Ensure resources are encrypted where applicable |
+|  | 81 | Ensure resources are encrypted where applicable |
+|  | 82 | Ensure resources are encrypted where applicable |
+|  | 83 | Ensure resources are encrypted where applicable |
+|  | 84 | Ensure resources are encrypted where applicable |
+|  | 85 | Ensure resources are encrypted where applicable |
+|  | 86 | Ensure resources are encrypted where applicable |
+|  | 87 | Ensure resources are encrypted where applicable |
+|  | 88 | Ensure resources are encrypted where applicable |
+|  | 89 | Ensure resources are encrypted where applicable |
+|  | 90 | Ensure resources are encrypted where applicable |
+|  | 91 | Ensure resources are encrypted where applicable |
+|  | 92 | Ensure resources are encrypted where applicable |
+|  | 93 | Ensure resources are encrypted where applicable |
+|  | 94 | Ensure resources are encrypted where applicable |
+|  | 95 | Ensure resources are encrypted where applicable |
+|  | 96 | Ensure resources are encrypted where applicable |
+|  | 97 | Ensure resources are encrypted where applicable |
+|  | 98 | Ensure resources are encrypted where applicable |
+|  | 99 | Ensure resources are encrypted where applicable |
+|  | 100 | Ensure resources are encrypted where applicable |
+|  | 101 | Ensure resources are encrypted where applicable |
+|  | 102 | Ensure resources are encrypted where applicable |
+|  | 103 | Ensure resources are encrypted where applicable |
+|  | 104 | Ensure resources are encrypted where applicable |
+|  | 105 | Ensure resources are encrypted where applicable |
+|  | 106 | Ensure resources are encrypted where applicable |
+|  | 107 | Ensure resources are encrypted where applicable |
+|  | 108 | Ensure resources are encrypted where applicable |
+|  | 109 | Ensure resources are encrypted where applicable |
+|  | 110 | Ensure resources are encrypted where applicable |
+|  | 111 | Ensure resources are encrypted where applicable |
+|  | 112 | Ensure resources are encrypted where applicable |
+|  | 113 | Ensure resources are encrypted where applicable |
+|  | 114 | Ensure resources are encrypted where applicable |
+|  | 115 | Ensure resources are encrypted where applicable |
+|  | 116 | Ensure resources are encrypted where applicable |
+|  | 117 | Ensure resources are encrypted where applicable |
+|  | 118 | Ensure resources are encrypted where applicable |
+|  | 119 | Ensure resources are encrypted where applicable |
+|  | 120 | Ensure resources are encrypted where applicable |
+|  | 121 | Ensure resources are encrypted where applicable |
+|  | 122 | Ensure resources are encrypted where applicable |
+|  | 123 | Ensure resources are encrypted where applicable |
+|  | 124 | Ensure resources are encrypted where applicable |
+|  | 125 | Ensure resources are encrypted where applicable |
+|  | 126 | Ensure resources are encrypted where applicable |
+|  | 127 | Ensure resources are encrypted where applicable |
+|  | 128 | Ensure resources are encrypted where applicable |
+|  | 129 | Ensure resources are encrypted where applicable |
+|  | 130 | Ensure resources are encrypted where applicable |
+|  | 131 | Ensure resources are encrypted where applicable |
+|  | 132 | Ensure resources are encrypted where applicable |
+|  | 133 | Ensure resources are encrypted where applicable |
+|  | 134 | Ensure resources are encrypted where applicable |
+|  | 135 | Ensure resources are encrypted where applicable |
+|  | 136 | Ensure resources are encrypted where applicable |
+|  | 137 | Ensure resources are encrypted where applicable |
+|  | 138 | Ensure resources are encrypted where applicable |
+|  | 139 | Ensure resources are encrypted where applicable |
+|  | 140 | Ensure resources are encrypted where applicable |
+|  | 141 | Ensure resources are encrypted where applicable |
+|  | 142 | Ensure resources are encrypted where applicable |
+|  | 143 | Ensure resources are encrypted where applicable |
+|  | 144 | Ensure resources are encrypted where applicable |
+|  | 145 | Ensure resources are encrypted where applicable |
+|  | 146 | Ensure resources are encrypted where applicable |
+|  | 147 | Ensure resources are encrypted where applicable |
+|  | 148 | Ensure resources are encrypted where applicable |
+|  | 149 | Ensure resources are encrypted where applicable |
+|  | 150 | Ensure resources are encrypted where applicable |
+|  | 151 | Ensure resources are encrypted where applicable |
+|  | 152 | Ensure resources are encrypted where applicable |
+|  | 153 | Ensure resources are encrypted where applicable |
+|  | 154 | Ensure resources are encrypted where applicable |
+|  | 155 | Ensure resources are encrypted where applicable |
+|  | 156 | Ensure resources are encrypted where applicable |
+|  | 157 | Ensure resources are encrypted where applicable |
+|  | 158 | Ensure resources are encrypted where applicable |
+|  | 159 | Ensure resources are encrypted where applicable |
+|  | 160 | Ensure resources are encrypted where applicable |
+|  | 161 | Ensure resources are encrypted where applicable |
+|  | 162 | Ensure resources are encrypted where applicable |
+|  | 163 | Ensure resources are encrypted where applicable |
+|  | 164 | Ensure resources are encrypted where applicable |
+|  | 165 | Ensure resources are encrypted where applicable |
+|  | 166 | Ensure resources are encrypted where applicable |
+|  | 167 | Ensure resources are encrypted where applicable |
+|  | 168 | Ensure resources are encrypted where applicable |
+|  | 169 | Ensure resources are encrypted where applicable |
+|  | 170 | Ensure resources are encrypted where applicable |
+|  | 171 | Ensure resources are encrypted where applicable |
+|  | 172 | Ensure resources are encrypted where applicable |
+|  | 173 | Ensure resources are encrypted where applicable |
+|  | 174 | Ensure resources are encrypted where applicable |
+|  | 175 | Ensure resources are encrypted where applicable |
+|  | 176 | Ensure resources are encrypted where applicable |
+|  | 177 | Ensure resources are encrypted where applicable |
+|  | 178 | Ensure resources are encrypted where applicable |
+|  | 179 | Ensure resources are encrypted where applicable |
+|  | 180 | Ensure resources are encrypted where applicable |
+|  | 181 | Ensure resources are encrypted where applicable |
+|  | 182 | Ensure resources are encrypted where applicable |
+|  | 183 | Ensure resources are encrypted where applicable |
+|  | 184 | Ensure resources are encrypted where applicable |
+|  | 185 | Ensure resources are encrypted where applicable |
+|  | 186 | Ensure resources are encrypted where applicable |
+|  | 187 | Ensure resources are encrypted where applicable |
+|  | 188 | Ensure resources are encrypted where applicable |
+|  | 189 | Ensure resources are encrypted where applicable |
+|  | 190 | Ensure resources are encrypted where applicable |
+|  | 191 | Ensure resources are encrypted where applicable |
+
+#### EnforceResourceNaming
+
+| File | Line | Message |
+|------|------|---------|
+|  | 1 | Follow consistent resource naming conventions |
+|  | 2 | Follow consistent resource naming conventions |
+|  | 3 | Follow consistent resource naming conventions |
+|  | 4 | Follow consistent resource naming conventions |
+|  | 1 | Follow consistent resource naming conventions |
+|  | 2 | Follow consistent resource naming conventions |
+|  | 3 | Follow consistent resource naming conventions |
+|  | 4 | Follow consistent resource naming conventions |
+|  | 5 | Follow consistent resource naming conventions |
+|  | 6 | Follow consistent resource naming conventions |
+|  | 7 | Follow consistent resource naming conventions |
+|  | 8 | Follow consistent resource naming conventions |
+|  | 9 | Follow consistent resource naming conventions |
+|  | 10 | Follow consistent resource naming conventions |
+|  | 11 | Follow consistent resource naming conventions |
+|  | 12 | Follow consistent resource naming conventions |
+|  | 13 | Follow consistent resource naming conventions |
+|  | 14 | Follow consistent resource naming conventions |
+|  | 15 | Follow consistent resource naming conventions |
+|  | 16 | Follow consistent resource naming conventions |
+|  | 17 | Follow consistent resource naming conventions |
+|  | 18 | Follow consistent resource naming conventions |
+|  | 19 | Follow consistent resource naming conventions |
+|  | 20 | Follow consistent resource naming conventions |
+|  | 21 | Follow consistent resource naming conventions |
+|  | 22 | Follow consistent resource naming conventions |
+|  | 23 | Follow consistent resource naming conventions |
+|  | 24 | Follow consistent resource naming conventions |
+|  | 25 | Follow consistent resource naming conventions |
+|  | 26 | Follow consistent resource naming conventions |
+|  | 27 | Follow consistent resource naming conventions |
+|  | 28 | Follow consistent resource naming conventions |
+|  | 29 | Follow consistent resource naming conventions |
+|  | 30 | Follow consistent resource naming conventions |
+|  | 31 | Follow consistent resource naming conventions |
+|  | 32 | Follow consistent resource naming conventions |
+|  | 33 | Follow consistent resource naming conventions |
+|  | 34 | Follow consistent resource naming conventions |
+|  | 35 | Follow consistent resource naming conventions |
+|  | 36 | Follow consistent resource naming conventions |
+|  | 37 | Follow consistent resource naming conventions |
+|  | 38 | Follow consistent resource naming conventions |
+|  | 39 | Follow consistent resource naming conventions |
+|  | 40 | Follow consistent resource naming conventions |
+|  | 41 | Follow consistent resource naming conventions |
+|  | 42 | Follow consistent resource naming conventions |
+|  | 43 | Follow consistent resource naming conventions |
+|  | 44 | Follow consistent resource naming conventions |
+|  | 45 | Follow consistent resource naming conventions |
+|  | 46 | Follow consistent resource naming conventions |
+|  | 47 | Follow consistent resource naming conventions |
+|  | 48 | Follow consistent resource naming conventions |
+|  | 49 | Follow consistent resource naming conventions |
+|  | 50 | Follow consistent resource naming conventions |
+|  | 51 | Follow consistent resource naming conventions |
+|  | 52 | Follow consistent resource naming conventions |
+|  | 53 | Follow consistent resource naming conventions |
+|  | 54 | Follow consistent resource naming conventions |
+|  | 55 | Follow consistent resource naming conventions |
+|  | 56 | Follow consistent resource naming conventions |
+|  | 57 | Follow consistent resource naming conventions |
+|  | 58 | Follow consistent resource naming conventions |
+|  | 59 | Follow consistent resource naming conventions |
+|  | 60 | Follow consistent resource naming conventions |
+|  | 61 | Follow consistent resource naming conventions |
+|  | 62 | Follow consistent resource naming conventions |
+|  | 63 | Follow consistent resource naming conventions |
+|  | 64 | Follow consistent resource naming conventions |
+|  | 65 | Follow consistent resource naming conventions |
+|  | 66 | Follow consistent resource naming conventions |
+|  | 67 | Follow consistent resource naming conventions |
+|  | 68 | Follow consistent resource naming conventions |
+|  | 69 | Follow consistent resource naming conventions |
+|  | 70 | Follow consistent resource naming conventions |
+|  | 71 | Follow consistent resource naming conventions |
+|  | 72 | Follow consistent resource naming conventions |
+|  | 73 | Follow consistent resource naming conventions |
+|  | 74 | Follow consistent resource naming conventions |
+|  | 75 | Follow consistent resource naming conventions |
+|  | 76 | Follow consistent resource naming conventions |
+|  | 77 | Follow consistent resource naming conventions |
+|  | 78 | Follow consistent resource naming conventions |
+|  | 79 | Follow consistent resource naming conventions |
+|  | 80 | Follow consistent resource naming conventions |
+|  | 81 | Follow consistent resource naming conventions |
+|  | 82 | Follow consistent resource naming conventions |
+|  | 83 | Follow consistent resource naming conventions |
+|  | 84 | Follow consistent resource naming conventions |
+|  | 85 | Follow consistent resource naming conventions |
+|  | 86 | Follow consistent resource naming conventions |
+|  | 87 | Follow consistent resource naming conventions |
+|  | 88 | Follow consistent resource naming conventions |
+|  | 89 | Follow consistent resource naming conventions |
+|  | 90 | Follow consistent resource naming conventions |
+|  | 91 | Follow consistent resource naming conventions |
+|  | 92 | Follow consistent resource naming conventions |
+|  | 93 | Follow consistent resource naming conventions |
+|  | 94 | Follow consistent resource naming conventions |
+|  | 95 | Follow consistent resource naming conventions |
+|  | 96 | Follow consistent resource naming conventions |
+|  | 97 | Follow consistent resource naming conventions |
+|  | 98 | Follow consistent resource naming conventions |
+|  | 99 | Follow consistent resource naming conventions |
+|  | 100 | Follow consistent resource naming conventions |
+|  | 101 | Follow consistent resource naming conventions |
+|  | 102 | Follow consistent resource naming conventions |
+|  | 103 | Follow consistent resource naming conventions |
+|  | 104 | Follow consistent resource naming conventions |
+|  | 105 | Follow consistent resource naming conventions |
+|  | 106 | Follow consistent resource naming conventions |
+|  | 107 | Follow consistent resource naming conventions |
+|  | 108 | Follow consistent resource naming conventions |
+|  | 109 | Follow consistent resource naming conventions |
+|  | 110 | Follow consistent resource naming conventions |
+|  | 111 | Follow consistent resource naming conventions |
+|  | 112 | Follow consistent resource naming conventions |
+|  | 113 | Follow consistent resource naming conventions |
+|  | 114 | Follow consistent resource naming conventions |
+|  | 115 | Follow consistent resource naming conventions |
+|  | 116 | Follow consistent resource naming conventions |
+|  | 117 | Follow consistent resource naming conventions |
+|  | 118 | Follow consistent resource naming conventions |
+|  | 119 | Follow consistent resource naming conventions |
+|  | 120 | Follow consistent resource naming conventions |
+|  | 121 | Follow consistent resource naming conventions |
+|  | 122 | Follow consistent resource naming conventions |
+|  | 123 | Follow consistent resource naming conventions |
+|  | 124 | Follow consistent resource naming conventions |
+|  | 125 | Follow consistent resource naming conventions |
+|  | 126 | Follow consistent resource naming conventions |
+|  | 127 | Follow consistent resource naming conventions |
+|  | 128 | Follow consistent resource naming conventions |
+|  | 129 | Follow consistent resource naming conventions |
+|  | 130 | Follow consistent resource naming conventions |
+|  | 131 | Follow consistent resource naming conventions |
+|  | 132 | Follow consistent resource naming conventions |
+|  | 133 | Follow consistent resource naming conventions |
+|  | 134 | Follow consistent resource naming conventions |
+|  | 135 | Follow consistent resource naming conventions |
+|  | 136 | Follow consistent resource naming conventions |
+|  | 137 | Follow consistent resource naming conventions |
+|  | 138 | Follow consistent resource naming conventions |
+|  | 139 | Follow consistent resource naming conventions |
+|  | 140 | Follow consistent resource naming conventions |
+|  | 141 | Follow consistent resource naming conventions |
+|  | 142 | Follow consistent resource naming conventions |
+|  | 143 | Follow consistent resource naming conventions |
+|  | 144 | Follow consistent resource naming conventions |
+|  | 145 | Follow consistent resource naming conventions |
+|  | 146 | Follow consistent resource naming conventions |
+|  | 147 | Follow consistent resource naming conventions |
+|  | 148 | Follow consistent resource naming conventions |
+|  | 149 | Follow consistent resource naming conventions |
+|  | 150 | Follow consistent resource naming conventions |
+|  | 151 | Follow consistent resource naming conventions |
+|  | 152 | Follow consistent resource naming conventions |
+|  | 153 | Follow consistent resource naming conventions |
+|  | 154 | Follow consistent resource naming conventions |
+|  | 157 | Follow consistent resource naming conventions |
+|  | 158 | Follow consistent resource naming conventions |
+|  | 159 | Follow consistent resource naming conventions |
+|  | 160 | Follow consistent resource naming conventions |
+|  | 161 | Follow consistent resource naming conventions |
+|  | 162 | Follow consistent resource naming conventions |
+|  | 163 | Follow consistent resource naming conventions |
+|  | 164 | Follow consistent resource naming conventions |
+|  | 165 | Follow consistent resource naming conventions |
+|  | 166 | Follow consistent resource naming conventions |
+|  | 167 | Follow consistent resource naming conventions |
+|  | 168 | Follow consistent resource naming conventions |
+|  | 169 | Follow consistent resource naming conventions |
+|  | 170 | Follow consistent resource naming conventions |
+|  | 171 | Follow consistent resource naming conventions |
+|  | 172 | Follow consistent resource naming conventions |
+|  | 173 | Follow consistent resource naming conventions |
+|  | 174 | Follow consistent resource naming conventions |
+|  | 175 | Follow consistent resource naming conventions |
+|  | 176 | Follow consistent resource naming conventions |
+|  | 177 | Follow consistent resource naming conventions |
+|  | 178 | Follow consistent resource naming conventions |
+|  | 179 | Follow consistent resource naming conventions |
+|  | 180 | Follow consistent resource naming conventions |
+|  | 181 | Follow consistent resource naming conventions |
+|  | 182 | Follow consistent resource naming conventions |
+|  | 183 | Follow consistent resource naming conventions |
+|  | 184 | Follow consistent resource naming conventions |
+|  | 185 | Follow consistent resource naming conventions |
+|  | 186 | Follow consistent resource naming conventions |
+|  | 187 | Follow consistent resource naming conventions |
+|  | 188 | Follow consistent resource naming conventions |
+|  | 189 | Follow consistent resource naming conventions |
+|  | 190 | Follow consistent resource naming conventions |
+|  | 191 | Follow consistent resource naming conventions |
+
+#### IncludeDescription
+
+| File | Line | Message |
+|------|------|---------|
+|  | 1 | Include a description for each resource |
+|  | 2 | Include a description for each resource |
+|  | 3 | Include a description for each resource |
+|  | 4 | Include a description for each resource |
+|  | 1 | Include a description for each resource |
+|  | 2 | Include a description for each resource |
+|  | 3 | Include a description for each resource |
+|  | 4 | Include a description for each resource |
+|  | 5 | Include a description for each resource |
+|  | 6 | Include a description for each resource |
+|  | 7 | Include a description for each resource |
+|  | 8 | Include a description for each resource |
+|  | 9 | Include a description for each resource |
+|  | 10 | Include a description for each resource |
+|  | 11 | Include a description for each resource |
+|  | 12 | Include a description for each resource |
+|  | 13 | Include a description for each resource |
+|  | 14 | Include a description for each resource |
+|  | 15 | Include a description for each resource |
+|  | 16 | Include a description for each resource |
+|  | 17 | Include a description for each resource |
+|  | 18 | Include a description for each resource |
+|  | 19 | Include a description for each resource |
+|  | 20 | Include a description for each resource |
+|  | 21 | Include a description for each resource |
+|  | 22 | Include a description for each resource |
+|  | 23 | Include a description for each resource |
+|  | 24 | Include a description for each resource |
+|  | 25 | Include a description for each resource |
+|  | 26 | Include a description for each resource |
+|  | 27 | Include a description for each resource |
+|  | 28 | Include a description for each resource |
+|  | 29 | Include a description for each resource |
+|  | 30 | Include a description for each resource |
+|  | 31 | Include a description for each resource |
+|  | 32 | Include a description for each resource |
+|  | 33 | Include a description for each resource |
+|  | 34 | Include a description for each resource |
+|  | 35 | Include a description for each resource |
+|  | 36 | Include a description for each resource |
+|  | 37 | Include a description for each resource |
+|  | 38 | Include a description for each resource |
+|  | 39 | Include a description for each resource |
+|  | 40 | Include a description for each resource |
+|  | 41 | Include a description for each resource |
+|  | 42 | Include a description for each resource |
+|  | 43 | Include a description for each resource |
+|  | 44 | Include a description for each resource |
+|  | 45 | Include a description for each resource |
+|  | 46 | Include a description for each resource |
+|  | 47 | Include a description for each resource |
+|  | 48 | Include a description for each resource |
+|  | 49 | Include a description for each resource |
+|  | 50 | Include a description for each resource |
+|  | 51 | Include a description for each resource |
+|  | 52 | Include a description for each resource |
+|  | 53 | Include a description for each resource |
+|  | 54 | Include a description for each resource |
+|  | 55 | Include a description for each resource |
+|  | 56 | Include a description for each resource |
+|  | 57 | Include a description for each resource |
+|  | 58 | Include a description for each resource |
+|  | 59 | Include a description for each resource |
+|  | 60 | Include a description for each resource |
+|  | 61 | Include a description for each resource |
+|  | 62 | Include a description for each resource |
+|  | 63 | Include a description for each resource |
+|  | 64 | Include a description for each resource |
+|  | 65 | Include a description for each resource |
+|  | 66 | Include a description for each resource |
+|  | 67 | Include a description for each resource |
+|  | 68 | Include a description for each resource |
+|  | 69 | Include a description for each resource |
+|  | 70 | Include a description for each resource |
+|  | 71 | Include a description for each resource |
+|  | 72 | Include a description for each resource |
+|  | 73 | Include a description for each resource |
+|  | 74 | Include a description for each resource |
+|  | 75 | Include a description for each resource |
+|  | 76 | Include a description for each resource |
+|  | 77 | Include a description for each resource |
+|  | 78 | Include a description for each resource |
+|  | 79 | Include a description for each resource |
+|  | 80 | Include a description for each resource |
+|  | 81 | Include a description for each resource |
+|  | 82 | Include a description for each resource |
+|  | 83 | Include a description for each resource |
+|  | 84 | Include a description for each resource |
+|  | 85 | Include a description for each resource |
+|  | 86 | Include a description for each resource |
+|  | 87 | Include a description for each resource |
+|  | 88 | Include a description for each resource |
+|  | 89 | Include a description for each resource |
+|  | 90 | Include a description for each resource |
+|  | 91 | Include a description for each resource |
+|  | 92 | Include a description for each resource |
+|  | 93 | Include a description for each resource |
+|  | 94 | Include a description for each resource |
+|  | 95 | Include a description for each resource |
+|  | 96 | Include a description for each resource |
+|  | 97 | Include a description for each resource |
+|  | 98 | Include a description for each resource |
+|  | 99 | Include a description for each resource |
+|  | 100 | Include a description for each resource |
+|  | 101 | Include a description for each resource |
+|  | 102 | Include a description for each resource |
+|  | 104 | Include a description for each resource |
+|  | 105 | Include a description for each resource |
+|  | 106 | Include a description for each resource |
+|  | 107 | Include a description for each resource |
+|  | 108 | Include a description for each resource |
+|  | 109 | Include a description for each resource |
+|  | 110 | Include a description for each resource |
+|  | 111 | Include a description for each resource |
+|  | 112 | Include a description for each resource |
+|  | 113 | Include a description for each resource |
+|  | 114 | Include a description for each resource |
+|  | 115 | Include a description for each resource |
+|  | 116 | Include a description for each resource |
+|  | 117 | Include a description for each resource |
+|  | 118 | Include a description for each resource |
+|  | 119 | Include a description for each resource |
+|  | 120 | Include a description for each resource |
+|  | 121 | Include a description for each resource |
+|  | 122 | Include a description for each resource |
+|  | 123 | Include a description for each resource |
+|  | 124 | Include a description for each resource |
+|  | 125 | Include a description for each resource |
+|  | 126 | Include a description for each resource |
+|  | 127 | Include a description for each resource |
+|  | 128 | Include a description for each resource |
+|  | 129 | Include a description for each resource |
+|  | 130 | Include a description for each resource |
+|  | 131 | Include a description for each resource |
+|  | 132 | Include a description for each resource |
+|  | 133 | Include a description for each resource |
+|  | 134 | Include a description for each resource |
+|  | 135 | Include a description for each resource |
+|  | 136 | Include a description for each resource |
+|  | 137 | Include a description for each resource |
+|  | 138 | Include a description for each resource |
+|  | 139 | Include a description for each resource |
+|  | 140 | Include a description for each resource |
+|  | 141 | Include a description for each resource |
+|  | 142 | Include a description for each resource |
+|  | 143 | Include a description for each resource |
+|  | 144 | Include a description for each resource |
+|  | 145 | Include a description for each resource |
+|  | 146 | Include a description for each resource |
+|  | 147 | Include a description for each resource |
+|  | 148 | Include a description for each resource |
+|  | 149 | Include a description for each resource |
+|  | 150 | Include a description for each resource |
+|  | 151 | Include a description for each resource |
+|  | 152 | Include a description for each resource |
+|  | 153 | Include a description for each resource |
+|  | 154 | Include a description for each resource |
+|  | 155 | Include a description for each resource |
+|  | 156 | Include a description for each resource |
+|  | 157 | Include a description for each resource |
+|  | 158 | Include a description for each resource |
+|  | 159 | Include a description for each resource |
+|  | 160 | Include a description for each resource |
+|  | 161 | Include a description for each resource |
+|  | 162 | Include a description for each resource |
+|  | 163 | Include a description for each resource |
+|  | 164 | Include a description for each resource |
+|  | 165 | Include a description for each resource |
+|  | 166 | Include a description for each resource |
+|  | 167 | Include a description for each resource |
+|  | 168 | Include a description for each resource |
+|  | 169 | Include a description for each resource |
+|  | 170 | Include a description for each resource |
+|  | 171 | Include a description for each resource |
+|  | 172 | Include a description for each resource |
+|  | 173 | Include a description for each resource |
+|  | 174 | Include a description for each resource |
+|  | 175 | Include a description for each resource |
+|  | 176 | Include a description for each resource |
+|  | 177 | Include a description for each resource |
+|  | 179 | Include a description for each resource |
+|  | 180 | Include a description for each resource |
+|  | 181 | Include a description for each resource |
+|  | 182 | Include a description for each resource |
+|  | 183 | Include a description for each resource |
+|  | 184 | Include a description for each resource |
+|  | 185 | Include a description for each resource |
+|  | 186 | Include a description for each resource |
+|  | 187 | Include a description for each resource |
+|  | 188 | Include a description for each resource |
+|  | 189 | Include a description for each resource |
+|  | 190 | Include a description for each resource |
+|  | 191 | Include a description for each resource |
+
+#### LimitResourceCount
+
+| File | Line | Message |
+|------|------|---------|
+|  | 1 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 2 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 3 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 4 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 1 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 2 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 3 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 4 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 5 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 6 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 7 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 8 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 9 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 10 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 11 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 12 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 13 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 14 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 15 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 16 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 17 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 18 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 19 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 20 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 21 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 22 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 23 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 24 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 25 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 26 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 27 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 28 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 29 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 30 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 31 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 32 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 33 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 34 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 35 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 36 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 37 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 38 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 39 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 40 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 41 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 42 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 43 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 44 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 45 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 46 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 47 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 48 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 49 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 50 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 51 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 52 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 53 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 54 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 55 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 56 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 57 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 59 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 60 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 61 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 62 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 63 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 64 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 65 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 66 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 67 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 68 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 69 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 70 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 71 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 72 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 73 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 74 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 75 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 76 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 77 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 78 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 79 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 80 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 81 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 82 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 83 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 84 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 85 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 86 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 87 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 88 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 89 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 90 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 91 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 92 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 93 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 94 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 95 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 96 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 97 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 98 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 99 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 100 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 101 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 102 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 103 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 104 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 105 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 106 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 107 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 108 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 109 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 110 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 111 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 112 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 113 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 114 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 115 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 116 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 117 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 118 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 119 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 120 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 121 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 122 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 123 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 124 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 125 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 126 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 127 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 128 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 129 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 130 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 131 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 132 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 133 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 134 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 135 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 136 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 137 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 138 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 139 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 140 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 141 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 142 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 143 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 144 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 145 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 146 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 147 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 148 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 149 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 150 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 151 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 152 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 153 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 154 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 155 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 156 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 157 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 158 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 159 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 160 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 161 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 162 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 163 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 164 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 165 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 166 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 167 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 168 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 169 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 170 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 171 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 172 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 173 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 174 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 175 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 176 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 177 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 178 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 179 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 180 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 181 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 182 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 183 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 184 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 185 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 186 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 187 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 188 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 189 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 190 | Consider using 'for_each' instead of 'count' for better modularity |
+|  | 191 | Consider using 'for_each' instead of 'count' for better modularity |
+
+#### RequireTags
+
+| File | Line | Message |
+|------|------|---------|
+|  | 1 | Include tags for better resource management |
+|  | 2 | Include tags for better resource management |
+|  | 3 | Include tags for better resource management |
+|  | 4 | Include tags for better resource management |
+|  | 1 | Include tags for better resource management |
+|  | 2 | Include tags for better resource management |
+|  | 3 | Include tags for better resource management |
+|  | 4 | Include tags for better resource management |
+|  | 5 | Include tags for better resource management |
+|  | 6 | Include tags for better resource management |
+|  | 7 | Include tags for better resource management |
+|  | 8 | Include tags for better resource management |
+|  | 9 | Include tags for better resource management |
+|  | 11 | Include tags for better resource management |
+|  | 12 | Include tags for better resource management |
+|  | 13 | Include tags for better resource management |
+|  | 14 | Include tags for better resource management |
+|  | 15 | Include tags for better resource management |
+|  | 16 | Include tags for better resource management |
+|  | 17 | Include tags for better resource management |
+|  | 18 | Include tags for better resource management |
+|  | 19 | Include tags for better resource management |
+|  | 20 | Include tags for better resource management |
+|  | 22 | Include tags for better resource management |
+|  | 23 | Include tags for better resource management |
+|  | 24 | Include tags for better resource management |
+|  | 25 | Include tags for better resource management |
+|  | 26 | Include tags for better resource management |
+|  | 27 | Include tags for better resource management |
+|  | 28 | Include tags for better resource management |
+|  | 29 | Include tags for better resource management |
+|  | 30 | Include tags for better resource management |
+|  | 32 | Include tags for better resource management |
+|  | 33 | Include tags for better resource management |
+|  | 34 | Include tags for better resource management |
+|  | 35 | Include tags for better resource management |
+|  | 36 | Include tags for better resource management |
+|  | 37 | Include tags for better resource management |
+|  | 38 | Include tags for better resource management |
+|  | 39 | Include tags for better resource management |
+|  | 41 | Include tags for better resource management |
+|  | 42 | Include tags for better resource management |
+|  | 43 | Include tags for better resource management |
+|  | 44 | Include tags for better resource management |
+|  | 45 | Include tags for better resource management |
+|  | 46 | Include tags for better resource management |
+|  | 47 | Include tags for better resource management |
+|  | 48 | Include tags for better resource management |
+|  | 49 | Include tags for better resource management |
+|  | 51 | Include tags for better resource management |
+|  | 52 | Include tags for better resource management |
+|  | 53 | Include tags for better resource management |
+|  | 54 | Include tags for better resource management |
+|  | 55 | Include tags for better resource management |
+|  | 56 | Include tags for better resource management |
+|  | 57 | Include tags for better resource management |
+|  | 58 | Include tags for better resource management |
+|  | 59 | Include tags for better resource management |
+|  | 60 | Include tags for better resource management |
+|  | 61 | Include tags for better resource management |
+|  | 62 | Include tags for better resource management |
+|  | 63 | Include tags for better resource management |
+|  | 64 | Include tags for better resource management |
+|  | 65 | Include tags for better resource management |
+|  | 66 | Include tags for better resource management |
+|  | 67 | Include tags for better resource management |
+|  | 68 | Include tags for better resource management |
+|  | 69 | Include tags for better resource management |
+|  | 71 | Include tags for better resource management |
+|  | 72 | Include tags for better resource management |
+|  | 73 | Include tags for better resource management |
+|  | 74 | Include tags for better resource management |
+|  | 75 | Include tags for better resource management |
+|  | 76 | Include tags for better resource management |
+|  | 77 | Include tags for better resource management |
+|  | 78 | Include tags for better resource management |
+|  | 79 | Include tags for better resource management |
+|  | 80 | Include tags for better resource management |
+|  | 81 | Include tags for better resource management |
+|  | 82 | Include tags for better resource management |
+|  | 83 | Include tags for better resource management |
+|  | 85 | Include tags for better resource management |
+|  | 86 | Include tags for better resource management |
+|  | 87 | Include tags for better resource management |
+|  | 88 | Include tags for better resource management |
+|  | 89 | Include tags for better resource management |
+|  | 90 | Include tags for better resource management |
+|  | 91 | Include tags for better resource management |
+|  | 92 | Include tags for better resource management |
+|  | 93 | Include tags for better resource management |
+|  | 94 | Include tags for better resource management |
+|  | 95 | Include tags for better resource management |
+|  | 96 | Include tags for better resource management |
+|  | 97 | Include tags for better resource management |
+|  | 98 | Include tags for better resource management |
+|  | 99 | Include tags for better resource management |
+|  | 100 | Include tags for better resource management |
+|  | 101 | Include tags for better resource management |
+|  | 102 | Include tags for better resource management |
+|  | 103 | Include tags for better resource management |
+|  | 104 | Include tags for better resource management |
+|  | 105 | Include tags for better resource management |
+|  | 106 | Include tags for better resource management |
+|  | 107 | Include tags for better resource management |
+|  | 108 | Include tags for better resource management |
+|  | 109 | Include tags for better resource management |
+|  | 110 | Include tags for better resource management |
+|  | 111 | Include tags for better resource management |
+|  | 112 | Include tags for better resource management |
+|  | 113 | Include tags for better resource management |
+|  | 114 | Include tags for better resource management |
+|  | 115 | Include tags for better resource management |
+|  | 116 | Include tags for better resource management |
+|  | 117 | Include tags for better resource management |
+|  | 118 | Include tags for better resource management |
+|  | 119 | Include tags for better resource management |
+|  | 121 | Include tags for better resource management |
+|  | 122 | Include tags for better resource management |
+|  | 123 | Include tags for better resource management |
+|  | 124 | Include tags for better resource management |
+|  | 125 | Include tags for better resource management |
+|  | 126 | Include tags for better resource management |
+|  | 127 | Include tags for better resource management |
+|  | 128 | Include tags for better resource management |
+|  | 129 | Include tags for better resource management |
+|  | 130 | Include tags for better resource management |
+|  | 131 | Include tags for better resource management |
+|  | 132 | Include tags for better resource management |
+|  | 133 | Include tags for better resource management |
+|  | 134 | Include tags for better resource management |
+|  | 136 | Include tags for better resource management |
+|  | 137 | Include tags for better resource management |
+|  | 138 | Include tags for better resource management |
+|  | 139 | Include tags for better resource management |
+|  | 140 | Include tags for better resource management |
+|  | 141 | Include tags for better resource management |
+|  | 142 | Include tags for better resource management |
+|  | 143 | Include tags for better resource management |
+|  | 144 | Include tags for better resource management |
+|  | 146 | Include tags for better resource management |
+|  | 147 | Include tags for better resource management |
+|  | 148 | Include tags for better resource management |
+|  | 149 | Include tags for better resource management |
+|  | 150 | Include tags for better resource management |
+|  | 151 | Include tags for better resource management |
+|  | 152 | Include tags for better resource management |
+|  | 153 | Include tags for better resource management |
+|  | 154 | Include tags for better resource management |
+|  | 155 | Include tags for better resource management |
+|  | 156 | Include tags for better resource management |
+|  | 157 | Include tags for better resource management |
+|  | 158 | Include tags for better resource management |
+|  | 159 | Include tags for better resource management |
+|  | 160 | Include tags for better resource management |
+|  | 161 | Include tags for better resource management |
+|  | 162 | Include tags for better resource management |
+|  | 163 | Include tags for better resource management |
+|  | 165 | Include tags for better resource management |
+|  | 166 | Include tags for better resource management |
+|  | 167 | Include tags for better resource management |
+|  | 168 | Include tags for better resource management |
+|  | 169 | Include tags for better resource management |
+|  | 170 | Include tags for better resource management |
+|  | 171 | Include tags for better resource management |
+|  | 172 | Include tags for better resource management |
+|  | 173 | Include tags for better resource management |
+|  | 174 | Include tags for better resource management |
+|  | 175 | Include tags for better resource management |
+|  | 176 | Include tags for better resource management |
+|  | 177 | Include tags for better resource management |
+|  | 178 | Include tags for better resource management |
+|  | 179 | Include tags for better resource management |
+|  | 180 | Include tags for better resource management |
+|  | 181 | Include tags for better resource management |
+|  | 182 | Include tags for better resource management |
+|  | 183 | Include tags for better resource management |
+|  | 184 | Include tags for better resource management |
+|  | 185 | Include tags for better resource management |
+|  | 186 | Include tags for better resource management |
+|  | 187 | Include tags for better resource management |
+|  | 189 | Include tags for better resource management |
+|  | 190 | Include tags for better resource management |
+|  | 191 | Include tags for better resource management |
+
+#### RestrictPublicAccess
+
+| File | Line | Message |
+|------|------|---------|
+|  | 1 | Restrict public access to resources unless necessary |
+|  | 2 | Restrict public access to resources unless necessary |
+|  | 3 | Restrict public access to resources unless necessary |
+|  | 4 | Restrict public access to resources unless necessary |
+|  | 1 | Restrict public access to resources unless necessary |
+|  | 2 | Restrict public access to resources unless necessary |
+|  | 3 | Restrict public access to resources unless necessary |
+|  | 4 | Restrict public access to resources unless necessary |
+|  | 5 | Restrict public access to resources unless necessary |
+|  | 6 | Restrict public access to resources unless necessary |
+|  | 7 | Restrict public access to resources unless necessary |
+|  | 8 | Restrict public access to resources unless necessary |
+|  | 9 | Restrict public access to resources unless necessary |
+|  | 10 | Restrict public access to resources unless necessary |
+|  | 11 | Restrict public access to resources unless necessary |
+|  | 12 | Restrict public access to resources unless necessary |
+|  | 13 | Restrict public access to resources unless necessary |
+|  | 14 | Restrict public access to resources unless necessary |
+|  | 15 | Restrict public access to resources unless necessary |
+|  | 16 | Restrict public access to resources unless necessary |
+|  | 17 | Restrict public access to resources unless necessary |
+|  | 18 | Restrict public access to resources unless necessary |
+|  | 19 | Restrict public access to resources unless necessary |
+|  | 20 | Restrict public access to resources unless necessary |
+|  | 21 | Restrict public access to resources unless necessary |
+|  | 22 | Restrict public access to resources unless necessary |
+|  | 23 | Restrict public access to resources unless necessary |
+|  | 24 | Restrict public access to resources unless necessary |
+|  | 25 | Restrict public access to resources unless necessary |
+|  | 26 | Restrict public access to resources unless necessary |
+|  | 27 | Restrict public access to resources unless necessary |
+|  | 28 | Restrict public access to resources unless necessary |
+|  | 29 | Restrict public access to resources unless necessary |
+|  | 30 | Restrict public access to resources unless necessary |
+|  | 31 | Restrict public access to resources unless necessary |
+|  | 32 | Restrict public access to resources unless necessary |
+|  | 33 | Restrict public access to resources unless necessary |
+|  | 34 | Restrict public access to resources unless necessary |
+|  | 35 | Restrict public access to resources unless necessary |
+|  | 36 | Restrict public access to resources unless necessary |
+|  | 37 | Restrict public access to resources unless necessary |
+|  | 38 | Restrict public access to resources unless necessary |
+|  | 39 | Restrict public access to resources unless necessary |
+|  | 40 | Restrict public access to resources unless necessary |
+|  | 41 | Restrict public access to resources unless necessary |
+|  | 42 | Restrict public access to resources unless necessary |
+|  | 43 | Restrict public access to resources unless necessary |
+|  | 44 | Restrict public access to resources unless necessary |
+|  | 45 | Restrict public access to resources unless necessary |
+|  | 46 | Restrict public access to resources unless necessary |
+|  | 47 | Restrict public access to resources unless necessary |
+|  | 48 | Restrict public access to resources unless necessary |
+|  | 49 | Restrict public access to resources unless necessary |
+|  | 50 | Restrict public access to resources unless necessary |
+|  | 51 | Restrict public access to resources unless necessary |
+|  | 52 | Restrict public access to resources unless necessary |
+|  | 53 | Restrict public access to resources unless necessary |
+|  | 54 | Restrict public access to resources unless necessary |
+|  | 55 | Restrict public access to resources unless necessary |
+|  | 56 | Restrict public access to resources unless necessary |
+|  | 57 | Restrict public access to resources unless necessary |
+|  | 58 | Restrict public access to resources unless necessary |
+|  | 59 | Restrict public access to resources unless necessary |
+|  | 60 | Restrict public access to resources unless necessary |
+|  | 61 | Restrict public access to resources unless necessary |
+|  | 62 | Restrict public access to resources unless necessary |
+|  | 63 | Restrict public access to resources unless necessary |
+|  | 64 | Restrict public access to resources unless necessary |
+|  | 65 | Restrict public access to resources unless necessary |
+|  | 66 | Restrict public access to resources unless necessary |
+|  | 67 | Restrict public access to resources unless necessary |
+|  | 68 | Restrict public access to resources unless necessary |
+|  | 69 | Restrict public access to resources unless necessary |
+|  | 70 | Restrict public access to resources unless necessary |
+|  | 71 | Restrict public access to resources unless necessary |
+|  | 72 | Restrict public access to resources unless necessary |
+|  | 73 | Restrict public access to resources unless necessary |
+|  | 74 | Restrict public access to resources unless necessary |
+|  | 75 | Restrict public access to resources unless necessary |
+|  | 76 | Restrict public access to resources unless necessary |
+|  | 77 | Restrict public access to resources unless necessary |
+|  | 78 | Restrict public access to resources unless necessary |
+|  | 79 | Restrict public access to resources unless necessary |
+|  | 80 | Restrict public access to resources unless necessary |
+|  | 81 | Restrict public access to resources unless necessary |
+|  | 82 | Restrict public access to resources unless necessary |
+|  | 83 | Restrict public access to resources unless necessary |
+|  | 84 | Restrict public access to resources unless necessary |
+|  | 85 | Restrict public access to resources unless necessary |
+|  | 86 | Restrict public access to resources unless necessary |
+|  | 87 | Restrict public access to resources unless necessary |
+|  | 88 | Restrict public access to resources unless necessary |
+|  | 89 | Restrict public access to resources unless necessary |
+|  | 90 | Restrict public access to resources unless necessary |
+|  | 91 | Restrict public access to resources unless necessary |
+|  | 92 | Restrict public access to resources unless necessary |
+|  | 93 | Restrict public access to resources unless necessary |
+|  | 94 | Restrict public access to resources unless necessary |
+|  | 95 | Restrict public access to resources unless necessary |
+|  | 96 | Restrict public access to resources unless necessary |
+|  | 97 | Restrict public access to resources unless necessary |
+|  | 98 | Restrict public access to resources unless necessary |
+|  | 99 | Restrict public access to resources unless necessary |
+|  | 100 | Restrict public access to resources unless necessary |
+|  | 101 | Restrict public access to resources unless necessary |
+|  | 102 | Restrict public access to resources unless necessary |
+|  | 103 | Restrict public access to resources unless necessary |
+|  | 104 | Restrict public access to resources unless necessary |
+|  | 105 | Restrict public access to resources unless necessary |
+|  | 106 | Restrict public access to resources unless necessary |
+|  | 107 | Restrict public access to resources unless necessary |
+|  | 108 | Restrict public access to resources unless necessary |
+|  | 109 | Restrict public access to resources unless necessary |
+|  | 110 | Restrict public access to resources unless necessary |
+|  | 111 | Restrict public access to resources unless necessary |
+|  | 112 | Restrict public access to resources unless necessary |
+|  | 113 | Restrict public access to resources unless necessary |
+|  | 114 | Restrict public access to resources unless necessary |
+|  | 115 | Restrict public access to resources unless necessary |
+|  | 116 | Restrict public access to resources unless necessary |
+|  | 117 | Restrict public access to resources unless necessary |
+|  | 118 | Restrict public access to resources unless necessary |
+|  | 119 | Restrict public access to resources unless necessary |
+|  | 120 | Restrict public access to resources unless necessary |
+|  | 121 | Restrict public access to resources unless necessary |
+|  | 122 | Restrict public access to resources unless necessary |
+|  | 123 | Restrict public access to resources unless necessary |
+|  | 124 | Restrict public access to resources unless necessary |
+|  | 125 | Restrict public access to resources unless necessary |
+|  | 126 | Restrict public access to resources unless necessary |
+|  | 127 | Restrict public access to resources unless necessary |
+|  | 128 | Restrict public access to resources unless necessary |
+|  | 129 | Restrict public access to resources unless necessary |
+|  | 130 | Restrict public access to resources unless necessary |
+|  | 131 | Restrict public access to resources unless necessary |
+|  | 132 | Restrict public access to resources unless necessary |
+|  | 133 | Restrict public access to resources unless necessary |
+|  | 134 | Restrict public access to resources unless necessary |
+|  | 135 | Restrict public access to resources unless necessary |
+|  | 136 | Restrict public access to resources unless necessary |
+|  | 137 | Restrict public access to resources unless necessary |
+|  | 138 | Restrict public access to resources unless necessary |
+|  | 139 | Restrict public access to resources unless necessary |
+|  | 140 | Restrict public access to resources unless necessary |
+|  | 141 | Restrict public access to resources unless necessary |
+|  | 142 | Restrict public access to resources unless necessary |
+|  | 143 | Restrict public access to resources unless necessary |
+|  | 144 | Restrict public access to resources unless necessary |
+|  | 145 | Restrict public access to resources unless necessary |
+|  | 146 | Restrict public access to resources unless necessary |
+|  | 147 | Restrict public access to resources unless necessary |
+|  | 148 | Restrict public access to resources unless necessary |
+|  | 149 | Restrict public access to resources unless necessary |
+|  | 150 | Restrict public access to resources unless necessary |
+|  | 151 | Restrict public access to resources unless necessary |
+|  | 152 | Restrict public access to resources unless necessary |
+|  | 153 | Restrict public access to resources unless necessary |
+|  | 154 | Restrict public access to resources unless necessary |
+|  | 155 | Restrict public access to resources unless necessary |
+|  | 156 | Restrict public access to resources unless necessary |
+|  | 157 | Restrict public access to resources unless necessary |
+|  | 158 | Restrict public access to resources unless necessary |
+|  | 159 | Restrict public access to resources unless necessary |
+|  | 160 | Restrict public access to resources unless necessary |
+|  | 161 | Restrict public access to resources unless necessary |
+|  | 162 | Restrict public access to resources unless necessary |
+|  | 163 | Restrict public access to resources unless necessary |
+|  | 164 | Restrict public access to resources unless necessary |
+|  | 165 | Restrict public access to resources unless necessary |
+|  | 166 | Restrict public access to resources unless necessary |
+|  | 167 | Restrict public access to resources unless necessary |
+|  | 168 | Restrict public access to resources unless necessary |
+|  | 169 | Restrict public access to resources unless necessary |
+|  | 170 | Restrict public access to resources unless necessary |
+|  | 171 | Restrict public access to resources unless necessary |
+|  | 172 | Restrict public access to resources unless necessary |
+|  | 173 | Restrict public access to resources unless necessary |
+|  | 174 | Restrict public access to resources unless necessary |
+|  | 175 | Restrict public access to resources unless necessary |
+|  | 176 | Restrict public access to resources unless necessary |
+|  | 177 | Restrict public access to resources unless necessary |
+|  | 178 | Restrict public access to resources unless necessary |
+|  | 179 | Restrict public access to resources unless necessary |
+|  | 180 | Restrict public access to resources unless necessary |
+|  | 181 | Restrict public access to resources unless necessary |
+|  | 182 | Restrict public access to resources unless necessary |
+|  | 183 | Restrict public access to resources unless necessary |
+|  | 184 | Restrict public access to resources unless necessary |
+|  | 185 | Restrict public access to resources unless necessary |
+|  | 186 | Restrict public access to resources unless necessary |
+|  | 187 | Restrict public access to resources unless necessary |
+|  | 188 | Restrict public access to resources unless necessary |
+|  | 189 | Restrict public access to resources unless necessary |
+|  | 190 | Restrict public access to resources unless necessary |
+|  | 191 | Restrict public access to resources unless necessary |
+
+#### UseConsistentNaming
+
+| File | Line | Message |
+|------|------|---------|
+|  | 1 | Use snake_case for resource names |
+|  | 2 | Use snake_case for resource names |
+|  | 3 | Use snake_case for resource names |
+|  | 4 | Use snake_case for resource names |
+|  | 1 | Use snake_case for resource names |
+|  | 2 | Use snake_case for resource names |
+|  | 3 | Use snake_case for resource names |
+|  | 4 | Use snake_case for resource names |
+|  | 5 | Use snake_case for resource names |
+|  | 6 | Use snake_case for resource names |
+|  | 7 | Use snake_case for resource names |
+|  | 8 | Use snake_case for resource names |
+|  | 9 | Use snake_case for resource names |
+|  | 10 | Use snake_case for resource names |
+|  | 11 | Use snake_case for resource names |
+|  | 12 | Use snake_case for resource names |
+|  | 13 | Use snake_case for resource names |
+|  | 14 | Use snake_case for resource names |
+|  | 15 | Use snake_case for resource names |
+|  | 16 | Use snake_case for resource names |
+|  | 17 | Use snake_case for resource names |
+|  | 18 | Use snake_case for resource names |
+|  | 19 | Use snake_case for resource names |
+|  | 20 | Use snake_case for resource names |
+|  | 21 | Use snake_case for resource names |
+|  | 22 | Use snake_case for resource names |
+|  | 23 | Use snake_case for resource names |
+|  | 24 | Use snake_case for resource names |
+|  | 25 | Use snake_case for resource names |
+|  | 26 | Use snake_case for resource names |
+|  | 27 | Use snake_case for resource names |
+|  | 28 | Use snake_case for resource names |
+|  | 29 | Use snake_case for resource names |
+|  | 30 | Use snake_case for resource names |
+|  | 31 | Use snake_case for resource names |
+|  | 32 | Use snake_case for resource names |
+|  | 33 | Use snake_case for resource names |
+|  | 34 | Use snake_case for resource names |
+|  | 35 | Use snake_case for resource names |
+|  | 36 | Use snake_case for resource names |
+|  | 37 | Use snake_case for resource names |
+|  | 38 | Use snake_case for resource names |
+|  | 39 | Use snake_case for resource names |
+|  | 40 | Use snake_case for resource names |
+|  | 41 | Use snake_case for resource names |
+|  | 42 | Use snake_case for resource names |
+|  | 43 | Use snake_case for resource names |
+|  | 44 | Use snake_case for resource names |
+|  | 45 | Use snake_case for resource names |
+|  | 46 | Use snake_case for resource names |
+|  | 47 | Use snake_case for resource names |
+|  | 48 | Use snake_case for resource names |
+|  | 49 | Use snake_case for resource names |
+|  | 50 | Use snake_case for resource names |
+|  | 51 | Use snake_case for resource names |
+|  | 52 | Use snake_case for resource names |
+|  | 53 | Use snake_case for resource names |
+|  | 54 | Use snake_case for resource names |
+|  | 55 | Use snake_case for resource names |
+|  | 56 | Use snake_case for resource names |
+|  | 57 | Use snake_case for resource names |
+|  | 58 | Use snake_case for resource names |
+|  | 59 | Use snake_case for resource names |
+|  | 60 | Use snake_case for resource names |
+|  | 61 | Use snake_case for resource names |
+|  | 62 | Use snake_case for resource names |
+|  | 63 | Use snake_case for resource names |
+|  | 64 | Use snake_case for resource names |
+|  | 65 | Use snake_case for resource names |
+|  | 66 | Use snake_case for resource names |
+|  | 67 | Use snake_case for resource names |
+|  | 68 | Use snake_case for resource names |
+|  | 69 | Use snake_case for resource names |
+|  | 70 | Use snake_case for resource names |
+|  | 71 | Use snake_case for resource names |
+|  | 72 | Use snake_case for resource names |
+|  | 73 | Use snake_case for resource names |
+|  | 74 | Use snake_case for resource names |
+|  | 75 | Use snake_case for resource names |
+|  | 76 | Use snake_case for resource names |
+|  | 77 | Use snake_case for resource names |
+|  | 78 | Use snake_case for resource names |
+|  | 79 | Use snake_case for resource names |
+|  | 80 | Use snake_case for resource names |
+|  | 81 | Use snake_case for resource names |
+|  | 82 | Use snake_case for resource names |
+|  | 83 | Use snake_case for resource names |
+|  | 84 | Use snake_case for resource names |
+|  | 85 | Use snake_case for resource names |
+|  | 86 | Use snake_case for resource names |
+|  | 87 | Use snake_case for resource names |
+|  | 88 | Use snake_case for resource names |
+|  | 89 | Use snake_case for resource names |
+|  | 90 | Use snake_case for resource names |
+|  | 91 | Use snake_case for resource names |
+|  | 92 | Use snake_case for resource names |
+|  | 93 | Use snake_case for resource names |
+|  | 94 | Use snake_case for resource names |
+|  | 95 | Use snake_case for resource names |
+|  | 96 | Use snake_case for resource names |
+|  | 97 | Use snake_case for resource names |
+|  | 98 | Use snake_case for resource names |
+|  | 99 | Use snake_case for resource names |
+|  | 100 | Use snake_case for resource names |
+|  | 101 | Use snake_case for resource names |
+|  | 102 | Use snake_case for resource names |
+|  | 103 | Use snake_case for resource names |
+|  | 104 | Use snake_case for resource names |
+|  | 105 | Use snake_case for resource names |
+|  | 106 | Use snake_case for resource names |
+|  | 107 | Use snake_case for resource names |
+|  | 108 | Use snake_case for resource names |
+|  | 109 | Use snake_case for resource names |
+|  | 110 | Use snake_case for resource names |
+|  | 111 | Use snake_case for resource names |
+|  | 112 | Use snake_case for resource names |
+|  | 113 | Use snake_case for resource names |
+|  | 114 | Use snake_case for resource names |
+|  | 115 | Use snake_case for resource names |
+|  | 116 | Use snake_case for resource names |
+|  | 117 | Use snake_case for resource names |
+|  | 118 | Use snake_case for resource names |
+|  | 119 | Use snake_case for resource names |
+|  | 120 | Use snake_case for resource names |
+|  | 121 | Use snake_case for resource names |
+|  | 122 | Use snake_case for resource names |
+|  | 123 | Use snake_case for resource names |
+|  | 124 | Use snake_case for resource names |
+|  | 125 | Use snake_case for resource names |
+|  | 126 | Use snake_case for resource names |
+|  | 127 | Use snake_case for resource names |
+|  | 128 | Use snake_case for resource names |
+|  | 129 | Use snake_case for resource names |
+|  | 130 | Use snake_case for resource names |
+|  | 131 | Use snake_case for resource names |
+|  | 132 | Use snake_case for resource names |
+|  | 133 | Use snake_case for resource names |
+|  | 134 | Use snake_case for resource names |
+|  | 135 | Use snake_case for resource names |
+|  | 136 | Use snake_case for resource names |
+|  | 137 | Use snake_case for resource names |
+|  | 138 | Use snake_case for resource names |
+|  | 139 | Use snake_case for resource names |
+|  | 140 | Use snake_case for resource names |
+|  | 141 | Use snake_case for resource names |
+|  | 142 | Use snake_case for resource names |
+|  | 143 | Use snake_case for resource names |
+|  | 144 | Use snake_case for resource names |
+|  | 145 | Use snake_case for resource names |
+|  | 146 | Use snake_case for resource names |
+|  | 147 | Use snake_case for resource names |
+|  | 148 | Use snake_case for resource names |
+|  | 149 | Use snake_case for resource names |
+|  | 150 | Use snake_case for resource names |
+|  | 151 | Use snake_case for resource names |
+|  | 152 | Use snake_case for resource names |
+|  | 153 | Use snake_case for resource names |
+|  | 154 | Use snake_case for resource names |
+|  | 155 | Use snake_case for resource names |
+|  | 156 | Use snake_case for resource names |
+|  | 157 | Use snake_case for resource names |
+|  | 158 | Use snake_case for resource names |
+|  | 159 | Use snake_case for resource names |
+|  | 160 | Use snake_case for resource names |
+|  | 161 | Use snake_case for resource names |
+|  | 162 | Use snake_case for resource names |
+|  | 163 | Use snake_case for resource names |
+|  | 164 | Use snake_case for resource names |
+|  | 165 | Use snake_case for resource names |
+|  | 166 | Use snake_case for resource names |
+|  | 167 | Use snake_case for resource names |
+|  | 168 | Use snake_case for resource names |
+|  | 169 | Use snake_case for resource names |
+|  | 170 | Use snake_case for resource names |
+|  | 171 | Use snake_case for resource names |
+|  | 172 | Use snake_case for resource names |
+|  | 173 | Use snake_case for resource names |
+|  | 174 | Use snake_case for resource names |
+|  | 175 | Use snake_case for resource names |
+|  | 176 | Use snake_case for resource names |
+|  | 177 | Use snake_case for resource names |
+|  | 178 | Use snake_case for resource names |
+|  | 179 | Use snake_case for resource names |
+|  | 180 | Use snake_case for resource names |
+|  | 181 | Use snake_case for resource names |
+|  | 182 | Use snake_case for resource names |
+|  | 183 | Use snake_case for resource names |
+|  | 184 | Use snake_case for resource names |
+|  | 185 | Use snake_case for resource names |
+|  | 186 | Use snake_case for resource names |
+|  | 187 | Use snake_case for resource names |
+|  | 188 | Use snake_case for resource names |
+|  | 189 | Use snake_case for resource names |
+|  | 190 | Use snake_case for resource names |
+|  | 191 | Use snake_case for resource names |
+
+#### UseDataSources
+
+| File | Line | Message |
+|------|------|---------|
+|  | 1 | Use data sources where appropriate instead of hardcoding values |
+|  | 2 | Use data sources where appropriate instead of hardcoding values |
+|  | 3 | Use data sources where appropriate instead of hardcoding values |
+|  | 4 | Use data sources where appropriate instead of hardcoding values |
+|  | 1 | Use data sources where appropriate instead of hardcoding values |
+|  | 2 | Use data sources where appropriate instead of hardcoding values |
+|  | 3 | Use data sources where appropriate instead of hardcoding values |
+|  | 4 | Use data sources where appropriate instead of hardcoding values |
+|  | 5 | Use data sources where appropriate instead of hardcoding values |
+|  | 6 | Use data sources where appropriate instead of hardcoding values |
+|  | 7 | Use data sources where appropriate instead of hardcoding values |
+|  | 8 | Use data sources where appropriate instead of hardcoding values |
+|  | 9 | Use data sources where appropriate instead of hardcoding values |
+|  | 10 | Use data sources where appropriate instead of hardcoding values |
+|  | 11 | Use data sources where appropriate instead of hardcoding values |
+|  | 12 | Use data sources where appropriate instead of hardcoding values |
+|  | 13 | Use data sources where appropriate instead of hardcoding values |
+|  | 14 | Use data sources where appropriate instead of hardcoding values |
+|  | 15 | Use data sources where appropriate instead of hardcoding values |
+|  | 16 | Use data sources where appropriate instead of hardcoding values |
+|  | 17 | Use data sources where appropriate instead of hardcoding values |
+|  | 18 | Use data sources where appropriate instead of hardcoding values |
+|  | 19 | Use data sources where appropriate instead of hardcoding values |
+|  | 20 | Use data sources where appropriate instead of hardcoding values |
+|  | 21 | Use data sources where appropriate instead of hardcoding values |
+|  | 22 | Use data sources where appropriate instead of hardcoding values |
+|  | 23 | Use data sources where appropriate instead of hardcoding values |
+|  | 24 | Use data sources where appropriate instead of hardcoding values |
+|  | 25 | Use data sources where appropriate instead of hardcoding values |
+|  | 26 | Use data sources where appropriate instead of hardcoding values |
+|  | 27 | Use data sources where appropriate instead of hardcoding values |
+|  | 28 | Use data sources where appropriate instead of hardcoding values |
+|  | 29 | Use data sources where appropriate instead of hardcoding values |
+|  | 30 | Use data sources where appropriate instead of hardcoding values |
+|  | 31 | Use data sources where appropriate instead of hardcoding values |
+|  | 32 | Use data sources where appropriate instead of hardcoding values |
+|  | 33 | Use data sources where appropriate instead of hardcoding values |
+|  | 34 | Use data sources where appropriate instead of hardcoding values |
+|  | 35 | Use data sources where appropriate instead of hardcoding values |
+|  | 36 | Use data sources where appropriate instead of hardcoding values |
+|  | 37 | Use data sources where appropriate instead of hardcoding values |
+|  | 38 | Use data sources where appropriate instead of hardcoding values |
+|  | 39 | Use data sources where appropriate instead of hardcoding values |
+|  | 40 | Use data sources where appropriate instead of hardcoding values |
+|  | 41 | Use data sources where appropriate instead of hardcoding values |
+|  | 42 | Use data sources where appropriate instead of hardcoding values |
+|  | 43 | Use data sources where appropriate instead of hardcoding values |
+|  | 44 | Use data sources where appropriate instead of hardcoding values |
+|  | 45 | Use data sources where appropriate instead of hardcoding values |
+|  | 46 | Use data sources where appropriate instead of hardcoding values |
+|  | 47 | Use data sources where appropriate instead of hardcoding values |
+|  | 48 | Use data sources where appropriate instead of hardcoding values |
+|  | 49 | Use data sources where appropriate instead of hardcoding values |
+|  | 50 | Use data sources where appropriate instead of hardcoding values |
+|  | 51 | Use data sources where appropriate instead of hardcoding values |
+|  | 52 | Use data sources where appropriate instead of hardcoding values |
+|  | 53 | Use data sources where appropriate instead of hardcoding values |
+|  | 54 | Use data sources where appropriate instead of hardcoding values |
+|  | 55 | Use data sources where appropriate instead of hardcoding values |
+|  | 56 | Use data sources where appropriate instead of hardcoding values |
+|  | 57 | Use data sources where appropriate instead of hardcoding values |
+|  | 58 | Use data sources where appropriate instead of hardcoding values |
+|  | 59 | Use data sources where appropriate instead of hardcoding values |
+|  | 60 | Use data sources where appropriate instead of hardcoding values |
+|  | 61 | Use data sources where appropriate instead of hardcoding values |
+|  | 62 | Use data sources where appropriate instead of hardcoding values |
+|  | 63 | Use data sources where appropriate instead of hardcoding values |
+|  | 64 | Use data sources where appropriate instead of hardcoding values |
+|  | 65 | Use data sources where appropriate instead of hardcoding values |
+|  | 66 | Use data sources where appropriate instead of hardcoding values |
+|  | 67 | Use data sources where appropriate instead of hardcoding values |
+|  | 68 | Use data sources where appropriate instead of hardcoding values |
+|  | 69 | Use data sources where appropriate instead of hardcoding values |
+|  | 70 | Use data sources where appropriate instead of hardcoding values |
+|  | 71 | Use data sources where appropriate instead of hardcoding values |
+|  | 72 | Use data sources where appropriate instead of hardcoding values |
+|  | 73 | Use data sources where appropriate instead of hardcoding values |
+|  | 74 | Use data sources where appropriate instead of hardcoding values |
+|  | 75 | Use data sources where appropriate instead of hardcoding values |
+|  | 76 | Use data sources where appropriate instead of hardcoding values |
+|  | 77 | Use data sources where appropriate instead of hardcoding values |
+|  | 78 | Use data sources where appropriate instead of hardcoding values |
+|  | 79 | Use data sources where appropriate instead of hardcoding values |
+|  | 80 | Use data sources where appropriate instead of hardcoding values |
+|  | 81 | Use data sources where appropriate instead of hardcoding values |
+|  | 82 | Use data sources where appropriate instead of hardcoding values |
+|  | 83 | Use data sources where appropriate instead of hardcoding values |
+|  | 84 | Use data sources where appropriate instead of hardcoding values |
+|  | 85 | Use data sources where appropriate instead of hardcoding values |
+|  | 86 | Use data sources where appropriate instead of hardcoding values |
+|  | 87 | Use data sources where appropriate instead of hardcoding values |
+|  | 88 | Use data sources where appropriate instead of hardcoding values |
+|  | 89 | Use data sources where appropriate instead of hardcoding values |
+|  | 90 | Use data sources where appropriate instead of hardcoding values |
+|  | 91 | Use data sources where appropriate instead of hardcoding values |
+|  | 92 | Use data sources where appropriate instead of hardcoding values |
+|  | 93 | Use data sources where appropriate instead of hardcoding values |
+|  | 94 | Use data sources where appropriate instead of hardcoding values |
+|  | 95 | Use data sources where appropriate instead of hardcoding values |
+|  | 96 | Use data sources where appropriate instead of hardcoding values |
+|  | 97 | Use data sources where appropriate instead of hardcoding values |
+|  | 98 | Use data sources where appropriate instead of hardcoding values |
+|  | 99 | Use data sources where appropriate instead of hardcoding values |
+|  | 100 | Use data sources where appropriate instead of hardcoding values |
+|  | 101 | Use data sources where appropriate instead of hardcoding values |
+|  | 102 | Use data sources where appropriate instead of hardcoding values |
+|  | 103 | Use data sources where appropriate instead of hardcoding values |
+|  | 104 | Use data sources where appropriate instead of hardcoding values |
+|  | 105 | Use data sources where appropriate instead of hardcoding values |
+|  | 106 | Use data sources where appropriate instead of hardcoding values |
+|  | 107 | Use data sources where appropriate instead of hardcoding values |
+|  | 108 | Use data sources where appropriate instead of hardcoding values |
+|  | 109 | Use data sources where appropriate instead of hardcoding values |
+|  | 110 | Use data sources where appropriate instead of hardcoding values |
+|  | 111 | Use data sources where appropriate instead of hardcoding values |
+|  | 112 | Use data sources where appropriate instead of hardcoding values |
+|  | 113 | Use data sources where appropriate instead of hardcoding values |
+|  | 114 | Use data sources where appropriate instead of hardcoding values |
+|  | 115 | Use data sources where appropriate instead of hardcoding values |
+|  | 116 | Use data sources where appropriate instead of hardcoding values |
+|  | 117 | Use data sources where appropriate instead of hardcoding values |
+|  | 118 | Use data sources where appropriate instead of hardcoding values |
+|  | 119 | Use data sources where appropriate instead of hardcoding values |
+|  | 120 | Use data sources where appropriate instead of hardcoding values |
+|  | 121 | Use data sources where appropriate instead of hardcoding values |
+|  | 122 | Use data sources where appropriate instead of hardcoding values |
+|  | 123 | Use data sources where appropriate instead of hardcoding values |
+|  | 124 | Use data sources where appropriate instead of hardcoding values |
+|  | 125 | Use data sources where appropriate instead of hardcoding values |
+|  | 126 | Use data sources where appropriate instead of hardcoding values |
+|  | 127 | Use data sources where appropriate instead of hardcoding values |
+|  | 128 | Use data sources where appropriate instead of hardcoding values |
+|  | 129 | Use data sources where appropriate instead of hardcoding values |
+|  | 130 | Use data sources where appropriate instead of hardcoding values |
+|  | 131 | Use data sources where appropriate instead of hardcoding values |
+|  | 132 | Use data sources where appropriate instead of hardcoding values |
+|  | 133 | Use data sources where appropriate instead of hardcoding values |
+|  | 134 | Use data sources where appropriate instead of hardcoding values |
+|  | 135 | Use data sources where appropriate instead of hardcoding values |
+|  | 136 | Use data sources where appropriate instead of hardcoding values |
+|  | 137 | Use data sources where appropriate instead of hardcoding values |
+|  | 138 | Use data sources where appropriate instead of hardcoding values |
+|  | 139 | Use data sources where appropriate instead of hardcoding values |
+|  | 140 | Use data sources where appropriate instead of hardcoding values |
+|  | 141 | Use data sources where appropriate instead of hardcoding values |
+|  | 142 | Use data sources where appropriate instead of hardcoding values |
+|  | 143 | Use data sources where appropriate instead of hardcoding values |
+|  | 144 | Use data sources where appropriate instead of hardcoding values |
+|  | 145 | Use data sources where appropriate instead of hardcoding values |
+|  | 146 | Use data sources where appropriate instead of hardcoding values |
+|  | 147 | Use data sources where appropriate instead of hardcoding values |
+|  | 148 | Use data sources where appropriate instead of hardcoding values |
+|  | 149 | Use data sources where appropriate instead of hardcoding values |
+|  | 150 | Use data sources where appropriate instead of hardcoding values |
+|  | 151 | Use data sources where appropriate instead of hardcoding values |
+|  | 152 | Use data sources where appropriate instead of hardcoding values |
+|  | 153 | Use data sources where appropriate instead of hardcoding values |
+|  | 154 | Use data sources where appropriate instead of hardcoding values |
+|  | 155 | Use data sources where appropriate instead of hardcoding values |
+|  | 156 | Use data sources where appropriate instead of hardcoding values |
+|  | 157 | Use data sources where appropriate instead of hardcoding values |
+|  | 158 | Use data sources where appropriate instead of hardcoding values |
+|  | 159 | Use data sources where appropriate instead of hardcoding values |
+|  | 160 | Use data sources where appropriate instead of hardcoding values |
+|  | 161 | Use data sources where appropriate instead of hardcoding values |
+|  | 162 | Use data sources where appropriate instead of hardcoding values |
+|  | 163 | Use data sources where appropriate instead of hardcoding values |
+|  | 164 | Use data sources where appropriate instead of hardcoding values |
+|  | 165 | Use data sources where appropriate instead of hardcoding values |
+|  | 166 | Use data sources where appropriate instead of hardcoding values |
+|  | 167 | Use data sources where appropriate instead of hardcoding values |
+|  | 168 | Use data sources where appropriate instead of hardcoding values |
+|  | 169 | Use data sources where appropriate instead of hardcoding values |
+|  | 170 | Use data sources where appropriate instead of hardcoding values |
+|  | 171 | Use data sources where appropriate instead of hardcoding values |
+|  | 172 | Use data sources where appropriate instead of hardcoding values |
+|  | 173 | Use data sources where appropriate instead of hardcoding values |
+|  | 174 | Use data sources where appropriate instead of hardcoding values |
+|  | 175 | Use data sources where appropriate instead of hardcoding values |
+|  | 176 | Use data sources where appropriate instead of hardcoding values |
+|  | 177 | Use data sources where appropriate instead of hardcoding values |
+|  | 178 | Use data sources where appropriate instead of hardcoding values |
+|  | 179 | Use data sources where appropriate instead of hardcoding values |
+|  | 180 | Use data sources where appropriate instead of hardcoding values |
+|  | 181 | Use data sources where appropriate instead of hardcoding values |
+|  | 182 | Use data sources where appropriate instead of hardcoding values |
+|  | 183 | Use data sources where appropriate instead of hardcoding values |
+|  | 184 | Use data sources where appropriate instead of hardcoding values |
+|  | 185 | Use data sources where appropriate instead of hardcoding values |
+|  | 186 | Use data sources where appropriate instead of hardcoding values |
+|  | 187 | Use data sources where appropriate instead of hardcoding values |
+|  | 188 | Use data sources where appropriate instead of hardcoding values |
+|  | 189 | Use data sources where appropriate instead of hardcoding values |
+|  | 190 | Use data sources where appropriate instead of hardcoding values |
+|  | 191 | Use data sources where appropriate instead of hardcoding values |
+
+#### UseIAMRoles
+
+| File | Line | Message |
+|------|------|---------|
+|  | 1 | Use IAM roles for access control instead of access keys |
+|  | 2 | Use IAM roles for access control instead of access keys |
+|  | 3 | Use IAM roles for access control instead of access keys |
+|  | 4 | Use IAM roles for access control instead of access keys |
+|  | 1 | Use IAM roles for access control instead of access keys |
+|  | 2 | Use IAM roles for access control instead of access keys |
+|  | 3 | Use IAM roles for access control instead of access keys |
+|  | 4 | Use IAM roles for access control instead of access keys |
+|  | 5 | Use IAM roles for access control instead of access keys |
+|  | 6 | Use IAM roles for access control instead of access keys |
+|  | 7 | Use IAM roles for access control instead of access keys |
+|  | 8 | Use IAM roles for access control instead of access keys |
+|  | 9 | Use IAM roles for access control instead of access keys |
+|  | 10 | Use IAM roles for access control instead of access keys |
+|  | 11 | Use IAM roles for access control instead of access keys |
+|  | 12 | Use IAM roles for access control instead of access keys |
+|  | 13 | Use IAM roles for access control instead of access keys |
+|  | 14 | Use IAM roles for access control instead of access keys |
+|  | 15 | Use IAM roles for access control instead of access keys |
+|  | 16 | Use IAM roles for access control instead of access keys |
+|  | 17 | Use IAM roles for access control instead of access keys |
+|  | 18 | Use IAM roles for access control instead of access keys |
+|  | 19 | Use IAM roles for access control instead of access keys |
+|  | 20 | Use IAM roles for access control instead of access keys |
+|  | 21 | Use IAM roles for access control instead of access keys |
+|  | 22 | Use IAM roles for access control instead of access keys |
+|  | 23 | Use IAM roles for access control instead of access keys |
+|  | 24 | Use IAM roles for access control instead of access keys |
+|  | 25 | Use IAM roles for access control instead of access keys |
+|  | 26 | Use IAM roles for access control instead of access keys |
+|  | 27 | Use IAM roles for access control instead of access keys |
+|  | 28 | Use IAM roles for access control instead of access keys |
+|  | 29 | Use IAM roles for access control instead of access keys |
+|  | 30 | Use IAM roles for access control instead of access keys |
+|  | 31 | Use IAM roles for access control instead of access keys |
+|  | 32 | Use IAM roles for access control instead of access keys |
+|  | 33 | Use IAM roles for access control instead of access keys |
+|  | 34 | Use IAM roles for access control instead of access keys |
+|  | 35 | Use IAM roles for access control instead of access keys |
+|  | 36 | Use IAM roles for access control instead of access keys |
+|  | 37 | Use IAM roles for access control instead of access keys |
+|  | 38 | Use IAM roles for access control instead of access keys |
+|  | 39 | Use IAM roles for access control instead of access keys |
+|  | 40 | Use IAM roles for access control instead of access keys |
+|  | 41 | Use IAM roles for access control instead of access keys |
+|  | 42 | Use IAM roles for access control instead of access keys |
+|  | 43 | Use IAM roles for access control instead of access keys |
+|  | 44 | Use IAM roles for access control instead of access keys |
+|  | 45 | Use IAM roles for access control instead of access keys |
+|  | 46 | Use IAM roles for access control instead of access keys |
+|  | 47 | Use IAM roles for access control instead of access keys |
+|  | 48 | Use IAM roles for access control instead of access keys |
+|  | 49 | Use IAM roles for access control instead of access keys |
+|  | 50 | Use IAM roles for access control instead of access keys |
+|  | 51 | Use IAM roles for access control instead of access keys |
+|  | 52 | Use IAM roles for access control instead of access keys |
+|  | 53 | Use IAM roles for access control instead of access keys |
+|  | 54 | Use IAM roles for access control instead of access keys |
+|  | 55 | Use IAM roles for access control instead of access keys |
+|  | 56 | Use IAM roles for access control instead of access keys |
+|  | 57 | Use IAM roles for access control instead of access keys |
+|  | 58 | Use IAM roles for access control instead of access keys |
+|  | 59 | Use IAM roles for access control instead of access keys |
+|  | 60 | Use IAM roles for access control instead of access keys |
+|  | 61 | Use IAM roles for access control instead of access keys |
+|  | 62 | Use IAM roles for access control instead of access keys |
+|  | 63 | Use IAM roles for access control instead of access keys |
+|  | 64 | Use IAM roles for access control instead of access keys |
+|  | 65 | Use IAM roles for access control instead of access keys |
+|  | 66 | Use IAM roles for access control instead of access keys |
+|  | 67 | Use IAM roles for access control instead of access keys |
+|  | 68 | Use IAM roles for access control instead of access keys |
+|  | 69 | Use IAM roles for access control instead of access keys |
+|  | 70 | Use IAM roles for access control instead of access keys |
+|  | 71 | Use IAM roles for access control instead of access keys |
+|  | 72 | Use IAM roles for access control instead of access keys |
+|  | 73 | Use IAM roles for access control instead of access keys |
+|  | 74 | Use IAM roles for access control instead of access keys |
+|  | 75 | Use IAM roles for access control instead of access keys |
+|  | 76 | Use IAM roles for access control instead of access keys |
+|  | 77 | Use IAM roles for access control instead of access keys |
+|  | 78 | Use IAM roles for access control instead of access keys |
+|  | 79 | Use IAM roles for access control instead of access keys |
+|  | 80 | Use IAM roles for access control instead of access keys |
+|  | 81 | Use IAM roles for access control instead of access keys |
+|  | 82 | Use IAM roles for access control instead of access keys |
+|  | 83 | Use IAM roles for access control instead of access keys |
+|  | 84 | Use IAM roles for access control instead of access keys |
+|  | 85 | Use IAM roles for access control instead of access keys |
+|  | 86 | Use IAM roles for access control instead of access keys |
+|  | 87 | Use IAM roles for access control instead of access keys |
+|  | 88 | Use IAM roles for access control instead of access keys |
+|  | 89 | Use IAM roles for access control instead of access keys |
+|  | 90 | Use IAM roles for access control instead of access keys |
+|  | 91 | Use IAM roles for access control instead of access keys |
+|  | 92 | Use IAM roles for access control instead of access keys |
+|  | 93 | Use IAM roles for access control instead of access keys |
+|  | 94 | Use IAM roles for access control instead of access keys |
+|  | 95 | Use IAM roles for access control instead of access keys |
+|  | 96 | Use IAM roles for access control instead of access keys |
+|  | 97 | Use IAM roles for access control instead of access keys |
+|  | 98 | Use IAM roles for access control instead of access keys |
+|  | 99 | Use IAM roles for access control instead of access keys |
+|  | 100 | Use IAM roles for access control instead of access keys |
+|  | 101 | Use IAM roles for access control instead of access keys |
+|  | 102 | Use IAM roles for access control instead of access keys |
+|  | 103 | Use IAM roles for access control instead of access keys |
+|  | 104 | Use IAM roles for access control instead of access keys |
+|  | 105 | Use IAM roles for access control instead of access keys |
+|  | 106 | Use IAM roles for access control instead of access keys |
+|  | 107 | Use IAM roles for access control instead of access keys |
+|  | 108 | Use IAM roles for access control instead of access keys |
+|  | 109 | Use IAM roles for access control instead of access keys |
+|  | 110 | Use IAM roles for access control instead of access keys |
+|  | 111 | Use IAM roles for access control instead of access keys |
+|  | 112 | Use IAM roles for access control instead of access keys |
+|  | 113 | Use IAM roles for access control instead of access keys |
+|  | 114 | Use IAM roles for access control instead of access keys |
+|  | 115 | Use IAM roles for access control instead of access keys |
+|  | 116 | Use IAM roles for access control instead of access keys |
+|  | 117 | Use IAM roles for access control instead of access keys |
+|  | 118 | Use IAM roles for access control instead of access keys |
+|  | 119 | Use IAM roles for access control instead of access keys |
+|  | 120 | Use IAM roles for access control instead of access keys |
+|  | 121 | Use IAM roles for access control instead of access keys |
+|  | 122 | Use IAM roles for access control instead of access keys |
+|  | 123 | Use IAM roles for access control instead of access keys |
+|  | 124 | Use IAM roles for access control instead of access keys |
+|  | 125 | Use IAM roles for access control instead of access keys |
+|  | 126 | Use IAM roles for access control instead of access keys |
+|  | 127 | Use IAM roles for access control instead of access keys |
+|  | 128 | Use IAM roles for access control instead of access keys |
+|  | 129 | Use IAM roles for access control instead of access keys |
+|  | 130 | Use IAM roles for access control instead of access keys |
+|  | 131 | Use IAM roles for access control instead of access keys |
+|  | 132 | Use IAM roles for access control instead of access keys |
+|  | 133 | Use IAM roles for access control instead of access keys |
+|  | 134 | Use IAM roles for access control instead of access keys |
+|  | 135 | Use IAM roles for access control instead of access keys |
+|  | 136 | Use IAM roles for access control instead of access keys |
+|  | 137 | Use IAM roles for access control instead of access keys |
+|  | 138 | Use IAM roles for access control instead of access keys |
+|  | 139 | Use IAM roles for access control instead of access keys |
+|  | 140 | Use IAM roles for access control instead of access keys |
+|  | 141 | Use IAM roles for access control instead of access keys |
+|  | 142 | Use IAM roles for access control instead of access keys |
+|  | 143 | Use IAM roles for access control instead of access keys |
+|  | 144 | Use IAM roles for access control instead of access keys |
+|  | 145 | Use IAM roles for access control instead of access keys |
+|  | 146 | Use IAM roles for access control instead of access keys |
+|  | 147 | Use IAM roles for access control instead of access keys |
+|  | 148 | Use IAM roles for access control instead of access keys |
+|  | 149 | Use IAM roles for access control instead of access keys |
+|  | 150 | Use IAM roles for access control instead of access keys |
+|  | 151 | Use IAM roles for access control instead of access keys |
+|  | 152 | Use IAM roles for access control instead of access keys |
+|  | 153 | Use IAM roles for access control instead of access keys |
+|  | 154 | Use IAM roles for access control instead of access keys |
+|  | 155 | Use IAM roles for access control instead of access keys |
+|  | 156 | Use IAM roles for access control instead of access keys |
+|  | 157 | Use IAM roles for access control instead of access keys |
+|  | 158 | Use IAM roles for access control instead of access keys |
+|  | 159 | Use IAM roles for access control instead of access keys |
+|  | 160 | Use IAM roles for access control instead of access keys |
+|  | 161 | Use IAM roles for access control instead of access keys |
+|  | 162 | Use IAM roles for access control instead of access keys |
+|  | 163 | Use IAM roles for access control instead of access keys |
+|  | 164 | Use IAM roles for access control instead of access keys |
+|  | 165 | Use IAM roles for access control instead of access keys |
+|  | 166 | Use IAM roles for access control instead of access keys |
+|  | 167 | Use IAM roles for access control instead of access keys |
+|  | 168 | Use IAM roles for access control instead of access keys |
+|  | 169 | Use IAM roles for access control instead of access keys |
+|  | 170 | Use IAM roles for access control instead of access keys |
+|  | 171 | Use IAM roles for access control instead of access keys |
+|  | 172 | Use IAM roles for access control instead of access keys |
+|  | 173 | Use IAM roles for access control instead of access keys |
+|  | 174 | Use IAM roles for access control instead of access keys |
+|  | 175 | Use IAM roles for access control instead of access keys |
+|  | 176 | Use IAM roles for access control instead of access keys |
+|  | 177 | Use IAM roles for access control instead of access keys |
+|  | 178 | Use IAM roles for access control instead of access keys |
+|  | 179 | Use IAM roles for access control instead of access keys |
+|  | 180 | Use IAM roles for access control instead of access keys |
+|  | 181 | Use IAM roles for access control instead of access keys |
+|  | 182 | Use IAM roles for access control instead of access keys |
+|  | 183 | Use IAM roles for access control instead of access keys |
+|  | 184 | Use IAM roles for access control instead of access keys |
+|  | 185 | Use IAM roles for access control instead of access keys |
+|  | 186 | Use IAM roles for access control instead of access keys |
+|  | 187 | Use IAM roles for access control instead of access keys |
+|  | 188 | Use IAM roles for access control instead of access keys |
+|  | 189 | Use IAM roles for access control instead of access keys |
+|  | 190 | Use IAM roles for access control instead of access keys |
+|  | 191 | Use IAM roles for access control instead of access keys |
+
+#### UseModules
+
+| File | Line | Message |
+|------|------|---------|
+|  | 1 | Use modules to organize and reuse code |
+|  | 2 | Use modules to organize and reuse code |
+|  | 3 | Use modules to organize and reuse code |
+|  | 4 | Use modules to organize and reuse code |
+|  | 1 | Use modules to organize and reuse code |
+|  | 2 | Use modules to organize and reuse code |
+|  | 3 | Use modules to organize and reuse code |
+|  | 4 | Use modules to organize and reuse code |
+|  | 5 | Use modules to organize and reuse code |
+|  | 6 | Use modules to organize and reuse code |
+|  | 7 | Use modules to organize and reuse code |
+|  | 8 | Use modules to organize and reuse code |
+|  | 9 | Use modules to organize and reuse code |
+|  | 10 | Use modules to organize and reuse code |
+|  | 11 | Use modules to organize and reuse code |
+|  | 12 | Use modules to organize and reuse code |
+|  | 13 | Use modules to organize and reuse code |
+|  | 14 | Use modules to organize and reuse code |
+|  | 15 | Use modules to organize and reuse code |
+|  | 16 | Use modules to organize and reuse code |
+|  | 17 | Use modules to organize and reuse code |
+|  | 18 | Use modules to organize and reuse code |
+|  | 19 | Use modules to organize and reuse code |
+|  | 20 | Use modules to organize and reuse code |
+|  | 21 | Use modules to organize and reuse code |
+|  | 22 | Use modules to organize and reuse code |
+|  | 23 | Use modules to organize and reuse code |
+|  | 24 | Use modules to organize and reuse code |
+|  | 25 | Use modules to organize and reuse code |
+|  | 26 | Use modules to organize and reuse code |
+|  | 27 | Use modules to organize and reuse code |
+|  | 28 | Use modules to organize and reuse code |
+|  | 29 | Use modules to organize and reuse code |
+|  | 30 | Use modules to organize and reuse code |
+|  | 31 | Use modules to organize and reuse code |
+|  | 32 | Use modules to organize and reuse code |
+|  | 33 | Use modules to organize and reuse code |
+|  | 34 | Use modules to organize and reuse code |
+|  | 35 | Use modules to organize and reuse code |
+|  | 36 | Use modules to organize and reuse code |
+|  | 37 | Use modules to organize and reuse code |
+|  | 38 | Use modules to organize and reuse code |
+|  | 39 | Use modules to organize and reuse code |
+|  | 40 | Use modules to organize and reuse code |
+|  | 41 | Use modules to organize and reuse code |
+|  | 42 | Use modules to organize and reuse code |
+|  | 43 | Use modules to organize and reuse code |
+|  | 44 | Use modules to organize and reuse code |
+|  | 45 | Use modules to organize and reuse code |
+|  | 46 | Use modules to organize and reuse code |
+|  | 47 | Use modules to organize and reuse code |
+|  | 48 | Use modules to organize and reuse code |
+|  | 49 | Use modules to organize and reuse code |
+|  | 50 | Use modules to organize and reuse code |
+|  | 51 | Use modules to organize and reuse code |
+|  | 52 | Use modules to organize and reuse code |
+|  | 53 | Use modules to organize and reuse code |
+|  | 54 | Use modules to organize and reuse code |
+|  | 55 | Use modules to organize and reuse code |
+|  | 56 | Use modules to organize and reuse code |
+|  | 57 | Use modules to organize and reuse code |
+|  | 58 | Use modules to organize and reuse code |
+|  | 59 | Use modules to organize and reuse code |
+|  | 60 | Use modules to organize and reuse code |
+|  | 61 | Use modules to organize and reuse code |
+|  | 62 | Use modules to organize and reuse code |
+|  | 63 | Use modules to organize and reuse code |
+|  | 64 | Use modules to organize and reuse code |
+|  | 65 | Use modules to organize and reuse code |
+|  | 66 | Use modules to organize and reuse code |
+|  | 67 | Use modules to organize and reuse code |
+|  | 68 | Use modules to organize and reuse code |
+|  | 69 | Use modules to organize and reuse code |
+|  | 70 | Use modules to organize and reuse code |
+|  | 71 | Use modules to organize and reuse code |
+|  | 72 | Use modules to organize and reuse code |
+|  | 73 | Use modules to organize and reuse code |
+|  | 74 | Use modules to organize and reuse code |
+|  | 75 | Use modules to organize and reuse code |
+|  | 76 | Use modules to organize and reuse code |
+|  | 77 | Use modules to organize and reuse code |
+|  | 78 | Use modules to organize and reuse code |
+|  | 79 | Use modules to organize and reuse code |
+|  | 80 | Use modules to organize and reuse code |
+|  | 81 | Use modules to organize and reuse code |
+|  | 82 | Use modules to organize and reuse code |
+|  | 83 | Use modules to organize and reuse code |
+|  | 84 | Use modules to organize and reuse code |
+|  | 85 | Use modules to organize and reuse code |
+|  | 86 | Use modules to organize and reuse code |
+|  | 87 | Use modules to organize and reuse code |
+|  | 88 | Use modules to organize and reuse code |
+|  | 89 | Use modules to organize and reuse code |
+|  | 90 | Use modules to organize and reuse code |
+|  | 91 | Use modules to organize and reuse code |
+|  | 92 | Use modules to organize and reuse code |
+|  | 93 | Use modules to organize and reuse code |
+|  | 94 | Use modules to organize and reuse code |
+|  | 95 | Use modules to organize and reuse code |
+|  | 96 | Use modules to organize and reuse code |
+|  | 97 | Use modules to organize and reuse code |
+|  | 98 | Use modules to organize and reuse code |
+|  | 99 | Use modules to organize and reuse code |
+|  | 100 | Use modules to organize and reuse code |
+|  | 101 | Use modules to organize and reuse code |
+|  | 102 | Use modules to organize and reuse code |
+|  | 103 | Use modules to organize and reuse code |
+|  | 104 | Use modules to organize and reuse code |
+|  | 105 | Use modules to organize and reuse code |
+|  | 106 | Use modules to organize and reuse code |
+|  | 107 | Use modules to organize and reuse code |
+|  | 108 | Use modules to organize and reuse code |
+|  | 109 | Use modules to organize and reuse code |
+|  | 110 | Use modules to organize and reuse code |
+|  | 111 | Use modules to organize and reuse code |
+|  | 112 | Use modules to organize and reuse code |
+|  | 113 | Use modules to organize and reuse code |
+|  | 114 | Use modules to organize and reuse code |
+|  | 115 | Use modules to organize and reuse code |
+|  | 116 | Use modules to organize and reuse code |
+|  | 117 | Use modules to organize and reuse code |
+|  | 118 | Use modules to organize and reuse code |
+|  | 119 | Use modules to organize and reuse code |
+|  | 120 | Use modules to organize and reuse code |
+|  | 121 | Use modules to organize and reuse code |
+|  | 122 | Use modules to organize and reuse code |
+|  | 123 | Use modules to organize and reuse code |
+|  | 124 | Use modules to organize and reuse code |
+|  | 125 | Use modules to organize and reuse code |
+|  | 126 | Use modules to organize and reuse code |
+|  | 127 | Use modules to organize and reuse code |
+|  | 128 | Use modules to organize and reuse code |
+|  | 129 | Use modules to organize and reuse code |
+|  | 130 | Use modules to organize and reuse code |
+|  | 131 | Use modules to organize and reuse code |
+|  | 132 | Use modules to organize and reuse code |
+|  | 133 | Use modules to organize and reuse code |
+|  | 134 | Use modules to organize and reuse code |
+|  | 135 | Use modules to organize and reuse code |
+|  | 136 | Use modules to organize and reuse code |
+|  | 137 | Use modules to organize and reuse code |
+|  | 138 | Use modules to organize and reuse code |
+|  | 139 | Use modules to organize and reuse code |
+|  | 140 | Use modules to organize and reuse code |
+|  | 141 | Use modules to organize and reuse code |
+|  | 142 | Use modules to organize and reuse code |
+|  | 143 | Use modules to organize and reuse code |
+|  | 144 | Use modules to organize and reuse code |
+|  | 145 | Use modules to organize and reuse code |
+|  | 146 | Use modules to organize and reuse code |
+|  | 147 | Use modules to organize and reuse code |
+|  | 148 | Use modules to organize and reuse code |
+|  | 149 | Use modules to organize and reuse code |
+|  | 150 | Use modules to organize and reuse code |
+|  | 151 | Use modules to organize and reuse code |
+|  | 152 | Use modules to organize and reuse code |
+|  | 153 | Use modules to organize and reuse code |
+|  | 154 | Use modules to organize and reuse code |
+|  | 155 | Use modules to organize and reuse code |
+|  | 156 | Use modules to organize and reuse code |
+|  | 157 | Use modules to organize and reuse code |
+|  | 158 | Use modules to organize and reuse code |
+|  | 159 | Use modules to organize and reuse code |
+|  | 160 | Use modules to organize and reuse code |
+|  | 161 | Use modules to organize and reuse code |
+|  | 162 | Use modules to organize and reuse code |
+|  | 163 | Use modules to organize and reuse code |
+|  | 164 | Use modules to organize and reuse code |
+|  | 165 | Use modules to organize and reuse code |
+|  | 166 | Use modules to organize and reuse code |
+|  | 167 | Use modules to organize and reuse code |
+|  | 168 | Use modules to organize and reuse code |
+|  | 169 | Use modules to organize and reuse code |
+|  | 170 | Use modules to organize and reuse code |
+|  | 171 | Use modules to organize and reuse code |
+|  | 172 | Use modules to organize and reuse code |
+|  | 173 | Use modules to organize and reuse code |
+|  | 174 | Use modules to organize and reuse code |
+|  | 175 | Use modules to organize and reuse code |
+|  | 176 | Use modules to organize and reuse code |
+|  | 177 | Use modules to organize and reuse code |
+|  | 178 | Use modules to organize and reuse code |
+|  | 179 | Use modules to organize and reuse code |
+|  | 180 | Use modules to organize and reuse code |
+|  | 181 | Use modules to organize and reuse code |
+|  | 182 | Use modules to organize and reuse code |
+|  | 183 | Use modules to organize and reuse code |
+|  | 184 | Use modules to organize and reuse code |
+|  | 185 | Use modules to organize and reuse code |
+|  | 186 | Use modules to organize and reuse code |
+|  | 187 | Use modules to organize and reuse code |
+|  | 188 | Use modules to organize and reuse code |
+|  | 189 | Use modules to organize and reuse code |
+|  | 190 | Use modules to organize and reuse code |
+|  | 191 | Use modules to organize and reuse code |
+
+#### UseSecureProtocols
+
+| File | Line | Message |
+|------|------|---------|
+|  | 1 | Use secure protocols (HTTPS) where applicable |
+|  | 2 | Use secure protocols (HTTPS) where applicable |
+|  | 3 | Use secure protocols (HTTPS) where applicable |
+|  | 4 | Use secure protocols (HTTPS) where applicable |
+|  | 1 | Use secure protocols (HTTPS) where applicable |
+|  | 2 | Use secure protocols (HTTPS) where applicable |
+|  | 3 | Use secure protocols (HTTPS) where applicable |
+|  | 4 | Use secure protocols (HTTPS) where applicable |
+|  | 5 | Use secure protocols (HTTPS) where applicable |
+|  | 6 | Use secure protocols (HTTPS) where applicable |
+|  | 7 | Use secure protocols (HTTPS) where applicable |
+|  | 8 | Use secure protocols (HTTPS) where applicable |
+|  | 9 | Use secure protocols (HTTPS) where applicable |
+|  | 10 | Use secure protocols (HTTPS) where applicable |
+|  | 11 | Use secure protocols (HTTPS) where applicable |
+|  | 12 | Use secure protocols (HTTPS) where applicable |
+|  | 13 | Use secure protocols (HTTPS) where applicable |
+|  | 14 | Use secure protocols (HTTPS) where applicable |
+|  | 15 | Use secure protocols (HTTPS) where applicable |
+|  | 16 | Use secure protocols (HTTPS) where applicable |
+|  | 17 | Use secure protocols (HTTPS) where applicable |
+|  | 18 | Use secure protocols (HTTPS) where applicable |
+|  | 19 | Use secure protocols (HTTPS) where applicable |
+|  | 20 | Use secure protocols (HTTPS) where applicable |
+|  | 21 | Use secure protocols (HTTPS) where applicable |
+|  | 22 | Use secure protocols (HTTPS) where applicable |
+|  | 23 | Use secure protocols (HTTPS) where applicable |
+|  | 24 | Use secure protocols (HTTPS) where applicable |
+|  | 25 | Use secure protocols (HTTPS) where applicable |
+|  | 26 | Use secure protocols (HTTPS) where applicable |
+|  | 27 | Use secure protocols (HTTPS) where applicable |
+|  | 28 | Use secure protocols (HTTPS) where applicable |
+|  | 29 | Use secure protocols (HTTPS) where applicable |
+|  | 30 | Use secure protocols (HTTPS) where applicable |
+|  | 31 | Use secure protocols (HTTPS) where applicable |
+|  | 32 | Use secure protocols (HTTPS) where applicable |
+|  | 33 | Use secure protocols (HTTPS) where applicable |
+|  | 34 | Use secure protocols (HTTPS) where applicable |
+|  | 35 | Use secure protocols (HTTPS) where applicable |
+|  | 36 | Use secure protocols (HTTPS) where applicable |
+|  | 37 | Use secure protocols (HTTPS) where applicable |
+|  | 38 | Use secure protocols (HTTPS) where applicable |
+|  | 39 | Use secure protocols (HTTPS) where applicable |
+|  | 40 | Use secure protocols (HTTPS) where applicable |
+|  | 41 | Use secure protocols (HTTPS) where applicable |
+|  | 42 | Use secure protocols (HTTPS) where applicable |
+|  | 43 | Use secure protocols (HTTPS) where applicable |
+|  | 44 | Use secure protocols (HTTPS) where applicable |
+|  | 45 | Use secure protocols (HTTPS) where applicable |
+|  | 46 | Use secure protocols (HTTPS) where applicable |
+|  | 47 | Use secure protocols (HTTPS) where applicable |
+|  | 48 | Use secure protocols (HTTPS) where applicable |
+|  | 49 | Use secure protocols (HTTPS) where applicable |
+|  | 50 | Use secure protocols (HTTPS) where applicable |
+|  | 51 | Use secure protocols (HTTPS) where applicable |
+|  | 52 | Use secure protocols (HTTPS) where applicable |
+|  | 53 | Use secure protocols (HTTPS) where applicable |
+|  | 54 | Use secure protocols (HTTPS) where applicable |
+|  | 55 | Use secure protocols (HTTPS) where applicable |
+|  | 56 | Use secure protocols (HTTPS) where applicable |
+|  | 57 | Use secure protocols (HTTPS) where applicable |
+|  | 58 | Use secure protocols (HTTPS) where applicable |
+|  | 59 | Use secure protocols (HTTPS) where applicable |
+|  | 60 | Use secure protocols (HTTPS) where applicable |
+|  | 61 | Use secure protocols (HTTPS) where applicable |
+|  | 62 | Use secure protocols (HTTPS) where applicable |
+|  | 63 | Use secure protocols (HTTPS) where applicable |
+|  | 64 | Use secure protocols (HTTPS) where applicable |
+|  | 65 | Use secure protocols (HTTPS) where applicable |
+|  | 66 | Use secure protocols (HTTPS) where applicable |
+|  | 67 | Use secure protocols (HTTPS) where applicable |
+|  | 68 | Use secure protocols (HTTPS) where applicable |
+|  | 69 | Use secure protocols (HTTPS) where applicable |
+|  | 70 | Use secure protocols (HTTPS) where applicable |
+|  | 71 | Use secure protocols (HTTPS) where applicable |
+|  | 72 | Use secure protocols (HTTPS) where applicable |
+|  | 73 | Use secure protocols (HTTPS) where applicable |
+|  | 74 | Use secure protocols (HTTPS) where applicable |
+|  | 75 | Use secure protocols (HTTPS) where applicable |
+|  | 76 | Use secure protocols (HTTPS) where applicable |
+|  | 77 | Use secure protocols (HTTPS) where applicable |
+|  | 78 | Use secure protocols (HTTPS) where applicable |
+|  | 79 | Use secure protocols (HTTPS) where applicable |
+|  | 80 | Use secure protocols (HTTPS) where applicable |
+|  | 81 | Use secure protocols (HTTPS) where applicable |
+|  | 82 | Use secure protocols (HTTPS) where applicable |
+|  | 83 | Use secure protocols (HTTPS) where applicable |
+|  | 84 | Use secure protocols (HTTPS) where applicable |
+|  | 85 | Use secure protocols (HTTPS) where applicable |
+|  | 86 | Use secure protocols (HTTPS) where applicable |
+|  | 87 | Use secure protocols (HTTPS) where applicable |
+|  | 88 | Use secure protocols (HTTPS) where applicable |
+|  | 89 | Use secure protocols (HTTPS) where applicable |
+|  | 90 | Use secure protocols (HTTPS) where applicable |
+|  | 91 | Use secure protocols (HTTPS) where applicable |
+|  | 92 | Use secure protocols (HTTPS) where applicable |
+|  | 93 | Use secure protocols (HTTPS) where applicable |
+|  | 94 | Use secure protocols (HTTPS) where applicable |
+|  | 95 | Use secure protocols (HTTPS) where applicable |
+|  | 96 | Use secure protocols (HTTPS) where applicable |
+|  | 97 | Use secure protocols (HTTPS) where applicable |
+|  | 98 | Use secure protocols (HTTPS) where applicable |
+|  | 99 | Use secure protocols (HTTPS) where applicable |
+|  | 100 | Use secure protocols (HTTPS) where applicable |
+|  | 101 | Use secure protocols (HTTPS) where applicable |
+|  | 102 | Use secure protocols (HTTPS) where applicable |
+|  | 103 | Use secure protocols (HTTPS) where applicable |
+|  | 104 | Use secure protocols (HTTPS) where applicable |
+|  | 105 | Use secure protocols (HTTPS) where applicable |
+|  | 106 | Use secure protocols (HTTPS) where applicable |
+|  | 107 | Use secure protocols (HTTPS) where applicable |
+|  | 108 | Use secure protocols (HTTPS) where applicable |
+|  | 109 | Use secure protocols (HTTPS) where applicable |
+|  | 110 | Use secure protocols (HTTPS) where applicable |
+|  | 111 | Use secure protocols (HTTPS) where applicable |
+|  | 112 | Use secure protocols (HTTPS) where applicable |
+|  | 113 | Use secure protocols (HTTPS) where applicable |
+|  | 114 | Use secure protocols (HTTPS) where applicable |
+|  | 115 | Use secure protocols (HTTPS) where applicable |
+|  | 116 | Use secure protocols (HTTPS) where applicable |
+|  | 117 | Use secure protocols (HTTPS) where applicable |
+|  | 118 | Use secure protocols (HTTPS) where applicable |
+|  | 119 | Use secure protocols (HTTPS) where applicable |
+|  | 120 | Use secure protocols (HTTPS) where applicable |
+|  | 121 | Use secure protocols (HTTPS) where applicable |
+|  | 122 | Use secure protocols (HTTPS) where applicable |
+|  | 123 | Use secure protocols (HTTPS) where applicable |
+|  | 124 | Use secure protocols (HTTPS) where applicable |
+|  | 125 | Use secure protocols (HTTPS) where applicable |
+|  | 126 | Use secure protocols (HTTPS) where applicable |
+|  | 127 | Use secure protocols (HTTPS) where applicable |
+|  | 128 | Use secure protocols (HTTPS) where applicable |
+|  | 129 | Use secure protocols (HTTPS) where applicable |
+|  | 130 | Use secure protocols (HTTPS) where applicable |
+|  | 131 | Use secure protocols (HTTPS) where applicable |
+|  | 132 | Use secure protocols (HTTPS) where applicable |
+|  | 133 | Use secure protocols (HTTPS) where applicable |
+|  | 134 | Use secure protocols (HTTPS) where applicable |
+|  | 135 | Use secure protocols (HTTPS) where applicable |
+|  | 136 | Use secure protocols (HTTPS) where applicable |
+|  | 137 | Use secure protocols (HTTPS) where applicable |
+|  | 138 | Use secure protocols (HTTPS) where applicable |
+|  | 139 | Use secure protocols (HTTPS) where applicable |
+|  | 140 | Use secure protocols (HTTPS) where applicable |
+|  | 141 | Use secure protocols (HTTPS) where applicable |
+|  | 142 | Use secure protocols (HTTPS) where applicable |
+|  | 143 | Use secure protocols (HTTPS) where applicable |
+|  | 144 | Use secure protocols (HTTPS) where applicable |
+|  | 145 | Use secure protocols (HTTPS) where applicable |
+|  | 146 | Use secure protocols (HTTPS) where applicable |
+|  | 147 | Use secure protocols (HTTPS) where applicable |
+|  | 148 | Use secure protocols (HTTPS) where applicable |
+|  | 149 | Use secure protocols (HTTPS) where applicable |
+|  | 150 | Use secure protocols (HTTPS) where applicable |
+|  | 151 | Use secure protocols (HTTPS) where applicable |
+|  | 152 | Use secure protocols (HTTPS) where applicable |
+|  | 153 | Use secure protocols (HTTPS) where applicable |
+|  | 154 | Use secure protocols (HTTPS) where applicable |
+|  | 155 | Use secure protocols (HTTPS) where applicable |
+|  | 156 | Use secure protocols (HTTPS) where applicable |
+|  | 157 | Use secure protocols (HTTPS) where applicable |
+|  | 158 | Use secure protocols (HTTPS) where applicable |
+|  | 159 | Use secure protocols (HTTPS) where applicable |
+|  | 160 | Use secure protocols (HTTPS) where applicable |
+|  | 161 | Use secure protocols (HTTPS) where applicable |
+|  | 162 | Use secure protocols (HTTPS) where applicable |
+|  | 163 | Use secure protocols (HTTPS) where applicable |
+|  | 164 | Use secure protocols (HTTPS) where applicable |
+|  | 165 | Use secure protocols (HTTPS) where applicable |
+|  | 166 | Use secure protocols (HTTPS) where applicable |
+|  | 167 | Use secure protocols (HTTPS) where applicable |
+|  | 168 | Use secure protocols (HTTPS) where applicable |
+|  | 169 | Use secure protocols (HTTPS) where applicable |
+|  | 170 | Use secure protocols (HTTPS) where applicable |
+|  | 171 | Use secure protocols (HTTPS) where applicable |
+|  | 172 | Use secure protocols (HTTPS) where applicable |
+|  | 173 | Use secure protocols (HTTPS) where applicable |
+|  | 174 | Use secure protocols (HTTPS) where applicable |
+|  | 175 | Use secure protocols (HTTPS) where applicable |
+|  | 176 | Use secure protocols (HTTPS) where applicable |
+|  | 177 | Use secure protocols (HTTPS) where applicable |
+|  | 178 | Use secure protocols (HTTPS) where applicable |
+|  | 179 | Use secure protocols (HTTPS) where applicable |
+|  | 180 | Use secure protocols (HTTPS) where applicable |
+|  | 181 | Use secure protocols (HTTPS) where applicable |
+|  | 182 | Use secure protocols (HTTPS) where applicable |
+|  | 183 | Use secure protocols (HTTPS) where applicable |
+|  | 184 | Use secure protocols (HTTPS) where applicable |
+|  | 185 | Use secure protocols (HTTPS) where applicable |
+|  | 186 | Use secure protocols (HTTPS) where applicable |
+|  | 187 | Use secure protocols (HTTPS) where applicable |
+|  | 188 | Use secure protocols (HTTPS) where applicable |
+|  | 189 | Use secure protocols (HTTPS) where applicable |
+|  | 190 | Use secure protocols (HTTPS) where applicable |
+|  | 191 | Use secure protocols (HTTPS) where applicable |
 
 
