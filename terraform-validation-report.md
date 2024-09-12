@@ -16,12 +16,12 @@
 
 | File | Line | Message |
 |------|------|---------|
-| main.tf | 12 | AMI ID should be parameterized. |
+| main.tf | 127 | AMI ID should be parameterized. |
 
 #### Hardcoded Bucket Name
 
 | File | Line | Message |
 |------|------|---------|
-| main.tf | 7 | Bucket name should be parameterized. |
+| main.tf | 142 | Bucket name should be parameterized. |
 
 
