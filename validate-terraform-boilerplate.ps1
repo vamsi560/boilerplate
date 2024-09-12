@@ -27,18 +27,15 @@ function Check-TerraformFile {
     foreach ($rule in $rules.rules) {
         $lineNumber = 1
         foreach ($line in $content) {
-            if ($line -notmatch $rule.pattern) {
-                # Optionally, skip lines that don't contain the rule patterns of interest
-                if ($rule.pattern -notmatch "^\s*\{\s*\}$") {
-                    $violations += @(
-                        @{
-                            File = $filePath
-                            Line = $lineNumber
-                            Rule = $rule.name
-                            Category = $rule.category
-                            Message = $rule.message
-                        }
-                    )
+            # Check if the line matches the rule pattern
+            if ($line -match $rule.pattern) {
+                # If a match is found, record it as a violation
+                $violations += @{
+                    File = $filePath
+                    Line = $lineNumber
+                    Rule = $rule.name
+                    Category = $rule.category
+                    Message = $rule.message
                 }
             }
             $lineNumber++
@@ -48,7 +45,6 @@ function Check-TerraformFile {
     Write-Host "Found $($violations.Count) violations in $filePath"
     return $violations
 }
-
 # Function to add comments to a file based on violations
 function Add-CommentsToFile {
     param (
