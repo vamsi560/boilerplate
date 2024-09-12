@@ -4,11 +4,13 @@
 
 ## Summary
 
-| Category | Violation Count |
-|----------|-----------------|
-| Coding Standards | 2 |
-| Improve Governance | 26 |
-| Modular Design | 1 |
+| Category | Subcategory | Violation Count |
+|----------|-------------|-----------------|
+| Coding Standards | IncludeDescription | 2 |
+| Improve Governance | EnforceResourceNaming | 13 |
+| | RequireTags | 12 |
+| | UseIAMRoles | 1 |
+| Modular Design | LimitResourceCount | 1 |
 
 ## Detailed Findings
 
@@ -27,6 +29,8 @@
 
 | File | Line | Message |
 |------|------|---------|
+| main.tf | 155 | Follow consistent resource naming conventions |
+| main.tf | 156 | Follow consistent resource naming conventions |
 | boilerplate_rules.tf | 11 | Follow consistent resource naming conventions |
 | boilerplate_rules.tf | 17 | Follow consistent resource naming conventions |
 | boilerplate_rules.tf | 23 | Follow consistent resource naming conventions |
@@ -38,8 +42,6 @@
 | boilerplate_rules.tf | 59 | Follow consistent resource naming conventions |
 | boilerplate_rules.tf | 65 | Follow consistent resource naming conventions |
 | boilerplate_rules.tf | 71 | Follow consistent resource naming conventions |
-| main.tf | 155 | Follow consistent resource naming conventions |
-| main.tf | 156 | Follow consistent resource naming conventions |
 
 #### RequireTags
 
