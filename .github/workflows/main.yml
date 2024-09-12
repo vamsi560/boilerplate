@@ -45,6 +45,7 @@ jobs:
         git config --global user.email "vamsi.sapireddy@outlook.com"
         git config --global user.name "vamsi560"
         git pull
-        git add terraform-validation-report.md
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Add/Update Terraform validation report" && git push)
+        git add terraform-validation-report.md boilerplate_rules.tf main.tf validate-terraform-boilerplate.ps1
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Add/Update Terraform validation report and changes" && git push)
+
           
