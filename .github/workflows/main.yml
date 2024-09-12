@@ -46,6 +46,5 @@ jobs:
         git config --global user.name "vamsi560"
         git pull
         git add terraform-validation-report.md
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Add/Update Terraform validation report and changes" && git push)
-
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Add/Update Terraform validation report" && git push)
           
