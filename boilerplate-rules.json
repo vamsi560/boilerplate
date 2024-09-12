@@ -146,6 +146,90 @@
       "pattern": "alert\\$",
       "message": "Provide user feedback for actions to enhance user experience",
       "example": "Correct: 'alert(\"Form submitted successfully!\")' after successful form submission."
+    },
+    {
+      "category": "Facilitate Compliance",
+      "name": "EnforceResourceTags",
+      "pattern": "tags\\s*=\\s*\\{",
+      "message": "Ensure all resources have required tags for compliance and resource tracking",
+      "example": "Correct: 'tags = { Environment = \"prod\", Project = \"MyProject\", Compliance = \"PCI\" }'"
+    },
+    {
+      "category": "Facilitate Compliance",
+      "name": "UseComplianceModules",
+      "pattern": "module\\s+\"compliance",
+      "message": "Use pre-approved compliance modules for regulated resources",
+      "example": "Correct: 'module \"compliance_s3\" { source = \"./modules/compliant-s3\" }'"
+    },
+    {
+      "category": "Facilitate Compliance",
+      "name": "EnableLogging",
+      "pattern": "logging\\s*=\\s*true",
+      "message": "Enable logging for all applicable resources to maintain audit trails",
+      "example": "Correct: 'logging = true' for resources like S3 buckets, databases, etc."
+    },
+    {
+      "category": "Facilitate Compliance",
+      "name": "UseCompliantAMIs",
+      "pattern": "ami\\s*=\\s*\"ami-[a-z0-9]+\"",
+      "message": "Use only pre-approved, compliant AMIs for EC2 instances",
+      "example": "Correct: 'ami = \"ami-12345abcde\"' where ami-12345abcde is a pre-approved AMI"
+    },
+    {
+      "category": "Facilitate Compliance",
+      "name": "ImplementIAMPolicies",
+      "pattern": "resource\\s+\"aws_iam_policy\"",
+      "message": "Implement IAM policies to enforce least privilege access",
+      "example": "Correct: 'resource \"aws_iam_policy\" \"least_privilege\" { ... }'"
+    },
+    {
+      "category": "Facilitate Compliance",
+      "name": "ConfigureNetworkACLs",
+      "pattern": "resource\\s+\"aws_network_acl\"",
+      "message": "Configure Network ACLs to control inbound and outbound traffic",
+      "example": "Correct: 'resource \"aws_network_acl\" \"main\" { ... }'"
+    },
+    {
+      "category": "Accelerate Development and Operations",
+      "name": "ImplementWorkspaces",
+      "pattern": "terraform\\s*\\{\\s*workspace\\s*\\{",
+      "message": "Use Terraform workspaces to manage multiple environments",
+      "example": "Correct: 'terraform { workspace { name = \"dev\" } }'"
+    },
+    {
+      "category": "Accelerate Development and Operations",
+      "name": "UseRemoteBackend",
+      "pattern": "backend\\s+\"",
+      "message": "Configure a remote backend for state management and collaboration",
+      "example": "Correct: 'backend \"s3\" { bucket = \"my-terraform-state\" ... }'"
+    },
+    {
+      "category": "Accelerate Development and Operations",
+      "name": "ImplementVariables",
+      "pattern": "variable\\s+\"",
+      "message": "Use variables to make your Terraform configurations more flexible and reusable",
+      "example": "Correct: 'variable \"environment\" { type = string }'"
+    },
+    {
+      "category": "Accelerate Development and Operations",
+      "name": "UseOutputs",
+      "pattern": "output\\s+\"",
+      "message": "Define outputs to expose important information for other parts of your infrastructure",
+      "example": "Correct: 'output \"vpc_id\" { value = aws_vpc.main.id }'"
+    },
+    {
+      "category": "Accelerate Development and Operations",
+      "name": "UseCountOrForEach",
+      "pattern": "(count|for_each)\\s*=",
+      "message": "Use count or for_each to manage similar resources efficiently",
+      "example": "Correct: 'count = length(var.subnet_cidrs)' or 'for_each = toset(var.subnet_cidrs)'"
+    },
+    {
+      "category": "Accelerate Development and Operations",
+      "name": "ImplementProvisioners",
+      "pattern": "provisioner\\s+\"",
+      "message": "Use provisioners judiciously for actions that can't be done through resource arguments",
+      "example": "Correct: 'provisioner \"local-exec\" { command = \"echo 'Hello, World!'\" }'"
     }
   ]
 }
