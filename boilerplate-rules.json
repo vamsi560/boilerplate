@@ -230,6 +230,34 @@
       "pattern": "provisioner\\s+\"",
       "message": "Use provisioners judiciously for actions that can't be done through resource arguments",
       "example": " 'provisioner \"local-exec\" { command = \"echo 'Hello, World!'\" }'"
+    },
+    {
+  "category": "Service Monitoring",
+  "name": "CheckMonitoringEnabled",
+  "pattern": "monitoring[_a-z0-9]*\\s*=\\s*(true|\"true\")",
+  "message": "Ensure that monitoring is enabled for the service",
+  "example": "'monitoring_enabled' or 'enable_monitoring'. It should be set to true."
+   },
+    {
+  "category": "Terraform Keywords",
+  "name": "SearchDependsOn",
+  "pattern": "\\bdepends_on\\b",
+  "message": "Searches for the 'depends_on' keyword in the Terraform code",
+  "example": "'depends_on' in resource blocks."
+    },
+    {
+  "category": "Terraform Backend",
+  "name": "SearchBackend",
+  "pattern": "\\bbackend\\s+\"[a-zA-Z0-9_]+\"",
+  "message": "Searches for 'backend' configuration blocks in Terraform code",
+  "example": "'backend \"s3\"' or 'backend \"azurerm\"' in Terraform configuration."
+    },
+    {
+  "category": "Terraform fallback values",
+  "name": "TerraformFallbackTryFunction",
+  "pattern": "\\btry\\s*\\(",
+  "message": "Searches for the use of the 'try()' function in Terraform code",
+  "example": "'try(var.first_option, var.second_option)' in resource blocks."
     }
   ]
 }
