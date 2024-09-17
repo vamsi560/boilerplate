@@ -1,0 +1,32 @@
+{
+  "rules": [
+    {
+      "category": "Location",
+      "name": "ValidLocation",
+      "pattern": "\"location\"\\s*=\\s*\"(eastus|westus|centralus)\"",
+      "message": "Resource location should be one of: eastus, westus, or centralus.",
+      "example": "location = \"eastus\""
+    },
+    {
+      "category": "Size",
+      "name": "ValidSize",
+      "pattern": "\"size\"\\s*=\\s*\"(Standard_DS1_v2|Standard_DS2_v2)\"",
+      "message": "Resource size should be one of: Standard_DS1_v2 or Standard_DS2_v2.",
+      "example": "size = \"Standard_DS1_v2\""
+    },
+    {
+      "category": "Resource Group",
+      "name": "ValidResourceGroup",
+      "pattern": "\"resource_group_name\"\\s*=\\s*\"[a-zA-Z0-9_-]+\"",
+      "message": "Resource group name must follow alphanumeric, underscore, or hyphen conventions.",
+      "example": "resource_group_name = \"rg-myresource\""
+    },
+    {
+      "category": "Firewall",
+      "name": "ValidIPRange",
+      "pattern": "\"ip_range\"\\s*=\\s*\"[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+/[0-9]+\"",
+      "message": "Firewall IP range must be a valid CIDR range.",
+      "example": "ip_range = \"192.168.0.0/24\""
+    }
+  ]
+}
