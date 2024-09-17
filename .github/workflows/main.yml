@@ -54,11 +54,6 @@ jobs:
       run: |
         pwsh ./validate-configuration-terraform.ps1
 
-    - name: Display Second Validation Report
-      run: |
-        echo "Contents of terraform-configuration-validation-report.html:"
-        cat terraform-configuration-validation-report.html
-
     - name: Commit and push both reports if there are changes
       run: |
         git config --global user.email "vamsi.sapireddy@outlook.com"
