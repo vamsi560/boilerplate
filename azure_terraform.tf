@@ -1,87 +1,44 @@
-# Provider configuration
 provider "azurerm" {
   features {}
 }
 
-# Resource group
 resource "azurerm_resource_group" "example" {
-  name     = "rg_example-123"  # Violation: Contains underscore instead of hyphen
-  location = "northeurope"     # Violation: Invalid location
+  name     = "rg_myresource!!"  # Mistake: Invalid characters (!!), should follow alphanumeric, underscore, or hyphen conventions.
+  location = "northcentralus"   # Mistake: Invalid location, should be one of: eastus, westus, or centralus.
 }
 
-# Virtual network
-resource "azurerm_virtual_network" "example" {
-  name                = "vnet-example"
-  resource_group_name = azurerm_resource_group.example.name
-  location            = azurerm_resource_group.example.location
-  address_space       = ["10.0.0.0/16"]
+resource "azurerm_virtual_machine" "example" {
+  name                  = "my-vm"
+  resource_group_name   = azurerm_resource_group.example.name
+  location              = azurerm_resource_group.example.location
+  size                  = "Standard_DS3_v2"  # Mistake: Invalid size, should be one of: Standard_DS1_v2 or Standard_DS2_v2.
+
+  network_interface_ids = [azurerm_network_interface.example.id]
+  vm_os_type            = "Linux"
+
+  os_profile {
+    computer_name  = "hostname"
+    admin_username = "adminuser"
+    admin_password = "P@ssword1234!"
+  }
 }
 
-# Subnet
-resource "azurerm_subnet" "example" {
-  name                 = "subnet-example"
-  resource_group_name  = azurerm_resource_group.example.name
-  virtual_network_name = azurerm_virtual_network.example.name
-  address_prefixes     = ["10.0.1.0/24"]
-}
-
-# Network Security Group
 resource "azurerm_network_security_group" "example" {
-  name                = "nsg-example"
-  location            = "westus2"  # Violation: Invalid location
-  resource_group_name = azurerm_resource_group.example.name
-
-  security_rule {
-    name                       = "allow-ssh"
-    priority                   = 100
-    direction                  = "Inbound"
-    access                     = "Allow"
-    protocol                   = "Tcp"
-    source_port_range          = "*"
-    destination_port_range     = "22"
-    source_address_prefix      = "192.168.1.0"  # Violation: Invalid IP range (missing CIDR notation)
-    destination_address_prefix = "*"
-  }
-}
-
-# Virtual Machine
-resource "azurerm_linux_virtual_machine" "example" {
-  name                = "vm-example"
-  resource_group_name = azurerm_resource_group.example.name
-  location            = azurerm_resource_group.example.location
-  size                = "Standard_B1s"  # Violation: Invalid size
-  admin_username      = "adminuser"
-  network_interface_ids = [
-    azurerm_network_interface.example.id,
-  ]
-
-  admin_ssh_key {
-    username   = "adminuser"
-    public_key = file("~/.ssh/id_rsa.pub")
-  }
-
-  os_disk {
-    caching              = "ReadWrite"
-    storage_account_type = "Standard_LRS"
-  }
-
-  source_image_reference {
-    publisher = "Canonical"
-    offer     = "UbuntuServer"
-    sku       = "18.04-LTS"
-    version   = "latest"
-  }
-}
-
-# Network Interface
-resource "azurerm_network_interface" "example" {
-  name                = "nic-example"
+  name                = "example-nsg"
   location            = azurerm_resource_group.example.location
   resource_group_name = azurerm_resource_group.example.name
+}
 
-  ip_configuration {
-    name                          = "internal"
-    subnet_id                     = azurerm_subnet.example.id
-    private_ip_address_allocation = "Dynamic"
-  }
+resource "azurerm_network_security_rule" "example" {
+  name                        = "allow_ssh"
+  priority                    = 100
+  direction                   = "Inbound"
+  access                      = "Allow"
+  protocol                    = "Tcp"
+  source_port_range           = "*"
+  destination_port_range      = "22"
+  source_address_prefix       = "10.0.0.0/8"
+  destination_address_prefix  = "10.1.0.0/16"
+  ip_range                    = "192.168.1.0/33"  # Mistake: Invalid CIDR range, should follow valid CIDR format.
+  network_security_group_name = azurerm_network_security_group.example.name
 }
