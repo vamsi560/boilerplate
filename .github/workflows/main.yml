@@ -50,10 +50,11 @@ jobs:
         echo "Downloading second validation script..."
         curl -o validate-configuration-terraform.ps1 "https://boilerplateps1.blob.core.windows.net/scripts/validate-configuration-terraform.ps1?sp=r&st=2024-09-17T09:13:52Z&se=2024-09-17T17:13:52Z&spr=https&sv=2022-11-02&sr=b&sig=%2FwYjgWItSxUCGuDHF%2BdUCJ9xN3sEP6oKaOaHMDH0dRs%3D"
 
-    - name: Display Second Validation Rules
+    - name: Download Second Validation Rules (boilerplate-rules2.json)
       run: |
-        echo "Contents of boilerplate-rules2.json:"
-        cat boilerplate-rules2.json
+        echo "Downloading boilerplate-rules2.json from Azure Blob Storage..."
+        curl -o boilerplate-rules2.json "https://boilerplateps1.blob.core.windows.net/scripts/boilerplate_rules2.json?sp=r&st=2024-09-17T09:19:51Z&se=2025-07-09T17:19:51Z&spr=https&sv=2022-11-02&sr=b&sig=bymbmASuZzO8FLjzqDgzPEnKCqgfePz29J62Nr%2BPdm4%3D"
+
 
     - name: Run the Second Validation Script
       run: |
