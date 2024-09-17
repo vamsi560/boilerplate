@@ -16,16 +16,16 @@ jobs:
         echo "Terraform files in repository:"
         find . -name "*.tf" -type f
 
-    - name: Display Boilerplate Rules
+    - name: Display Boilerplate Rules (First Validation)
       run: |
         echo "Contents of boilerplate-rules.json:"
         cat boilerplate-rules.json
-    
-    - name: Download PowerShell script from Azure Blob Storage
+
+    - name: Download PowerShell script for the first validation from Azure Blob Storage
       run: |
         curl -o validate-terraform-boilerplate.ps1 "https://boilerplateps1.blob.core.windows.net/scripts/validate-terraform-boilerplate.ps1?sp=r&st=2024-09-13T05:25:08Z&se=2025-02-22T13:25:08Z&spr=https&sv=2022-11-02&sr=b&sig=2bMiGZmkWw%2BbNA9BYlV5ZTBWhsYf7aCRggP%2BD4nkRXc%3D"
-    
-    - name: Verify PowerShell script content
+
+    - name: Verify PowerShell script content (First Validation)
       run: |
         echo "Displaying first few lines of the PowerShell script:"
         head -n 10 validate-terraform-boilerplate.ps1
@@ -35,20 +35,44 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y powershell
         pwsh -v
-    
-    - name: Run the PowerShell script
+
+    - name: Run the PowerShell script (First Validation)
       run: |
         pwsh ./validate-terraform-boilerplate.ps1
 
-    - name: Display Validation Report
+    - name: Display First Validation Report
       run: |
-        echo "Contents of terraform-validation-report.md:"
-        cat terraform-validation-report.md
+        echo "Contents of terraform-validation-report.html:"
+        cat terraform-validation-report.html
 
-    - name: Commit and push if there are changes
+    - name: Download Second Validation Script
+      run: |
+        echo "Downloading second validation script..."
+        curl -o validate-configuration-terraform.ps1 "https://boilerplateps1.blob.core.windows.net/scripts/validate-configuration-terraform.ps1?sp=r&st=2024-09-17T09:03:33Z&se=2024-09-17T17:03:33Z&spr=https&sv=2022-11-02&sr=b&sig=Amyb6o58sFgSdFimQzrTCbP7Jpbf72CPcyN6znGZgO8%3D"
+
+    - name: Display Second Validation Rules
+      run: |
+        echo "Contents of boilerplate-rules2.json:"
+        cat boilerplate-rules2.json
+
+    - name: Run the Second Validation Script
+      run: |
+        pwsh ./validate-configuration-terraform.ps1
+
+    - name: Display Second Validation Report
+      run: |
+        echo "Contents of terraform-configuration-validation-report.html:"
+        cat terraform-configuration-validation-report.html
+
+    - name: Commit and push both reports if there are changes
       run: |
         git config --global user.email "vamsi.sapireddy@outlook.com"
         git config --global user.name "vamsi560"
         git pull
-        git add terraform-validation-report.html
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Add/Update Terraform validation report" && git push)
+        git add terraform-validation-report.html terraform-configuration-validation-report.html
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Add/Update Terraform validation reports" && git push)
+
+    # Add step to stop workflow if there are violations in the second validation
+    - name: Fail if second validation finds violations
+      if: failure()  # Fail the workflow if the second script exits with failure code
+      run: exit 1
