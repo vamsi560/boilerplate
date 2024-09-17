@@ -1,3 +1,7 @@
+# VIOLATION: ValidLocation - Resource location should be one of: eastus, westus, or centralus.
+# VIOLATION: ValidSize - Resource size should be one of: Standard_DS1_v2 or Standard_DS2_v2.
+# VIOLATION: ValidResourceGroup - Resource group name must follow alphanumeric, underscore, or hyphen conventions.
+# VIOLATION: ValidIPRange - Firewall IP range must be a valid CIDR range.
 Configure the AWS Provider
 provider "aws" {
   region = "us-west-2"
@@ -7,6 +11,8 @@ provider "aws" {
 resource "aws_vpc" "main" {
   cidr_block = "10.0.0.0/16"
 
+# VIOLATION: RequireTags - Include tags for better resource management
+# VIOLATION: EnforceResourceTags - Ensure all resources have required tags for compliance and resource tracking
   tags = {
     Name = "Main VPC"
   }
@@ -18,6 +24,8 @@ resource "aws_subnet" "public" {
   cidr_block        = "10.0.1.0/24"
   availability_zone = "us-west-2a"
 
+# VIOLATION: RequireTags - Include tags for better resource management
+# VIOLATION: EnforceResourceTags - Ensure all resources have required tags for compliance and resource tracking
   tags = {
     Name = "Public Subnet"
   }
@@ -28,6 +36,8 @@ resource "aws_subnet" "private" {
   cidr_block        = "10.0.2.0/24"
   availability_zone = "us-west-2b"
 
+# VIOLATION: RequireTags - Include tags for better resource management
+# VIOLATION: EnforceResourceTags - Ensure all resources have required tags for compliance and resource tracking
   tags = {
     Name = "Private Subnet"
   }
@@ -37,6 +47,8 @@ resource "aws_subnet" "private" {
 resource "aws_internet_gateway" "gw" {
   vpc_id = aws_vpc.main.id
 
+# VIOLATION: RequireTags - Include tags for better resource management
+# VIOLATION: EnforceResourceTags - Ensure all resources have required tags for compliance and resource tracking
   tags = {
     Name = "Main IGW"
   }
@@ -47,6 +59,8 @@ resource "aws_nat_gateway" "gw" {
   allocation_id = aws_eip.nat.id
   subnet_id     = aws_subnet.public.id
 
+# VIOLATION: RequireTags - Include tags for better resource management
+# VIOLATION: EnforceResourceTags - Ensure all resources have required tags for compliance and resource tracking
   tags = {
     Name = "Main NAT Gateway"
   }
@@ -55,6 +69,8 @@ resource "aws_nat_gateway" "gw" {
 # Create an Elastic IP for the NAT Gateway
 resource "aws_eip" "nat" {
   vpc   = true
+# VIOLATION: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
+# VIOLATION: UseCountOrForEach - Use count or for_each to manage similar resources efficiently
   count = 1
 }
 
@@ -67,6 +83,8 @@ resource "aws_route_table" "public" {
     gateway_id = aws_internet_gateway.gw.id
   }
 
+# VIOLATION: RequireTags - Include tags for better resource management
+# VIOLATION: EnforceResourceTags - Ensure all resources have required tags for compliance and resource tracking
   tags = {
     Name = "Public Route Table"
   }
@@ -81,6 +99,8 @@ resource "aws_route_table" "private" {
     nat_gateway_id = aws_nat_gateway.gw.id
   }
 
+# VIOLATION: RequireTags - Include tags for better resource management
+# VIOLATION: EnforceResourceTags - Ensure all resources have required tags for compliance and resource tracking
   tags = {
     Name = "Private Route Table"
   }
@@ -100,6 +120,7 @@ resource "aws_route_table_association" "private" {
 # Create a Security Group for EC2 instances
 resource "aws_security_group" "allow_ssh" {
   name        = "Allow SSH"
+# VIOLATION: IncludeDescription - Include a description for each resource
   description = "Allow SSH inbound traffic"
   vpc_id      = aws_vpc.main.id
 
@@ -117,6 +138,8 @@ resource "aws_security_group" "allow_ssh" {
     cidr_blocks     = ["0.0.0.0/0"]
   }
 
+# VIOLATION: RequireTags - Include tags for better resource management
+# VIOLATION: EnforceResourceTags - Ensure all resources have required tags for compliance and resource tracking
   tags = {
     Name = "Allow SSH Security Group"
   }
@@ -124,6 +147,7 @@ resource "aws_security_group" "allow_ssh" {
 
 # Create an EC2 instance
 resource "aws_instance" "example" {
+# VIOLATION: UseCompliantAMIs - Use only pre-approved, compliant AMIs for EC2 instances
   ami           = "ami-0c55b159cbfafe1f0"
   instance_type = "t2.micro"
   subnet_id     = aws_subnet.public.id
@@ -132,6 +156,8 @@ resource "aws_instance" "example" {
     aws_security_group.allow_ssh.id
   ]
 
+# VIOLATION: RequireTags - Include tags for better resource management
+# VIOLATION: EnforceResourceTags - Ensure all resources have required tags for compliance and resource tracking
   tags = {
     Name = "Example Instance"
   }
@@ -142,6 +168,8 @@ resource "aws_s3_bucket" "example" {
   bucket = "my-example-bucket"
   acl    = "private"
 
+# VIOLATION: RequireTags - Include tags for better resource management
+# VIOLATION: EnforceResourceTags - Ensure all resources have required tags for compliance and resource tracking
   tags = {
     Name = "Example S3 Bucket"
   }
@@ -152,7 +180,9 @@ resource "aws_db_instance" "example" {
   engine         = "mysql"
   engine_version = "5.7"
   instance_class = "db.t2.micro"
+# VIOLATION: EnforceResourceNaming - Follow consistent resource naming conventions
   name           = "exampledb"
+# VIOLATION: EnforceResourceNaming - Follow consistent resource naming conventions
   username       = "admin"
   password       = "password123"
   db_subnet_group_name = aws_db_subnet_group.private.name
@@ -161,6 +191,8 @@ resource "aws_db_instance" "example" {
     aws_security_group.allow_db.id
   ]
 
+# VIOLATION: RequireTags - Include tags for better resource management
+# VIOLATION: EnforceResourceTags - Ensure all resources have required tags for compliance and resource tracking
   tags = {
     Name = "Example RDS Instance"
   }
@@ -175,6 +207,7 @@ resource "aws_db_subnet_group" "private" {
 # Create a Security Group for the RDS instance
 resource "aws_security_group" "allow_db" {
   name        = "Allow DB"
+# VIOLATION: IncludeDescription - Include a description for each resource
   description = "Allow DB inbound traffic"
   vpc_id      = aws_vpc.main.id
 
@@ -185,6 +218,8 @@ resource "aws_security_group" "allow_db" {
     security_groups = [aws_security_group.allow_ssh.id]
   }
 
+# VIOLATION: RequireTags - Include tags for better resource management
+# VIOLATION: EnforceResourceTags - Ensure all resources have required tags for compliance and resource tracking
   tags = {
     Name = "Allow DB Security Group"
   }
