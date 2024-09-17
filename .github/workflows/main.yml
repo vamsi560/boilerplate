@@ -50,11 +50,6 @@ jobs:
         echo "Downloading second validation script..."
         curl -o validate-configuration-terraform.ps1 "https://boilerplateps1.blob.core.windows.net/scripts/validate-configuration-terraform.ps1?sp=r&st=2024-09-17T09:03:33Z&se=2024-09-17T17:03:33Z&spr=https&sv=2022-11-02&sr=b&sig=Amyb6o58sFgSdFimQzrTCbP7Jpbf72CPcyN6znGZgO8%3D"
 
-    - name: Display Second Validation Rules
-      run: |
-        echo "Contents of boilerplate-rules2.json:"
-        cat boilerplate-rules2.json
-
     - name: Run the Second Validation Script
       run: |
         pwsh ./validate-configuration-terraform.ps1
