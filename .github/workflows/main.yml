@@ -72,6 +72,8 @@ jobs:
         git pull terraform-validation-report.html terraform-configuration-validation-report.html
         git add terraform-validation-report.html terraform-configuration-validation-report.html
         git diff --quiet && git diff --staged --quiet || (git commit -m "Add/Update Terraform validation reports" && git push)
+      env:
+          GH_PAT: ${{ secrets.GIT_TOKEN }}
 
     # Add step to stop workflow if there are violations in the second validation
     - name: Fail if second validation finds violations
