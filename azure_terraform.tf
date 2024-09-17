@@ -1,44 +1,41 @@
-provider "azurerm" {
-  features {}
-}
-
+# Incorrect location
 resource "azurerm_resource_group" "example" {
-  name     = "rg_myresource!!"  # Mistake: Invalid characters (!!), should follow alphanumeric, underscore, or hyphen conventions.
-  location = "northcentralus"   # Mistake: Invalid location, should be one of: eastus, westus, or centralus.
+  name     = "example-resources"
+  location = "invalidlocation"  # Should be one of: eastus, westus, or centralus
 }
 
+# Incorrect size
 resource "azurerm_virtual_machine" "example" {
-  name                  = "my-vm"
-  resource_group_name   = azurerm_resource_group.example.name
-  location              = azurerm_resource_group.example.location
-  size                  = "Standard_DS3_v2"  # Mistake: Invalid size, should be one of: Standard_DS1_v2 or Standard_DS2_v2.
-
-  network_interface_ids = [azurerm_network_interface.example.id]
-  vm_os_type            = "Linux"
-
-  os_profile {
-    computer_name  = "hostname"
-    admin_username = "adminuser"
-    admin_password = "P@ssword1234!"
-  }
+  name                = "example-vm"
+  resource_group_name = "example-resources"
+  location            = "eastus"
+  size                = "Invalid_Size"  # Should be one of: Standard_DS1_v2 or Standard_DS2_v2
 }
 
+# Invalid resource group name
+resource "azurerm_storage_account" "example" {
+  name                     = "examplestoracc"  # Should follow alphanumeric, underscore, or hyphen conventions
+  resource_group_name      = "example-resources"
+  location                 = "eastus"
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+}
+
+# Invalid IP range
 resource "azurerm_network_security_group" "example" {
   name                = "example-nsg"
-  location            = azurerm_resource_group.example.location
-  resource_group_name = azurerm_resource_group.example.name
-}
-
-resource "azurerm_network_security_rule" "example" {
-  name                        = "allow_ssh"
-  priority                    = 100
-  direction                   = "Inbound"
-  access                      = "Allow"
-  protocol                    = "Tcp"
-  source_port_range           = "*"
-  destination_port_range      = "22"
-  source_address_prefix       = "10.0.0.0/8"
-  destination_address_prefix  = "10.1.0.0/16"
-  ip_range                    = "192.168.1.0/33"  # Mistake: Invalid CIDR range, should follow valid CIDR format.
-  network_security_group_name = azurerm_network_security_group.example.name
+  resource_group_name = "example-resources"
+  location            = "eastus"
+  
+  security_rule {
+    name                   = "example-rule"
+    priority               = 1000
+    direction              = "Inbound"
+    access                 = "Allow"
+    protocol               = "*"
+    source_port_range      = "*"
+    destination_port_range = "*"
+    source_address_prefix  = "10.0.0.0/33"  # Should be a valid CIDR range
+    destination_address_prefix = "*"
+  }
 }
