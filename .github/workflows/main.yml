@@ -40,11 +40,6 @@ jobs:
       run: |
         pwsh ./validate-terraform-boilerplate.ps1
 
-    - name: Display First Validation Report
-      run: |
-        echo "Contents of terraform-validation-report.html:"
-        cat terraform-validation-report.html
-
     - name: Commit and push both reports if there are changes
       run: |
         git config --global user.email "vamsi.sapireddy@outlook.com"
