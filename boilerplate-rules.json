@@ -5,259 +5,208 @@
       "name": "UseConsistentNaming",
       "pattern": "^[a-z][a-z0-9_]*$",
       "message": "Use snake_case for resource names",
-      "example": " 'resource_name'. In 'ResourceName' or 'resource-Name'."
+      "example": " 'resource_name'. In 'ResourceName' or 'resource-Name'.",
+      "impact": "medium"
     },
     {
       "category": "Coding Standards",
       "name": "IncludeDescription",
       "pattern": "description\\s*=",
       "message": "Include a description for each resource",
-      "example": " 'description = \"This is a description for the resource\"'."
+      "example": " 'description = \"This is a description for the resource\"'.",
+      "impact": "low"
     },
     {
       "category": "Coding Standards",
       "name": "UseDataSources",
       "pattern": "data\\s+\"",
       "message": "Use data sources where appropriate instead of hardcoding values",
-      "example": " 'data \"aws_ami\" \"example\" {...}' instead of hardcoded AMI IDs."
+      "example": " 'data \"aws_ami\" \"example\" {...}' instead of hardcoded AMI IDs.",
+      "impact": "medium"
     },
     {
       "category": "Modular Design",
       "name": "UseModules",
       "pattern": "module\\s+\"",
       "message": "Use modules to organize and reuse code",
-      "example": " 'module \"vpc\" { source = \"terraform-aws-modules/vpc/aws\" ... }'."
+      "example": " 'module \"vpc\" { source = \"terraform-aws-modules/vpc/aws\" ... }'.",
+      "impact": "high"
     },
     {
       "category": "Modular Design",
       "name": "LimitResourceCount",
       "pattern": "count\\s*=\\s*[1-9]\\d*",
       "message": "Consider using 'for_each' instead of 'count' for better modularity",
-      "example": " 'for_each = var.resources'."
+      "example": " 'for_each = var.resources'.",
+      "impact": "medium"
     },
     {
       "category": "Ensure Security",
       "name": "EnforceEncryption",
       "pattern": "encrypted\\s*=\\s*true",
       "message": "Ensure resources are encrypted where applicable",
-      "example": " 'encrypted = true' for S3 buckets, RDS instances, etc."
+      "example": " 'encrypted = true' for S3 buckets, RDS instances, etc.",
+      "impact": "high"
     },
     {
       "category": "Ensure Security",
       "name": "UseSecureProtocols",
       "pattern": "protocol\\s*=\\s*\"https\"",
       "message": "Use secure protocols (HTTPS) where applicable",
-      "example": " 'protocol = \"https\"' for web resources."
+      "example": " 'protocol = \"https\"' for web resources.",
+      "impact": "high"
     },
     {
       "category": "Ensure Security",
       "name": "RestrictPublicAccess",
       "pattern": "public_access\\s*=\\s*false",
       "message": "Restrict public access to resources unless necessary",
-      "example": " 'public_access = false' for storage accounts."
+      "example": " 'public_access = false' for storage accounts.",
+      "impact": "high"
     },
     {
       "category": "Improve Governance",
       "name": "RequireTags",
       "pattern": "tags\\s*=",
       "message": "Include tags for better resource management",
-      "example": " 'tags = { Environment = \"prod\" }'."
+      "example": " 'tags = { Environment = \"prod\" }'.",
+      "impact": "medium"
     },
     {
       "category": "Improve Governance",
       "name": "UseIAMRoles",
       "pattern": "iam_role",
       "message": "Use IAM roles for access control instead of access keys",
-      "example": " 'iam_role = \"role_name\"' instead of storing access keys in code."
+      "example": " 'iam_role = \"role_name\"' instead of storing access keys in code.",
+      "impact": "high"
     },
     {
       "category": "Improve Governance",
       "name": "EnforceResourceNaming",
       "pattern": "name\\s*=\\s*\"[a-z][a-z0-9-]*\"",
       "message": "Follow consistent resource naming conventions",
-      "example": " 'name = \"resource-name\"'. In 'name = \"ResourceName\"'."
+      "example": " 'name = \"resource-name\"'. In 'name = \"ResourceName\"'.",
+      "impact": "medium"
     },
     {
       "category": "Performance Optimization",
       "name": "AvoidLongRunningProcesses",
       "pattern": "long_running_process\\s*=\\s*true",
       "message": "Avoid long-running processes; consider using asynchronous operations",
-      "example": "Avoid: 'long_running_process = true' where async tasks can be used."
+      "example": "Avoid: 'long_running_process = true' where async tasks can be used.",
+      "impact": "low"
     },
     {
       "category": "Performance Optimization",
       "name": "OptimizeDatabaseQueries",
       "pattern": "SELECT\\s+\\*",
       "message": "Avoid using SELECT *; specify columns to optimize database queries",
-      "example": " 'SELECT id, name FROM users' instead of 'SELECT * FROM users'."
+      "example": " 'SELECT id, name FROM users' instead of 'SELECT * FROM users'.",
+      "impact": "medium"
     },
     {
       "category": "Error Handling",
       "name": "ImplementErrorLogging",
       "pattern": "log_error\\s*\\$",
       "message": "Ensure error logging is implemented for better debugging",
-      "example": " 'log_error($error_message)' to capture errors."
+      "example": " 'log_error($error_message)' to capture errors.",
+      "impact": "medium"
     },
     {
       "category": "Error Handling",
       "name": "HandleExceptions",
       "pattern": "try\\s*\\{",
       "message": "Ensure exceptions are handled properly to prevent application crashes",
-      "example": " 'try { ... } catch { ... }' for handling exceptions."
+      "example": " 'try { ... } catch { ... }' for handling exceptions.",
+      "impact": "high"
     },
     {
       "category": "Code Documentation",
       "name": "UseComments",
       "pattern": "//|\\/\\*",
       "message": "Use comments to explain complex logic and improve code readability",
-      "example": " '// This function handles user authentication'."
+      "example": " '// This function handles user authentication'.",
+      "impact": "low"
     },
     {
       "category": "Code Documentation",
       "name": "UpdateDocumentation",
       "pattern": "TODO:\\s*update documentation",
       "message": "Ensure all TODOs related to documentation are addressed",
-      "example": " 'TODO: update documentation for new API endpoint'."
+      "example": " 'TODO: update documentation for new API endpoint'.",
+      "impact": "low"
     },
     {
       "category": "Dependency Management",
       "name": "AvoidHardcodedDependencies",
       "pattern": "dependency\\s*\"",
       "message": "Avoid hardcoding dependencies; use a dependency management tool",
-      "example": " Use 'terraform { required_providers { ... } }' instead of hardcoded versions."
+      "example": " Use 'terraform { required_providers { ... } }' instead of hardcoded versions.",
+      "impact": "medium"
     },
     {
       "category": "Dependency Management",
       "name": "UpdateDependencies",
       "pattern": "version\\s*=\"[0-9]+\\.[0-9]+\\.[0-9]+\"",
       "message": "Ensure dependencies are updated to the latest stable versions",
-      "example": " 'version = \"1.2.3\"'."
+      "example": " 'version = \"1.2.3\"'.",
+      "impact": "medium"
     },
     {
       "category": "User Experience",
       "name": "ValidateUserInput",
       "pattern": "input\\s*\\{",
       "message": "Ensure user inputs are validated to prevent errors and improve UX",
-      "example": " Validate 'input { type = \"string\" }' to prevent invalid input types."
+      "example": " Validate 'input { type = \"string\" }' to prevent invalid input types.",
+      "impact": "low"
     },
     {
       "category": "User Experience",
       "name": "ProvideFeedback",
       "pattern": "alert\\$",
       "message": "Provide user feedback for actions to enhance user experience",
-      "example": " 'alert(\"Form submitted successfully!\")' after successful form submission."
+      "example": " 'alert(\"Form submitted successfully!\")' after successful form submission.",
+      "impact": "low"
     },
     {
       "category": "Facilitate Compliance",
       "name": "EnforceResourceTags",
       "pattern": "tags\\s*=\\s*\\{",
       "message": "Ensure all resources have required tags for compliance and resource tracking",
-      "example": " 'tags = { Environment = \"prod\", Project = \"MyProject\", Compliance = \"PCI\" }'"
+      "example": " 'tags = { Environment = \"prod\", Project = \"MyProject\", Compliance = \"PCI\" }'",
+      "impact": "high"
     },
     {
       "category": "Facilitate Compliance",
       "name": "UseComplianceModules",
       "pattern": "module\\s+\"compliance",
       "message": "Use pre-approved compliance modules for regulated resources",
-      "example": " 'module \"compliance_s3\" { source = \"./modules/compliant-s3\" }'"
+      "example": " 'module \"compliance_s3\" { source = \"./modules/compliant-s3\" }'",
+      "impact": "high"
     },
     {
       "category": "Facilitate Compliance",
       "name": "EnableLogging",
       "pattern": "logging\\s*=\\s*true",
       "message": "Enable logging for all applicable resources to maintain audit trails",
-      "example": " 'logging = true' for resources like S3 buckets, databases, etc."
+      "example": " 'logging = true' for resources like S3 buckets, databases, etc.",
+      "impact": "medium"
     },
     {
       "category": "Facilitate Compliance",
       "name": "UseCompliantAMIs",
       "pattern": "ami\\s*=\\s*\"ami-[a-z0-9]+\"",
       "message": "Use only pre-approved, compliant AMIs for EC2 instances",
-      "example": " 'ami = \"ami-12345abcde\"' where ami-12345abcde is a pre-approved AMI"
+      "example": " 'ami = \"ami-12345abcde\"' where ami-12345abcde is a pre-approved AMI",
+      "impact": "high"
     },
     {
       "category": "Facilitate Compliance",
       "name": "ImplementIAMPolicies",
       "pattern": "resource\\s+\"aws_iam_policy\"",
-      "message": "Implement IAM policies to enforce least privilege access",
-      "example": " 'resource \"aws_iam_policy\" \"least_privilege\" { ... }'"
-    },
-    {
-      "category": "Facilitate Compliance",
-      "name": "ConfigureNetworkACLs",
-      "pattern": "resource\\s+\"aws_network_acl\"",
-      "message": "Configure Network ACLs to control inbound and outbound traffic",
-      "example": " 'resource \"aws_network_acl\" \"main\" { ... }'"
-    },
-    {
-      "category": "Accelerate Development and Operations",
-      "name": "ImplementWorkspaces",
-      "pattern": "terraform\\s*\\{\\s*workspace\\s*\\{",
-      "message": "Use Terraform workspaces to manage multiple environments",
-      "example": " 'terraform { workspace { name = \"dev\" } }'"
-    },
-    {
-      "category": "Accelerate Development and Operations",
-      "name": "UseRemoteBackend",
-      "pattern": "backend\\s+\"",
-      "message": "Configure a remote backend for state management and collaboration",
-      "example": " 'backend \"s3\" { bucket = \"my-terraform-state\" ... }'"
-    },
-    {
-      "category": "Accelerate Development and Operations",
-      "name": "ImplementVariables",
-      "pattern": "variable\\s+\"",
-      "message": "Use variables to make your Terraform configurations more flexible and reusable",
-      "example": " 'variable \"environment\" { type = string }'"
-    },
-    {
-      "category": "Accelerate Development and Operations",
-      "name": "UseOutputs",
-      "pattern": "output\\s+\"",
-      "message": "Define outputs to expose important information for other parts of your infrastructure",
-      "example": " 'output \"vpc_id\" { value = aws_vpc.main.id }'"
-    },
-    {
-      "category": "Accelerate Development and Operations",
-      "name": "UseCountOrForEach",
-      "pattern": "(count|for_each)\\s*=",
-      "message": "Use count or for_each to manage similar resources efficiently",
-      "example": " 'count = length(var.subnet_cidrs)' or 'for_each = toset(var.subnet_cidrs)'"
-    },
-    {
-      "category": "Accelerate Development and Operations",
-      "name": "ImplementProvisioners",
-      "pattern": "provisioner\\s+\"",
-      "message": "Use provisioners judiciously for actions that can't be done through resource arguments",
-      "example": " 'provisioner \"local-exec\" { command = \"echo 'Hello, World!'\" }'"
-    },
-    {
-  "category": "Service Monitoring",
-  "name": "CheckMonitoringEnabled",
-  "pattern": "monitoring[_a-z0-9]*\\s*=\\s*(true|\"true\")",
-  "message": "Ensure that monitoring is enabled for the service",
-  "example": "'monitoring_enabled' or 'enable_monitoring'. It should be set to true."
-   },
-    {
-  "category": "Terraform Keywords",
-  "name": "SearchDependsOn",
-  "pattern": "\\bdepends_on\\b",
-  "message": "Searches for the 'depends_on' keyword in the Terraform code",
-  "example": "'depends_on' in resource blocks."
-    },
-    {
-  "category": "Terraform Backend",
-  "name": "SearchBackend",
-  "pattern": "\\bbackend\\s+\"[a-zA-Z0-9_]+\"",
-  "message": "Searches for 'backend' configuration blocks in Terraform code",
-  "example": "'backend \"s3\"' or 'backend \"azurerm\"' in Terraform configuration."
-    },
-    {
-  "category": "Terraform fallback values",
-  "name": "TerraformFallbackTryFunction",
-  "pattern": "\\btry\\s*\\(",
-  "message": "Searches for the use of the 'try()' function in Terraform code",
-  "example": "'try(var.first_option, var.second_option)' in resource blocks."
-    },
+      "message": "Ensure IAM policies follow the principle of least privilege",
+      "example": " 'policy = \"{ ... permissions ... }\"' limiting access to necessary actions only.",
+      "impact": "high"
+    }
   ]
 }
