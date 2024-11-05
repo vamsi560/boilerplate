@@ -39,6 +39,11 @@ jobs:
     - name: Run the PowerShell script (First Validation)
       run: |
         pwsh ./validate-terraform-boilerplate.ps1
+        
+    - name: Display First Validation Report
+      run: |
+        echo "Contents of terraform-validation-report.html:"
+        cat terraform-validation-report.html
 
     - name: Commit and push both reports if there are changes
       run: |
