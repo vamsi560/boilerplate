@@ -49,8 +49,8 @@ jobs:
       run: |
         git config --global user.email "vamsi.sapireddy@outlook.com"
         git config --global user.name "vamsi560"
-        git pull
+        git pull origin $(git rev-parse --abbrev-ref HEAD)
         git add terraform-validation-report.html
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Add/Update Terraform validation reports" && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Add/Update Terraform validation reports" && git push origin $(git rev-parse --abbrev-ref HEAD))
       env:
           GH_PAT: ${{ secrets.GIT_TOKEN }}
