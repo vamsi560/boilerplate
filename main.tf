@@ -68,7 +68,6 @@ resource "aws_nat_gateway" "gw" {
 
 # Create an Elastic IP for the NAT Gateway
 resource "aws_eip" "nat" {
-  vpc   = true
 # VIOLATION: LimitResourceCount - Consider using 'for_each' instead of 'count' for better modularity
 # VIOLATION: UseCountOrForEach - Use count or for_each to manage similar resources efficiently
   count = 1
