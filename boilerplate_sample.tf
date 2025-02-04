@@ -65,7 +65,6 @@ resource "aws_rds_instance" "unencrypted_rds" {
 resource "aws_s3_bucket_public_access_block" "public_access" {
   bucket = aws_s3_bucket.my_bucket.id
   public_access_block_configuration {
-    block_public_acls = false  # Should be true
   }
 }
 
